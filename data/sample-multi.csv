@@ -1,0 +1,1441 @@
+date,provider,account,service,region,resource_id,team,project,env,pricing_model,usage_qty,usage_unit,cost,currency,utilization_pct,attached
+2026-06-01,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web01,platform,web,prod,on-demand,24,unit,3.1799,USD,2.1,
+2026-06-01,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web02,platform,web,prod,on-demand,24,unit,16.8679,USD,57.4,
+2026-06-01,aws,111122223333,Amazon Elastic Compute Cloud,us-west-2,i-0aws0000000batch3,data,etl,prod,on-demand,24,unit,22.7663,USD,19.4,
+2026-06-01,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000api04,platform,api,prod,reserved,24,unit,14.0447,USD,59.4,
+2026-06-01,aws,111122223333,Amazon Elastic Compute Cloud,eu-west-1,i-0aws0000000legacy5,,,,on-demand,24,unit,2.1434,USD,1.6,
+2026-06-01,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsorphan01,platform,web,prod,on-demand,24,unit,4.3619,USD,,False
+2026-06-01,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsactive02,platform,web,prod,on-demand,24,unit,5.0508,USD,,True
+2026-06-01,aws,111122223333,Amazon Relational Database Service,us-east-1,db-0awsprodrds01,platform,web,prod,on-demand,24,unit,26.2775,USD,,
+2026-06-01,aws,111122223333,Amazon Simple Storage Service,us-east-1,s3-0awsassetsbucket,platform,web,prod,on-demand,24,unit,6.6253,USD,,
+2026-06-01,aws,111122223333,Amazon Virtual Private Cloud,us-east-1,nat-0awsgateway01,,,,on-demand,24,unit,3.008,USD,,
+2026-06-01,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,on-demand,24,unit,3.8658,USD,2.6,
+2026-06-01,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,on-demand,24,unit,18.1023,USD,62.4,
+2026-06-01,azure,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,on-demand,24,unit,19.4778,USD,11.9,
+2026-06-01,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,reserved,24,unit,12.7709,USD,61.6,
+2026-06-01,azure,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,on-demand,24,unit,2.2124,USD,1.7,
+2026-06-01,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,on-demand,24,unit,4.0411,USD,,False
+2026-06-01,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,on-demand,24,unit,4.4762,USD,,True
+2026-06-01,azure,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,on-demand,24,unit,27.1674,USD,,
+2026-06-01,azure,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,on-demand,24,unit,5.3716,USD,,
+2026-06-01,azure,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,on-demand,24,unit,3.1267,USD,,
+2026-06-01,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,on-demand,24,unit,3.3148,USD,2.0,
+2026-06-01,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,on-demand,24,unit,18.1826,USD,50.4,
+2026-06-01,gcp,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,on-demand,24,unit,20.3926,USD,22.4,
+2026-06-01,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed,24,unit,13.448,USD,82.3,
+2026-06-01,gcp,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,on-demand,24,unit,2.1456,USD,1.0,
+2026-06-01,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,on-demand,24,unit,3.6532,USD,,False
+2026-06-01,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,on-demand,24,unit,4.0689,USD,,True
+2026-06-01,gcp,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,on-demand,24,unit,24.2861,USD,,
+2026-06-01,gcp,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,on-demand,24,unit,5.8256,USD,,
+2026-06-01,gcp,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,on-demand,24,unit,2.6959,USD,,
+2026-06-02,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web01,platform,web,prod,on-demand,24,unit,3.3216,USD,2.4,
+2026-06-02,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web02,platform,web,prod,on-demand,24,unit,18.0015,USD,68.1,
+2026-06-02,aws,111122223333,Amazon Elastic Compute Cloud,us-west-2,i-0aws0000000batch3,data,etl,prod,on-demand,24,unit,22.2135,USD,14.5,
+2026-06-02,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000api04,platform,api,prod,reserved,24,unit,14.3676,USD,78.6,
+2026-06-02,aws,111122223333,Amazon Elastic Compute Cloud,eu-west-1,i-0aws0000000legacy5,,,,on-demand,24,unit,2.3958,USD,1.2,
+2026-06-02,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsorphan01,platform,web,prod,on-demand,24,unit,3.8732,USD,,False
+2026-06-02,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsactive02,platform,web,prod,on-demand,24,unit,5.1693,USD,,True
+2026-06-02,aws,111122223333,Amazon Relational Database Service,us-east-1,db-0awsprodrds01,platform,web,prod,on-demand,24,unit,29.0084,USD,,
+2026-06-02,aws,111122223333,Amazon Simple Storage Service,us-east-1,s3-0awsassetsbucket,platform,web,prod,on-demand,24,unit,6.4377,USD,,
+2026-06-02,aws,111122223333,Amazon Virtual Private Cloud,us-east-1,nat-0awsgateway01,,,,on-demand,24,unit,3.0091,USD,,
+2026-06-02,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,on-demand,24,unit,3.3734,USD,2.1,
+2026-06-02,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,on-demand,24,unit,16.8662,USD,55.1,
+2026-06-02,azure,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,on-demand,24,unit,19.2097,USD,12.1,
+2026-06-02,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,reserved,24,unit,12.8248,USD,66.7,
+2026-06-02,azure,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,on-demand,24,unit,2.1338,USD,1.7,
+2026-06-02,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,on-demand,24,unit,3.512,USD,,False
+2026-06-02,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,on-demand,24,unit,4.4925,USD,,True
+2026-06-02,azure,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,on-demand,24,unit,24.4006,USD,,
+2026-06-02,azure,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,on-demand,24,unit,5.7894,USD,,
+2026-06-02,azure,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,on-demand,24,unit,2.8185,USD,,
+2026-06-02,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,on-demand,24,unit,3.1412,USD,1.9,
+2026-06-02,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,on-demand,24,unit,16.5966,USD,51.0,
+2026-06-02,gcp,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,on-demand,24,unit,22.082,USD,22.9,
+2026-06-02,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed,24,unit,14.8558,USD,76.9,
+2026-06-02,gcp,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,on-demand,24,unit,1.9081,USD,1.0,
+2026-06-02,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,on-demand,24,unit,3.2978,USD,,False
+2026-06-02,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,on-demand,24,unit,4.26,USD,,True
+2026-06-02,gcp,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,on-demand,24,unit,25.1723,USD,,
+2026-06-02,gcp,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,on-demand,24,unit,5.0227,USD,,
+2026-06-02,gcp,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,on-demand,24,unit,2.6718,USD,,
+2026-06-03,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web01,platform,web,prod,on-demand,24,unit,3.3571,USD,2.1,
+2026-06-03,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web02,platform,web,prod,on-demand,24,unit,16.968,USD,58.3,
+2026-06-03,aws,111122223333,Amazon Elastic Compute Cloud,us-west-2,i-0aws0000000batch3,data,etl,prod,on-demand,24,unit,20.9291,USD,17.8,
+2026-06-03,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000api04,platform,api,prod,reserved,24,unit,14.3116,USD,63.2,
+2026-06-03,aws,111122223333,Amazon Elastic Compute Cloud,eu-west-1,i-0aws0000000legacy5,,,,on-demand,24,unit,2.1868,USD,1.3,
+2026-06-03,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsorphan01,platform,web,prod,on-demand,24,unit,4.3944,USD,,False
+2026-06-03,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsactive02,platform,web,prod,on-demand,24,unit,4.8658,USD,,True
+2026-06-03,aws,111122223333,Amazon Relational Database Service,us-east-1,db-0awsprodrds01,platform,web,prod,on-demand,24,unit,28.9462,USD,,
+2026-06-03,aws,111122223333,Amazon Simple Storage Service,us-east-1,s3-0awsassetsbucket,platform,web,prod,on-demand,24,unit,6.5016,USD,,
+2026-06-03,aws,111122223333,Amazon Virtual Private Cloud,us-east-1,nat-0awsgateway01,,,,on-demand,24,unit,3.0155,USD,,
+2026-06-03,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,on-demand,24,unit,3.5048,USD,2.8,
+2026-06-03,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,on-demand,24,unit,18.4009,USD,67.9,
+2026-06-03,azure,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,on-demand,24,unit,18.9192,USD,13.1,
+2026-06-03,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,reserved,24,unit,14.4661,USD,60.7,
+2026-06-03,azure,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,on-demand,24,unit,2.0673,USD,2.1,
+2026-06-03,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,on-demand,24,unit,4.085,USD,,False
+2026-06-03,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,on-demand,24,unit,4.4465,USD,,True
+2026-06-03,azure,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,on-demand,24,unit,26.9141,USD,,
+2026-06-03,azure,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,on-demand,24,unit,5.6918,USD,,
+2026-06-03,azure,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,on-demand,24,unit,2.9352,USD,,
+2026-06-03,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,on-demand,24,unit,3.0681,USD,1.9,
+2026-06-03,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,on-demand,24,unit,17.7558,USD,57.7,
+2026-06-03,gcp,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,on-demand,24,unit,19.6092,USD,20.5,
+2026-06-03,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed,24,unit,14.0036,USD,76.2,
+2026-06-03,gcp,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,on-demand,24,unit,2.0882,USD,1.0,
+2026-06-03,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,on-demand,24,unit,3.7537,USD,,False
+2026-06-03,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,on-demand,24,unit,4.373,USD,,True
+2026-06-03,gcp,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,on-demand,24,unit,26.0401,USD,,
+2026-06-03,gcp,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,on-demand,24,unit,5.3468,USD,,
+2026-06-03,gcp,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,on-demand,24,unit,2.6099,USD,,
+2026-06-04,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web01,platform,web,prod,on-demand,24,unit,3.5049,USD,2.3,
+2026-06-04,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web02,platform,web,prod,on-demand,24,unit,19.061,USD,61.9,
+2026-06-04,aws,111122223333,Amazon Elastic Compute Cloud,us-west-2,i-0aws0000000batch3,data,etl,prod,on-demand,24,unit,21.9679,USD,17.8,
+2026-06-04,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000api04,platform,api,prod,reserved,24,unit,13.518,USD,75.1,
+2026-06-04,aws,111122223333,Amazon Elastic Compute Cloud,eu-west-1,i-0aws0000000legacy5,,,,on-demand,24,unit,2.4313,USD,1.5,
+2026-06-04,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsorphan01,platform,web,prod,on-demand,24,unit,3.8205,USD,,False
+2026-06-04,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsactive02,platform,web,prod,on-demand,24,unit,5.3926,USD,,True
+2026-06-04,aws,111122223333,Amazon Relational Database Service,us-east-1,db-0awsprodrds01,platform,web,prod,on-demand,24,unit,28.3056,USD,,
+2026-06-04,aws,111122223333,Amazon Simple Storage Service,us-east-1,s3-0awsassetsbucket,platform,web,prod,on-demand,24,unit,6.1016,USD,,
+2026-06-04,aws,111122223333,Amazon Virtual Private Cloud,us-east-1,nat-0awsgateway01,,,,on-demand,24,unit,3.1033,USD,,
+2026-06-04,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,on-demand,24,unit,3.8421,USD,2.7,
+2026-06-04,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,on-demand,24,unit,17.5215,USD,64.1,
+2026-06-04,azure,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,on-demand,24,unit,19.7784,USD,16.0,
+2026-06-04,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,reserved,24,unit,13.5797,USD,71.4,
+2026-06-04,azure,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,on-demand,24,unit,2.0034,USD,2.0,
+2026-06-04,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,on-demand,24,unit,3.8958,USD,,False
+2026-06-04,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,on-demand,24,unit,4.4933,USD,,True
+2026-06-04,azure,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,on-demand,24,unit,26.7139,USD,,
+2026-06-04,azure,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,on-demand,24,unit,5.2844,USD,,
+2026-06-04,azure,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,on-demand,24,unit,3.1244,USD,,
+2026-06-04,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,on-demand,24,unit,3.2909,USD,1.9,
+2026-06-04,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,on-demand,24,unit,17.5833,USD,70.1,
+2026-06-04,gcp,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,on-demand,24,unit,20.8164,USD,16.5,
+2026-06-04,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed,24,unit,13.2673,USD,75.3,
+2026-06-04,gcp,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,on-demand,24,unit,2.0499,USD,1.0,
+2026-06-04,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,on-demand,24,unit,3.5421,USD,,False
+2026-06-04,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,on-demand,24,unit,4.3618,USD,,True
+2026-06-04,gcp,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,on-demand,24,unit,24.7611,USD,,
+2026-06-04,gcp,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,on-demand,24,unit,5.6353,USD,,
+2026-06-04,gcp,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,on-demand,24,unit,2.7383,USD,,
+2026-06-05,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web01,platform,web,prod,on-demand,24,unit,3.4003,USD,2.0,
+2026-06-05,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web02,platform,web,prod,on-demand,24,unit,16.8155,USD,54.9,
+2026-06-05,aws,111122223333,Amazon Elastic Compute Cloud,us-west-2,i-0aws0000000batch3,data,etl,prod,on-demand,24,unit,21.8296,USD,19.8,
+2026-06-05,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000api04,platform,api,prod,reserved,24,unit,13.2339,USD,82.3,
+2026-06-05,aws,111122223333,Amazon Elastic Compute Cloud,eu-west-1,i-0aws0000000legacy5,,,,on-demand,24,unit,2.2314,USD,1.3,
+2026-06-05,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsorphan01,platform,web,prod,on-demand,24,unit,4.0707,USD,,False
+2026-06-05,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsactive02,platform,web,prod,on-demand,24,unit,4.7655,USD,,True
+2026-06-05,aws,111122223333,Amazon Relational Database Service,us-east-1,db-0awsprodrds01,platform,web,prod,on-demand,24,unit,28.3224,USD,,
+2026-06-05,aws,111122223333,Amazon Simple Storage Service,us-east-1,s3-0awsassetsbucket,platform,web,prod,on-demand,24,unit,6.1764,USD,,
+2026-06-05,aws,111122223333,Amazon Virtual Private Cloud,us-east-1,nat-0awsgateway01,,,,on-demand,24,unit,3.0693,USD,,
+2026-06-05,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,on-demand,24,unit,3.7133,USD,2.3,
+2026-06-05,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,on-demand,24,unit,16.8439,USD,64.5,
+2026-06-05,azure,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,on-demand,24,unit,19.1225,USD,15.8,
+2026-06-05,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,reserved,24,unit,13.8196,USD,72.3,
+2026-06-05,azure,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,on-demand,24,unit,2.0452,USD,2.1,
+2026-06-05,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,on-demand,24,unit,3.6443,USD,,False
+2026-06-05,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,on-demand,24,unit,4.3604,USD,,True
+2026-06-05,azure,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,on-demand,24,unit,24.6807,USD,,
+2026-06-05,azure,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,on-demand,24,unit,5.7546,USD,,
+2026-06-05,azure,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,on-demand,24,unit,3.1127,USD,,
+2026-06-05,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,on-demand,24,unit,3.0627,USD,1.9,
+2026-06-05,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,on-demand,24,unit,16.0468,USD,63.0,
+2026-06-05,gcp,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,on-demand,24,unit,20.9706,USD,16.6,
+2026-06-05,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed,24,unit,14.0519,USD,66.8,
+2026-06-05,gcp,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,on-demand,24,unit,2.0887,USD,1.0,
+2026-06-05,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,on-demand,24,unit,3.6147,USD,,False
+2026-06-05,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,on-demand,24,unit,4.1929,USD,,True
+2026-06-05,gcp,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,on-demand,24,unit,26.2174,USD,,
+2026-06-05,gcp,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,on-demand,24,unit,5.6667,USD,,
+2026-06-05,gcp,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,on-demand,24,unit,2.511,USD,,
+2026-06-06,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web01,platform,web,prod,on-demand,24,unit,3.1834,USD,2.4,
+2026-06-06,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web02,platform,web,prod,on-demand,24,unit,17.2884,USD,60.0,
+2026-06-06,aws,111122223333,Amazon Elastic Compute Cloud,us-west-2,i-0aws0000000batch3,data,etl,prod,on-demand,24,unit,22.1325,USD,15.5,
+2026-06-06,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000api04,platform,api,prod,reserved,24,unit,14.9181,USD,71.7,
+2026-06-06,aws,111122223333,Amazon Elastic Compute Cloud,eu-west-1,i-0aws0000000legacy5,,,,on-demand,24,unit,2.4369,USD,1.4,
+2026-06-06,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsorphan01,platform,web,prod,on-demand,24,unit,4.173,USD,,False
+2026-06-06,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsactive02,platform,web,prod,on-demand,24,unit,5.0696,USD,,True
+2026-06-06,aws,111122223333,Amazon Relational Database Service,us-east-1,db-0awsprodrds01,platform,web,prod,on-demand,24,unit,27.709,USD,,
+2026-06-06,aws,111122223333,Amazon Simple Storage Service,us-east-1,s3-0awsassetsbucket,platform,web,prod,on-demand,24,unit,6.5428,USD,,
+2026-06-06,aws,111122223333,Amazon Virtual Private Cloud,us-east-1,nat-0awsgateway01,,,,on-demand,24,unit,3.1582,USD,,
+2026-06-06,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,on-demand,24,unit,3.7807,USD,2.7,
+2026-06-06,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,on-demand,24,unit,16.8361,USD,60.4,
+2026-06-06,azure,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,on-demand,24,unit,19.1584,USD,12.2,
+2026-06-06,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,reserved,24,unit,12.6746,USD,63.2,
+2026-06-06,azure,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,on-demand,24,unit,2.0662,USD,1.9,
+2026-06-06,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,on-demand,24,unit,3.8066,USD,,False
+2026-06-06,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,on-demand,24,unit,4.5398,USD,,True
+2026-06-06,azure,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,on-demand,24,unit,24.5877,USD,,
+2026-06-06,azure,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,on-demand,24,unit,5.5939,USD,,
+2026-06-06,azure,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,on-demand,24,unit,2.7542,USD,,
+2026-06-06,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,on-demand,24,unit,3.2694,USD,2.1,
+2026-06-06,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,on-demand,24,unit,17.2928,USD,70.8,
+2026-06-06,gcp,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,on-demand,24,unit,21.5386,USD,19.9,
+2026-06-06,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed,24,unit,13.0058,USD,70.0,
+2026-06-06,gcp,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,on-demand,24,unit,2.0567,USD,0.8,
+2026-06-06,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,on-demand,24,unit,3.4211,USD,,False
+2026-06-06,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,on-demand,24,unit,4.0547,USD,,True
+2026-06-06,gcp,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,on-demand,24,unit,23.7345,USD,,
+2026-06-06,gcp,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,on-demand,24,unit,5.6723,USD,,
+2026-06-06,gcp,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,on-demand,24,unit,2.9004,USD,,
+2026-06-07,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web01,platform,web,prod,on-demand,24,unit,3.403,USD,2.1,
+2026-06-07,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web02,platform,web,prod,on-demand,24,unit,18.7378,USD,62.1,
+2026-06-07,aws,111122223333,Amazon Elastic Compute Cloud,us-west-2,i-0aws0000000batch3,data,etl,prod,on-demand,24,unit,23.661,USD,16.9,
+2026-06-07,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000api04,platform,api,prod,reserved,24,unit,13.1585,USD,59.0,
+2026-06-07,aws,111122223333,Amazon Elastic Compute Cloud,eu-west-1,i-0aws0000000legacy5,,,,on-demand,24,unit,2.5009,USD,1.3,
+2026-06-07,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsorphan01,platform,web,prod,on-demand,24,unit,3.9523,USD,,False
+2026-06-07,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsactive02,platform,web,prod,on-demand,24,unit,5.0301,USD,,True
+2026-06-07,aws,111122223333,Amazon Relational Database Service,us-east-1,db-0awsprodrds01,platform,web,prod,on-demand,24,unit,26.8923,USD,,
+2026-06-07,aws,111122223333,Amazon Simple Storage Service,us-east-1,s3-0awsassetsbucket,platform,web,prod,on-demand,24,unit,6.1577,USD,,
+2026-06-07,aws,111122223333,Amazon Virtual Private Cloud,us-east-1,nat-0awsgateway01,,,,on-demand,24,unit,3.2203,USD,,
+2026-06-07,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,on-demand,24,unit,3.7532,USD,2.5,
+2026-06-07,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,on-demand,24,unit,16.3232,USD,49.9,
+2026-06-07,azure,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,on-demand,24,unit,21.5759,USD,15.6,
+2026-06-07,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,reserved,24,unit,13.2124,USD,75.9,
+2026-06-07,azure,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,on-demand,24,unit,2.0311,USD,1.9,
+2026-06-07,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,on-demand,24,unit,3.8282,USD,,False
+2026-06-07,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,on-demand,24,unit,4.9605,USD,,True
+2026-06-07,azure,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,on-demand,24,unit,24.4397,USD,,
+2026-06-07,azure,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,on-demand,24,unit,6.001,USD,,
+2026-06-07,azure,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,on-demand,24,unit,3.0166,USD,,
+2026-06-07,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,on-demand,24,unit,3.0964,USD,2.4,
+2026-06-07,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,on-demand,24,unit,16.7641,USD,56.7,
+2026-06-07,gcp,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,on-demand,24,unit,22.5909,USD,19.6,
+2026-06-07,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed,24,unit,14.8907,USD,82.4,
+2026-06-07,gcp,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,on-demand,24,unit,1.9996,USD,1.1,
+2026-06-07,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,on-demand,24,unit,3.5492,USD,,False
+2026-06-07,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,on-demand,24,unit,4.2948,USD,,True
+2026-06-07,gcp,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,on-demand,24,unit,26.0498,USD,,
+2026-06-07,gcp,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,on-demand,24,unit,5.5147,USD,,
+2026-06-07,gcp,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,on-demand,24,unit,2.5557,USD,,
+2026-06-08,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web01,platform,web,prod,on-demand,24,unit,3.2037,USD,1.9,
+2026-06-08,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web02,platform,web,prod,on-demand,24,unit,17.3466,USD,53.8,
+2026-06-08,aws,111122223333,Amazon Elastic Compute Cloud,us-west-2,i-0aws0000000batch3,data,etl,prod,on-demand,24,unit,22.058,USD,15.7,
+2026-06-08,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000api04,platform,api,prod,reserved,24,unit,14.1875,USD,66.5,
+2026-06-08,aws,111122223333,Amazon Elastic Compute Cloud,eu-west-1,i-0aws0000000legacy5,,,,on-demand,24,unit,2.4963,USD,1.3,
+2026-06-08,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsorphan01,platform,web,prod,on-demand,24,unit,3.9474,USD,,False
+2026-06-08,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsactive02,platform,web,prod,on-demand,24,unit,5.2864,USD,,True
+2026-06-08,aws,111122223333,Amazon Relational Database Service,us-east-1,db-0awsprodrds01,platform,web,prod,on-demand,24,unit,30.6061,USD,,
+2026-06-08,aws,111122223333,Amazon Simple Storage Service,us-east-1,s3-0awsassetsbucket,platform,web,prod,on-demand,24,unit,6.3779,USD,,
+2026-06-08,aws,111122223333,Amazon Virtual Private Cloud,us-east-1,nat-0awsgateway01,,,,on-demand,24,unit,2.8992,USD,,
+2026-06-08,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,on-demand,24,unit,3.8666,USD,2.8,
+2026-06-08,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,on-demand,24,unit,18.5659,USD,68.3,
+2026-06-08,azure,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,on-demand,24,unit,22.0328,USD,12.1,
+2026-06-08,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,reserved,24,unit,14.2907,USD,61.9,
+2026-06-08,azure,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,on-demand,24,unit,2.2818,USD,2.0,
+2026-06-08,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,on-demand,24,unit,3.959,USD,,False
+2026-06-08,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,on-demand,24,unit,4.7297,USD,,True
+2026-06-08,azure,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,on-demand,24,unit,26.056,USD,,
+2026-06-08,azure,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,on-demand,24,unit,5.7706,USD,,
+2026-06-08,azure,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,on-demand,24,unit,2.7927,USD,,
+2026-06-08,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,on-demand,24,unit,3.1561,USD,2.0,
+2026-06-08,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,on-demand,24,unit,17.2613,USD,68.2,
+2026-06-08,gcp,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,on-demand,24,unit,20.2418,USD,20.1,
+2026-06-08,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed,24,unit,13.3103,USD,86.8,
+2026-06-08,gcp,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,on-demand,24,unit,2.058,USD,1.2,
+2026-06-08,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,on-demand,24,unit,3.4033,USD,,False
+2026-06-08,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,on-demand,24,unit,4.0497,USD,,True
+2026-06-08,gcp,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,on-demand,24,unit,26.3053,USD,,
+2026-06-08,gcp,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,on-demand,24,unit,5.6011,USD,,
+2026-06-08,gcp,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,on-demand,24,unit,2.7998,USD,,
+2026-06-09,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web01,platform,web,prod,on-demand,24,unit,3.3774,USD,2.2,
+2026-06-09,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web02,platform,web,prod,on-demand,24,unit,17.7871,USD,53.9,
+2026-06-09,aws,111122223333,Amazon Elastic Compute Cloud,us-west-2,i-0aws0000000batch3,data,etl,prod,on-demand,24,unit,22.8795,USD,15.3,
+2026-06-09,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000api04,platform,api,prod,reserved,24,unit,13.9413,USD,63.6,
+2026-06-09,aws,111122223333,Amazon Elastic Compute Cloud,eu-west-1,i-0aws0000000legacy5,,,,on-demand,24,unit,2.344,USD,1.6,
+2026-06-09,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsorphan01,platform,web,prod,on-demand,24,unit,3.9936,USD,,False
+2026-06-09,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsactive02,platform,web,prod,on-demand,24,unit,5.0623,USD,,True
+2026-06-09,aws,111122223333,Amazon Relational Database Service,us-east-1,db-0awsprodrds01,platform,web,prod,on-demand,24,unit,28.7005,USD,,
+2026-06-09,aws,111122223333,Amazon Simple Storage Service,us-east-1,s3-0awsassetsbucket,platform,web,prod,on-demand,24,unit,6.1855,USD,,
+2026-06-09,aws,111122223333,Amazon Virtual Private Cloud,us-east-1,nat-0awsgateway01,,,,on-demand,24,unit,3.0225,USD,,
+2026-06-09,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,on-demand,24,unit,3.7051,USD,2.1,
+2026-06-09,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,on-demand,24,unit,16.2852,USD,63.9,
+2026-06-09,azure,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,on-demand,24,unit,20.8195,USD,12.1,
+2026-06-09,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,reserved,24,unit,14.2725,USD,66.6,
+2026-06-09,azure,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,on-demand,24,unit,2.0449,USD,2.1,
+2026-06-09,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,on-demand,24,unit,3.619,USD,,False
+2026-06-09,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,on-demand,24,unit,4.7388,USD,,True
+2026-06-09,azure,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,on-demand,24,unit,24.5629,USD,,
+2026-06-09,azure,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,on-demand,24,unit,5.8368,USD,,
+2026-06-09,azure,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,on-demand,24,unit,2.7418,USD,,
+2026-06-09,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,on-demand,24,unit,3.4216,USD,1.8,
+2026-06-09,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,on-demand,24,unit,17.318,USD,54.6,
+2026-06-09,gcp,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,on-demand,24,unit,21.3546,USD,22.9,
+2026-06-09,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed,24,unit,13.0615,USD,72.2,
+2026-06-09,gcp,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,on-demand,24,unit,2.0508,USD,1.1,
+2026-06-09,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,on-demand,24,unit,3.3511,USD,,False
+2026-06-09,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,on-demand,24,unit,4.5095,USD,,True
+2026-06-09,gcp,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,on-demand,24,unit,26.0213,USD,,
+2026-06-09,gcp,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,on-demand,24,unit,4.9689,USD,,
+2026-06-09,gcp,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,on-demand,24,unit,2.69,USD,,
+2026-06-10,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web01,platform,web,prod,on-demand,24,unit,3.2002,USD,1.9,
+2026-06-10,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web02,platform,web,prod,on-demand,24,unit,18.7241,USD,52.7,
+2026-06-10,aws,111122223333,Amazon Elastic Compute Cloud,us-west-2,i-0aws0000000batch3,data,etl,prod,on-demand,24,unit,23.6279,USD,18.9,
+2026-06-10,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000api04,platform,api,prod,reserved,24,unit,15.2013,USD,69.0,
+2026-06-10,aws,111122223333,Amazon Elastic Compute Cloud,eu-west-1,i-0aws0000000legacy5,,,,on-demand,24,unit,2.3067,USD,1.2,
+2026-06-10,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsorphan01,platform,web,prod,on-demand,24,unit,4.0233,USD,,False
+2026-06-10,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsactive02,platform,web,prod,on-demand,24,unit,5.1846,USD,,True
+2026-06-10,aws,111122223333,Amazon Relational Database Service,us-east-1,db-0awsprodrds01,platform,web,prod,on-demand,24,unit,26.5934,USD,,
+2026-06-10,aws,111122223333,Amazon Simple Storage Service,us-east-1,s3-0awsassetsbucket,platform,web,prod,on-demand,24,unit,6.0148,USD,,
+2026-06-10,aws,111122223333,Amazon Virtual Private Cloud,us-east-1,nat-0awsgateway01,,,,on-demand,24,unit,3.289,USD,,
+2026-06-10,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,on-demand,24,unit,3.391,USD,2.7,
+2026-06-10,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,on-demand,24,unit,18.1048,USD,50.3,
+2026-06-10,azure,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,on-demand,24,unit,22.7635,USD,12.2,
+2026-06-10,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,reserved,24,unit,13.5659,USD,56.0,
+2026-06-10,azure,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,on-demand,24,unit,2.2915,USD,1.8,
+2026-06-10,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,on-demand,24,unit,3.9352,USD,,False
+2026-06-10,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,on-demand,24,unit,4.6943,USD,,True
+2026-06-10,azure,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,on-demand,24,unit,24.6441,USD,,
+2026-06-10,azure,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,on-demand,24,unit,5.6195,USD,,
+2026-06-10,azure,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,on-demand,24,unit,2.9866,USD,,
+2026-06-10,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,on-demand,24,unit,3.3843,USD,1.7,
+2026-06-10,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,on-demand,24,unit,15.8197,USD,65.5,
+2026-06-10,gcp,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,on-demand,24,unit,22.2665,USD,19.2,
+2026-06-10,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed,24,unit,14.8229,USD,70.0,
+2026-06-10,gcp,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,on-demand,24,unit,2.0084,USD,0.9,
+2026-06-10,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,on-demand,24,unit,3.2672,USD,,False
+2026-06-10,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,on-demand,24,unit,4.4376,USD,,True
+2026-06-10,gcp,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,on-demand,24,unit,25.6032,USD,,
+2026-06-10,gcp,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,on-demand,24,unit,5.493,USD,,
+2026-06-10,gcp,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,on-demand,24,unit,2.8205,USD,,
+2026-06-11,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web01,platform,web,prod,on-demand,24,unit,3.5036,USD,2.4,
+2026-06-11,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web02,platform,web,prod,on-demand,24,unit,18.6613,USD,59.4,
+2026-06-11,aws,111122223333,Amazon Elastic Compute Cloud,us-west-2,i-0aws0000000batch3,data,etl,prod,on-demand,24,unit,23.1332,USD,17.1,
+2026-06-11,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000api04,platform,api,prod,reserved,24,unit,14.6591,USD,65.8,
+2026-06-11,aws,111122223333,Amazon Elastic Compute Cloud,eu-west-1,i-0aws0000000legacy5,,,,on-demand,24,unit,2.2918,USD,1.6,
+2026-06-11,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsorphan01,platform,web,prod,on-demand,24,unit,4.3983,USD,,False
+2026-06-11,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsactive02,platform,web,prod,on-demand,24,unit,4.9959,USD,,True
+2026-06-11,aws,111122223333,Amazon Relational Database Service,us-east-1,db-0awsprodrds01,platform,web,prod,on-demand,24,unit,26.6403,USD,,
+2026-06-11,aws,111122223333,Amazon Simple Storage Service,us-east-1,s3-0awsassetsbucket,platform,web,prod,on-demand,24,unit,6.1996,USD,,
+2026-06-11,aws,111122223333,Amazon Virtual Private Cloud,us-east-1,nat-0awsgateway01,,,,on-demand,24,unit,3.1466,USD,,
+2026-06-11,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,on-demand,24,unit,3.6163,USD,2.9,
+2026-06-11,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,on-demand,24,unit,18.7555,USD,67.1,
+2026-06-11,azure,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,on-demand,24,unit,19.9929,USD,15.8,
+2026-06-11,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,reserved,24,unit,13.6477,USD,64.7,
+2026-06-11,azure,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,on-demand,24,unit,2.3191,USD,2.0,
+2026-06-11,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,on-demand,24,unit,4.0763,USD,,False
+2026-06-11,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,on-demand,24,unit,4.799,USD,,True
+2026-06-11,azure,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,on-demand,24,unit,24.0817,USD,,
+2026-06-11,azure,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,on-demand,24,unit,5.3056,USD,,
+2026-06-11,azure,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,on-demand,24,unit,2.7897,USD,,
+2026-06-11,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,on-demand,24,unit,2.9644,USD,1.7,
+2026-06-11,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,on-demand,24,unit,17.6822,USD,60.1,
+2026-06-11,gcp,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,on-demand,24,unit,22.5568,USD,20.0,
+2026-06-11,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed,24,unit,13.6133,USD,80.4,
+2026-06-11,gcp,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,on-demand,24,unit,2.0025,USD,1.0,
+2026-06-11,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,on-demand,24,unit,3.565,USD,,False
+2026-06-11,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,on-demand,24,unit,4.2433,USD,,True
+2026-06-11,gcp,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,on-demand,24,unit,24.4335,USD,,
+2026-06-11,gcp,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,on-demand,24,unit,5.4098,USD,,
+2026-06-11,gcp,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,on-demand,24,unit,2.5718,USD,,
+2026-06-12,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web01,platform,web,prod,on-demand,24,unit,3.5676,USD,2.1,
+2026-06-12,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web02,platform,web,prod,on-demand,24,unit,17.8818,USD,67.1,
+2026-06-12,aws,111122223333,Amazon Elastic Compute Cloud,us-west-2,i-0aws0000000batch3,data,etl,prod,on-demand,24,unit,24.4676,USD,18.1,
+2026-06-12,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000api04,platform,api,prod,reserved,24,unit,13.1212,USD,76.1,
+2026-06-12,aws,111122223333,Amazon Elastic Compute Cloud,eu-west-1,i-0aws0000000legacy5,,,,on-demand,24,unit,2.5759,USD,1.6,
+2026-06-12,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsorphan01,platform,web,prod,on-demand,24,unit,3.81,USD,,False
+2026-06-12,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsactive02,platform,web,prod,on-demand,24,unit,4.669,USD,,True
+2026-06-12,aws,111122223333,Amazon Relational Database Service,us-east-1,db-0awsprodrds01,platform,web,prod,on-demand,24,unit,28.1023,USD,,
+2026-06-12,aws,111122223333,Amazon Simple Storage Service,us-east-1,s3-0awsassetsbucket,platform,web,prod,on-demand,24,unit,6.1537,USD,,
+2026-06-12,aws,111122223333,Amazon Virtual Private Cloud,us-east-1,nat-0awsgateway01,,,,on-demand,24,unit,3.154,USD,,
+2026-06-12,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,on-demand,24,unit,3.4902,USD,2.7,
+2026-06-12,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,on-demand,24,unit,18.07,USD,50.1,
+2026-06-12,azure,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,on-demand,24,unit,22.0996,USD,15.0,
+2026-06-12,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,reserved,24,unit,12.7739,USD,79.1,
+2026-06-12,azure,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,on-demand,24,unit,2.2768,USD,2.0,
+2026-06-12,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,on-demand,24,unit,3.9342,USD,,False
+2026-06-12,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,on-demand,24,unit,4.3549,USD,,True
+2026-06-12,azure,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,on-demand,24,unit,24.5421,USD,,
+2026-06-12,azure,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,on-demand,24,unit,5.9564,USD,,
+2026-06-12,azure,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,on-demand,24,unit,2.7927,USD,,
+2026-06-12,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,on-demand,24,unit,3.3978,USD,2.2,
+2026-06-12,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,on-demand,24,unit,15.6274,USD,66.6,
+2026-06-12,gcp,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,on-demand,24,unit,21.4405,USD,16.9,
+2026-06-12,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed,24,unit,14.2688,USD,77.1,
+2026-06-12,gcp,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,on-demand,24,unit,2.0142,USD,1.0,
+2026-06-12,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,on-demand,24,unit,3.4217,USD,,False
+2026-06-12,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,on-demand,24,unit,4.3997,USD,,True
+2026-06-12,gcp,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,on-demand,24,unit,25.4697,USD,,
+2026-06-12,gcp,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,on-demand,24,unit,5.2857,USD,,
+2026-06-12,gcp,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,on-demand,24,unit,2.5942,USD,,
+2026-06-13,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web01,platform,web,prod,on-demand,24,unit,3.184,USD,2.2,
+2026-06-13,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web02,platform,web,prod,on-demand,24,unit,18.8487,USD,57.7,
+2026-06-13,aws,111122223333,Amazon Elastic Compute Cloud,us-west-2,i-0aws0000000batch3,data,etl,prod,on-demand,24,unit,23.4143,USD,14.2,
+2026-06-13,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000api04,platform,api,prod,reserved,24,unit,14.9188,USD,64.5,
+2026-06-13,aws,111122223333,Amazon Elastic Compute Cloud,eu-west-1,i-0aws0000000legacy5,,,,on-demand,24,unit,2.49,USD,1.3,
+2026-06-13,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsorphan01,platform,web,prod,on-demand,24,unit,3.8705,USD,,False
+2026-06-13,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsactive02,platform,web,prod,on-demand,24,unit,5.3449,USD,,True
+2026-06-13,aws,111122223333,Amazon Relational Database Service,us-east-1,db-0awsprodrds01,platform,web,prod,on-demand,24,unit,30.0244,USD,,
+2026-06-13,aws,111122223333,Amazon Simple Storage Service,us-east-1,s3-0awsassetsbucket,platform,web,prod,on-demand,24,unit,6.2524,USD,,
+2026-06-13,aws,111122223333,Amazon Virtual Private Cloud,us-east-1,nat-0awsgateway01,,,,on-demand,24,unit,3.3053,USD,,
+2026-06-13,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,on-demand,24,unit,3.7386,USD,2.4,
+2026-06-13,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,on-demand,24,unit,16.9039,USD,56.3,
+2026-06-13,azure,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,on-demand,24,unit,22.2914,USD,12.8,
+2026-06-13,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,reserved,24,unit,12.5882,USD,64.9,
+2026-06-13,azure,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,on-demand,24,unit,2.2845,USD,2.1,
+2026-06-13,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,on-demand,24,unit,3.605,USD,,False
+2026-06-13,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,on-demand,24,unit,4.824,USD,,True
+2026-06-13,azure,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,on-demand,24,unit,28.1104,USD,,
+2026-06-13,azure,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,on-demand,24,unit,6.1141,USD,,
+2026-06-13,azure,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,on-demand,24,unit,2.7,USD,,
+2026-06-13,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,on-demand,24,unit,3.1821,USD,1.8,
+2026-06-13,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,on-demand,24,unit,17.8325,USD,56.3,
+2026-06-13,gcp,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,on-demand,24,unit,22.5928,USD,16.5,
+2026-06-13,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed,24,unit,13.1391,USD,76.7,
+2026-06-13,gcp,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,on-demand,24,unit,2.1068,USD,1.0,
+2026-06-13,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,on-demand,24,unit,3.4798,USD,,False
+2026-06-13,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,on-demand,24,unit,4.4646,USD,,True
+2026-06-13,gcp,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,on-demand,24,unit,25.1732,USD,,
+2026-06-13,gcp,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,on-demand,24,unit,5.6355,USD,,
+2026-06-13,gcp,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,on-demand,24,unit,2.5684,USD,,
+2026-06-14,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web01,platform,web,prod,on-demand,24,unit,3.6178,USD,2.3,
+2026-06-14,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web02,platform,web,prod,on-demand,24,unit,17.4578,USD,52.6,
+2026-06-14,aws,111122223333,Amazon Elastic Compute Cloud,us-west-2,i-0aws0000000batch3,data,etl,prod,on-demand,24,unit,23.1992,USD,15.4,
+2026-06-14,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000api04,platform,api,prod,reserved,24,unit,13.7535,USD,79.7,
+2026-06-14,aws,111122223333,Amazon Elastic Compute Cloud,eu-west-1,i-0aws0000000legacy5,,,,on-demand,24,unit,2.67,USD,1.6,
+2026-06-14,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsorphan01,platform,web,prod,on-demand,24,unit,3.773,USD,,False
+2026-06-14,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsactive02,platform,web,prod,on-demand,24,unit,5.1258,USD,,True
+2026-06-14,aws,111122223333,Amazon Relational Database Service,us-east-1,db-0awsprodrds01,platform,web,prod,on-demand,24,unit,29.9859,USD,,
+2026-06-14,aws,111122223333,Amazon Simple Storage Service,us-east-1,s3-0awsassetsbucket,platform,web,prod,on-demand,24,unit,6.4254,USD,,
+2026-06-14,aws,111122223333,Amazon Virtual Private Cloud,us-east-1,nat-0awsgateway01,,,,on-demand,24,unit,2.9036,USD,,
+2026-06-14,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,on-demand,24,unit,3.6172,USD,2.3,
+2026-06-14,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,on-demand,24,unit,17.3778,USD,48.8,
+2026-06-14,azure,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,on-demand,24,unit,23.4005,USD,15.1,
+2026-06-14,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,reserved,24,unit,12.6209,USD,78.3,
+2026-06-14,azure,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,on-demand,24,unit,2.4452,USD,1.8,
+2026-06-14,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,on-demand,24,unit,3.9221,USD,,False
+2026-06-14,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,on-demand,24,unit,4.5062,USD,,True
+2026-06-14,azure,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,on-demand,24,unit,28.0817,USD,,
+2026-06-14,azure,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,on-demand,24,unit,5.3214,USD,,
+2026-06-14,azure,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,on-demand,24,unit,2.7123,USD,,
+2026-06-14,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,on-demand,24,unit,3.0124,USD,2.2,
+2026-06-14,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,on-demand,24,unit,15.7503,USD,61.5,
+2026-06-14,gcp,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,on-demand,24,unit,22.3181,USD,23.3,
+2026-06-14,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed,24,unit,13.2188,USD,68.5,
+2026-06-14,gcp,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,on-demand,24,unit,2.1248,USD,1.1,
+2026-06-14,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,on-demand,24,unit,3.6124,USD,,False
+2026-06-14,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,on-demand,24,unit,4.5657,USD,,True
+2026-06-14,gcp,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,on-demand,24,unit,24.4664,USD,,
+2026-06-14,gcp,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,on-demand,24,unit,5.203,USD,,
+2026-06-14,gcp,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,on-demand,24,unit,2.5163,USD,,
+2026-06-15,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web01,platform,web,prod,on-demand,24,unit,3.2383,USD,2.3,
+2026-06-15,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web02,platform,web,prod,on-demand,24,unit,18.4467,USD,56.1,
+2026-06-15,aws,111122223333,Amazon Elastic Compute Cloud,us-west-2,i-0aws0000000batch3,data,etl,prod,on-demand,24,unit,22.4224,USD,16.8,
+2026-06-15,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000api04,platform,api,prod,reserved,24,unit,13.8891,USD,71.9,
+2026-06-15,aws,111122223333,Amazon Elastic Compute Cloud,eu-west-1,i-0aws0000000legacy5,,,,on-demand,24,unit,2.7232,USD,1.3,
+2026-06-15,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsorphan01,platform,web,prod,on-demand,24,unit,3.9742,USD,,False
+2026-06-15,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsactive02,platform,web,prod,on-demand,24,unit,4.812,USD,,True
+2026-06-15,aws,111122223333,Amazon Relational Database Service,us-east-1,db-0awsprodrds01,platform,web,prod,on-demand,24,unit,26.6729,USD,,
+2026-06-15,aws,111122223333,Amazon Simple Storage Service,us-east-1,s3-0awsassetsbucket,platform,web,prod,on-demand,24,unit,5.8604,USD,,
+2026-06-15,aws,111122223333,Amazon Virtual Private Cloud,us-east-1,nat-0awsgateway01,,,,on-demand,24,unit,3.1923,USD,,
+2026-06-15,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,on-demand,24,unit,3.788,USD,2.7,
+2026-06-15,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,on-demand,24,unit,16.1203,USD,65.0,
+2026-06-15,azure,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,on-demand,24,unit,21.22,USD,11.9,
+2026-06-15,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,reserved,24,unit,12.9562,USD,64.5,
+2026-06-15,azure,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,on-demand,24,unit,2.3194,USD,1.9,
+2026-06-15,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,on-demand,24,unit,3.6542,USD,,False
+2026-06-15,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,on-demand,24,unit,4.9611,USD,,True
+2026-06-15,azure,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,on-demand,24,unit,24.1418,USD,,
+2026-06-15,azure,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,on-demand,24,unit,5.6128,USD,,
+2026-06-15,azure,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,on-demand,24,unit,2.8778,USD,,
+2026-06-15,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,on-demand,24,unit,3.327,USD,1.8,
+2026-06-15,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,on-demand,24,unit,16.7974,USD,66.6,
+2026-06-15,gcp,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,on-demand,24,unit,21.3945,USD,16.5,
+2026-06-15,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed,24,unit,14.5295,USD,88.0,
+2026-06-15,gcp,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,on-demand,24,unit,2.0739,USD,1.1,
+2026-06-15,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,on-demand,24,unit,3.4285,USD,,False
+2026-06-15,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,on-demand,24,unit,4.4917,USD,,True
+2026-06-15,gcp,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,on-demand,24,unit,25.7834,USD,,
+2026-06-15,gcp,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,on-demand,24,unit,5.4711,USD,,
+2026-06-15,gcp,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,on-demand,24,unit,2.5958,USD,,
+2026-06-16,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web01,platform,web,prod,on-demand,24,unit,3.5701,USD,1.7,
+2026-06-16,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web02,platform,web,prod,on-demand,24,unit,16.9317,USD,73.3,
+2026-06-16,aws,111122223333,Amazon Elastic Compute Cloud,us-west-2,i-0aws0000000batch3,data,etl,prod,on-demand,24,unit,23.6357,USD,14.7,
+2026-06-16,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000api04,platform,api,prod,reserved,24,unit,15.0139,USD,79.4,
+2026-06-16,aws,111122223333,Amazon Elastic Compute Cloud,eu-west-1,i-0aws0000000legacy5,,,,on-demand,24,unit,2.4828,USD,1.2,
+2026-06-16,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsorphan01,platform,web,prod,on-demand,24,unit,4.0744,USD,,False
+2026-06-16,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsactive02,platform,web,prod,on-demand,24,unit,4.7344,USD,,True
+2026-06-16,aws,111122223333,Amazon Relational Database Service,us-east-1,db-0awsprodrds01,platform,web,prod,on-demand,24,unit,28.7357,USD,,
+2026-06-16,aws,111122223333,Amazon Simple Storage Service,us-east-1,s3-0awsassetsbucket,platform,web,prod,on-demand,24,unit,6.5191,USD,,
+2026-06-16,aws,111122223333,Amazon Virtual Private Cloud,us-east-1,nat-0awsgateway01,,,,on-demand,24,unit,3.0479,USD,,
+2026-06-16,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,on-demand,24,unit,3.329,USD,2.7,
+2026-06-16,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,on-demand,24,unit,16.4891,USD,52.0,
+2026-06-16,azure,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,on-demand,24,unit,20.8661,USD,12.9,
+2026-06-16,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,reserved,24,unit,14.3282,USD,56.6,
+2026-06-16,azure,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,on-demand,24,unit,2.3741,USD,1.6,
+2026-06-16,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,on-demand,24,unit,3.6754,USD,,False
+2026-06-16,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,on-demand,24,unit,4.5352,USD,,True
+2026-06-16,azure,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,on-demand,24,unit,26.3117,USD,,
+2026-06-16,azure,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,on-demand,24,unit,5.2996,USD,,
+2026-06-16,azure,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,on-demand,24,unit,2.7978,USD,,
+2026-06-16,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,on-demand,24,unit,3.0143,USD,1.8,
+2026-06-16,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,on-demand,24,unit,17.9401,USD,60.6,
+2026-06-16,gcp,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,on-demand,24,unit,23.3312,USD,22.2,
+2026-06-16,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed,24,unit,14.451,USD,88.2,
+2026-06-16,gcp,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,on-demand,24,unit,2.3188,USD,0.9,
+2026-06-16,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,on-demand,24,unit,3.5249,USD,,False
+2026-06-16,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,on-demand,24,unit,4.3892,USD,,True
+2026-06-16,gcp,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,on-demand,24,unit,26.8639,USD,,
+2026-06-16,gcp,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,on-demand,24,unit,5.4021,USD,,
+2026-06-16,gcp,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,on-demand,24,unit,2.6518,USD,,
+2026-06-17,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web01,platform,web,prod,on-demand,24,unit,3.2258,USD,2.0,
+2026-06-17,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web02,platform,web,prod,on-demand,24,unit,17.3818,USD,73.1,
+2026-06-17,aws,111122223333,Amazon Elastic Compute Cloud,us-west-2,i-0aws0000000batch3,data,etl,prod,on-demand,24,unit,25.0783,USD,14.3,
+2026-06-17,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000api04,platform,api,prod,reserved,24,unit,15.2089,USD,71.8,
+2026-06-17,aws,111122223333,Amazon Elastic Compute Cloud,eu-west-1,i-0aws0000000legacy5,,,,on-demand,24,unit,2.678,USD,1.7,
+2026-06-17,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsorphan01,platform,web,prod,on-demand,24,unit,4.4109,USD,,False
+2026-06-17,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsactive02,platform,web,prod,on-demand,24,unit,4.6801,USD,,True
+2026-06-17,aws,111122223333,Amazon Relational Database Service,us-east-1,db-0awsprodrds01,platform,web,prod,on-demand,24,unit,29.1128,USD,,
+2026-06-17,aws,111122223333,Amazon Simple Storage Service,us-east-1,s3-0awsassetsbucket,platform,web,prod,on-demand,24,unit,5.9684,USD,,
+2026-06-17,aws,111122223333,Amazon Virtual Private Cloud,us-east-1,nat-0awsgateway01,,,,on-demand,24,unit,3.2569,USD,,
+2026-06-17,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,on-demand,24,unit,3.8403,USD,2.1,
+2026-06-17,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,on-demand,24,unit,18.782,USD,52.1,
+2026-06-17,azure,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,on-demand,24,unit,23.3358,USD,15.5,
+2026-06-17,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,reserved,24,unit,13.1864,USD,76.3,
+2026-06-17,azure,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,on-demand,24,unit,2.4745,USD,1.6,
+2026-06-17,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,on-demand,24,unit,3.8563,USD,,False
+2026-06-17,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,on-demand,24,unit,4.8254,USD,,True
+2026-06-17,azure,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,on-demand,24,unit,26.9253,USD,,
+2026-06-17,azure,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,on-demand,24,unit,6.0775,USD,,
+2026-06-17,azure,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,on-demand,24,unit,2.6811,USD,,
+2026-06-17,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,on-demand,24,unit,3.3027,USD,2.3,
+2026-06-17,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,on-demand,24,unit,17.072,USD,61.4,
+2026-06-17,gcp,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,on-demand,24,unit,21.8559,USD,23.5,
+2026-06-17,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed,24,unit,14.6426,USD,74.8,
+2026-06-17,gcp,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,on-demand,24,unit,2.1651,USD,1.0,
+2026-06-17,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,on-demand,24,unit,3.2705,USD,,False
+2026-06-17,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,on-demand,24,unit,4.2118,USD,,True
+2026-06-17,gcp,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,on-demand,24,unit,24.0662,USD,,
+2026-06-17,gcp,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,on-demand,24,unit,5.4229,USD,,
+2026-06-17,gcp,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,on-demand,24,unit,2.4843,USD,,
+2026-06-18,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web01,platform,web,prod,on-demand,24,unit,3.6273,USD,1.9,
+2026-06-18,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web02,platform,web,prod,on-demand,24,unit,17.124,USD,69.0,
+2026-06-18,aws,111122223333,Amazon Elastic Compute Cloud,us-west-2,i-0aws0000000batch3,data,etl,prod,on-demand,24,unit,25.7843,USD,19.1,
+2026-06-18,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000api04,platform,api,prod,reserved,24,unit,13.702,USD,58.8,
+2026-06-18,aws,111122223333,Amazon Elastic Compute Cloud,eu-west-1,i-0aws0000000legacy5,,,,on-demand,24,unit,2.6209,USD,1.6,
+2026-06-18,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsorphan01,platform,web,prod,on-demand,24,unit,4.28,USD,,False
+2026-06-18,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsactive02,platform,web,prod,on-demand,24,unit,5.2772,USD,,True
+2026-06-18,aws,111122223333,Amazon Relational Database Service,us-east-1,db-0awsprodrds01,platform,web,prod,on-demand,24,unit,30.0389,USD,,
+2026-06-18,aws,111122223333,Amazon Simple Storage Service,us-east-1,s3-0awsassetsbucket,platform,web,prod,on-demand,24,unit,6.6569,USD,,
+2026-06-18,aws,111122223333,Amazon Virtual Private Cloud,us-east-1,nat-0awsgateway01,,,,on-demand,24,unit,3.0373,USD,,
+2026-06-18,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,on-demand,24,unit,3.8545,USD,2.4,
+2026-06-18,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,on-demand,24,unit,16.2893,USD,53.9,
+2026-06-18,azure,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,on-demand,24,unit,20.9599,USD,12.3,
+2026-06-18,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,reserved,24,unit,14.4692,USD,75.1,
+2026-06-18,azure,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,on-demand,24,unit,2.5343,USD,1.9,
+2026-06-18,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,on-demand,24,unit,3.6019,USD,,False
+2026-06-18,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,on-demand,24,unit,4.945,USD,,True
+2026-06-18,azure,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,on-demand,24,unit,26.9083,USD,,
+2026-06-18,azure,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,on-demand,24,unit,6.0911,USD,,
+2026-06-18,azure,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,on-demand,24,unit,3.0332,USD,,
+2026-06-18,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,on-demand,24,unit,3.0583,USD,2.1,
+2026-06-18,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,on-demand,24,unit,16.0222,USD,55.8,
+2026-06-18,gcp,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,on-demand,24,unit,23.8518,USD,17.3,
+2026-06-18,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed,24,unit,14.3053,USD,87.1,
+2026-06-18,gcp,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,on-demand,24,unit,2.4093,USD,1.0,
+2026-06-18,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,on-demand,24,unit,3.7768,USD,,False
+2026-06-18,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,on-demand,24,unit,4.7275,USD,,True
+2026-06-18,gcp,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,on-demand,24,unit,23.3146,USD,,
+2026-06-18,gcp,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,on-demand,24,unit,5.4885,USD,,
+2026-06-18,gcp,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,on-demand,24,unit,2.8819,USD,,
+2026-06-19,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web01,platform,web,prod,on-demand,24,unit,3.6543,USD,1.9,
+2026-06-19,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web02,platform,web,prod,on-demand,24,unit,18.3909,USD,74.1,
+2026-06-19,aws,111122223333,Amazon Elastic Compute Cloud,us-west-2,i-0aws0000000batch3,data,etl,prod,on-demand,24,unit,22.9234,USD,18.5,
+2026-06-19,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000api04,platform,api,prod,reserved,24,unit,13.5089,USD,83.3,
+2026-06-19,aws,111122223333,Amazon Elastic Compute Cloud,eu-west-1,i-0aws0000000legacy5,,,,on-demand,24,unit,2.4636,USD,1.6,
+2026-06-19,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsorphan01,platform,web,prod,on-demand,24,unit,3.8302,USD,,False
+2026-06-19,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsactive02,platform,web,prod,on-demand,24,unit,5.1672,USD,,True
+2026-06-19,aws,111122223333,Amazon Relational Database Service,us-east-1,db-0awsprodrds01,platform,web,prod,on-demand,24,unit,29.0321,USD,,
+2026-06-19,aws,111122223333,Amazon Simple Storage Service,us-east-1,s3-0awsassetsbucket,platform,web,prod,on-demand,24,unit,6.5836,USD,,
+2026-06-19,aws,111122223333,Amazon Virtual Private Cloud,us-east-1,nat-0awsgateway01,,,,on-demand,24,unit,3.0735,USD,,
+2026-06-19,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,on-demand,24,unit,3.4648,USD,2.3,
+2026-06-19,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,on-demand,24,unit,16.1967,USD,52.9,
+2026-06-19,azure,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,on-demand,24,unit,20.994,USD,11.5,
+2026-06-19,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,reserved,24,unit,13.2536,USD,73.7,
+2026-06-19,azure,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,on-demand,24,unit,2.5539,USD,2.0,
+2026-06-19,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,on-demand,24,unit,3.7958,USD,,False
+2026-06-19,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,on-demand,24,unit,4.5107,USD,,True
+2026-06-19,azure,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,on-demand,24,unit,26.2922,USD,,
+2026-06-19,azure,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,on-demand,24,unit,5.3365,USD,,
+2026-06-19,azure,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,on-demand,24,unit,2.8905,USD,,
+2026-06-19,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,on-demand,24,unit,3.3864,USD,2.1,
+2026-06-19,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,on-demand,24,unit,17.4061,USD,52.7,
+2026-06-19,gcp,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,on-demand,24,unit,21.7143,USD,22.5,
+2026-06-19,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed,24,unit,13.3472,USD,70.1,
+2026-06-19,gcp,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,on-demand,24,unit,2.426,USD,0.8,
+2026-06-19,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,on-demand,24,unit,3.3153,USD,,False
+2026-06-19,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,on-demand,24,unit,4.3123,USD,,True
+2026-06-19,gcp,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,on-demand,24,unit,26.1354,USD,,
+2026-06-19,gcp,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,on-demand,24,unit,5.4406,USD,,
+2026-06-19,gcp,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,on-demand,24,unit,2.872,USD,,
+2026-06-20,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web01,platform,web,prod,on-demand,24,unit,3.1786,USD,2.2,
+2026-06-20,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web02,platform,web,prod,on-demand,24,unit,18.5309,USD,63.6,
+2026-06-20,aws,111122223333,Amazon Elastic Compute Cloud,us-west-2,i-0aws0000000batch3,data,etl,prod,on-demand,24,unit,22.6417,USD,19.7,
+2026-06-20,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000api04,platform,api,prod,reserved,24,unit,13.3442,USD,81.0,
+2026-06-20,aws,111122223333,Amazon Elastic Compute Cloud,eu-west-1,i-0aws0000000legacy5,,,,on-demand,24,unit,2.475,USD,1.2,
+2026-06-20,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsorphan01,platform,web,prod,on-demand,24,unit,3.9068,USD,,False
+2026-06-20,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsactive02,platform,web,prod,on-demand,24,unit,4.752,USD,,True
+2026-06-20,aws,111122223333,Amazon Relational Database Service,us-east-1,db-0awsprodrds01,platform,web,prod,on-demand,24,unit,29.2961,USD,,
+2026-06-20,aws,111122223333,Amazon Simple Storage Service,us-east-1,s3-0awsassetsbucket,platform,web,prod,on-demand,24,unit,6.4203,USD,,
+2026-06-20,aws,111122223333,Amazon Virtual Private Cloud,us-east-1,nat-0awsgateway01,,,,on-demand,24,unit,3.2141,USD,,
+2026-06-20,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,on-demand,24,unit,3.4648,USD,2.3,
+2026-06-20,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,on-demand,24,unit,16.6693,USD,48.6,
+2026-06-20,azure,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,on-demand,24,unit,22.802,USD,15.7,
+2026-06-20,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,reserved,24,unit,12.7518,USD,64.6,
+2026-06-20,azure,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,on-demand,24,unit,2.3632,USD,1.7,
+2026-06-20,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,on-demand,24,unit,3.8985,USD,,False
+2026-06-20,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,on-demand,24,unit,4.6738,USD,,True
+2026-06-20,azure,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,on-demand,24,unit,24.8458,USD,,
+2026-06-20,azure,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,on-demand,24,unit,5.2675,USD,,
+2026-06-20,azure,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,on-demand,24,unit,2.7473,USD,,
+2026-06-20,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,on-demand,24,unit,3.0934,USD,1.7,
+2026-06-20,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,on-demand,24,unit,17.8296,USD,55.9,
+2026-06-20,gcp,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,on-demand,24,unit,23.0692,USD,19.9,
+2026-06-20,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed,24,unit,14.1556,USD,64.0,
+2026-06-20,gcp,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,on-demand,24,unit,2.2932,USD,0.9,
+2026-06-20,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,on-demand,24,unit,3.7159,USD,,False
+2026-06-20,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,on-demand,24,unit,4.3081,USD,,True
+2026-06-20,gcp,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,on-demand,24,unit,24.9814,USD,,
+2026-06-20,gcp,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,on-demand,24,unit,5.1955,USD,,
+2026-06-20,gcp,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,on-demand,24,unit,2.6849,USD,,
+2026-06-21,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web01,platform,web,prod,on-demand,24,unit,3.2511,USD,1.9,
+2026-06-21,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web02,platform,web,prod,on-demand,24,unit,16.9235,USD,69.8,
+2026-06-21,aws,111122223333,Amazon Elastic Compute Cloud,us-west-2,i-0aws0000000batch3,data,etl,prod,on-demand,24,unit,25.2955,USD,14.5,
+2026-06-21,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000api04,platform,api,prod,reserved,24,unit,13.7476,USD,72.1,
+2026-06-21,aws,111122223333,Amazon Elastic Compute Cloud,eu-west-1,i-0aws0000000legacy5,,,,on-demand,24,unit,2.8339,USD,1.4,
+2026-06-21,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsorphan01,platform,web,prod,on-demand,24,unit,4.1352,USD,,False
+2026-06-21,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsactive02,platform,web,prod,on-demand,24,unit,5.2726,USD,,True
+2026-06-21,aws,111122223333,Amazon Relational Database Service,us-east-1,db-0awsprodrds01,platform,web,prod,on-demand,24,unit,29.8468,USD,,
+2026-06-21,aws,111122223333,Amazon Simple Storage Service,us-east-1,s3-0awsassetsbucket,platform,web,prod,on-demand,24,unit,6.1193,USD,,
+2026-06-21,aws,111122223333,Amazon Virtual Private Cloud,us-east-1,nat-0awsgateway01,,,,on-demand,24,unit,3.1176,USD,,
+2026-06-21,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,on-demand,24,unit,3.8113,USD,2.5,
+2026-06-21,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,on-demand,24,unit,18.4625,USD,57.5,
+2026-06-21,azure,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,on-demand,24,unit,21.1591,USD,16.0,
+2026-06-21,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,reserved,24,unit,13.9629,USD,68.1,
+2026-06-21,azure,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,on-demand,24,unit,2.5604,USD,2.0,
+2026-06-21,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,on-demand,24,unit,3.9079,USD,,False
+2026-06-21,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,on-demand,24,unit,4.6885,USD,,True
+2026-06-21,azure,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,on-demand,24,unit,24.5143,USD,,
+2026-06-21,azure,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,on-demand,24,unit,5.9346,USD,,
+2026-06-21,azure,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,on-demand,24,unit,2.7482,USD,,
+2026-06-21,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,on-demand,24,unit,3.448,USD,2.3,
+2026-06-21,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,on-demand,24,unit,17.7341,USD,51.9,
+2026-06-21,gcp,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,on-demand,24,unit,23.3148,USD,23.5,
+2026-06-21,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed,24,unit,13.6573,USD,88.4,
+2026-06-21,gcp,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,on-demand,24,unit,2.3383,USD,1.1,
+2026-06-21,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,on-demand,24,unit,3.3644,USD,,False
+2026-06-21,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,on-demand,24,unit,4.6892,USD,,True
+2026-06-21,gcp,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,on-demand,24,unit,26.8699,USD,,
+2026-06-21,gcp,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,on-demand,24,unit,5.0259,USD,,
+2026-06-21,gcp,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,on-demand,24,unit,2.6517,USD,,
+2026-06-22,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web01,platform,web,prod,on-demand,24,unit,3.3442,USD,2.0,
+2026-06-22,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web02,platform,web,prod,on-demand,24,unit,17.5483,USD,63.0,
+2026-06-22,aws,111122223333,Amazon Elastic Compute Cloud,us-west-2,i-0aws0000000batch3,data,etl,prod,on-demand,24,unit,26.2736,USD,18.8,
+2026-06-22,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000api04,platform,api,prod,reserved,24,unit,14.3776,USD,71.6,
+2026-06-22,aws,111122223333,Amazon Elastic Compute Cloud,eu-west-1,i-0aws0000000legacy5,,,,on-demand,24,unit,2.6181,USD,1.4,
+2026-06-22,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsorphan01,platform,web,prod,on-demand,24,unit,3.8692,USD,,False
+2026-06-22,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsactive02,platform,web,prod,on-demand,24,unit,5.0703,USD,,True
+2026-06-22,aws,111122223333,Amazon Relational Database Service,us-east-1,db-0awsprodrds01,platform,web,prod,on-demand,24,unit,29.5741,USD,,
+2026-06-22,aws,111122223333,Amazon Simple Storage Service,us-east-1,s3-0awsassetsbucket,platform,web,prod,on-demand,24,unit,6.6361,USD,,
+2026-06-22,aws,111122223333,Amazon Virtual Private Cloud,us-east-1,nat-0awsgateway01,,,,on-demand,24,unit,3.3108,USD,,
+2026-06-22,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,on-demand,24,unit,3.6361,USD,2.1,
+2026-06-22,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,on-demand,24,unit,16.8045,USD,58.7,
+2026-06-22,azure,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,on-demand,24,unit,22.2615,USD,13.6,
+2026-06-22,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,reserved,24,unit,13.2474,USD,67.6,
+2026-06-22,azure,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,on-demand,24,unit,2.4638,USD,1.5,
+2026-06-22,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,on-demand,24,unit,3.6635,USD,,False
+2026-06-22,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,on-demand,24,unit,4.3379,USD,,True
+2026-06-22,azure,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,on-demand,24,unit,26.5537,USD,,
+2026-06-22,azure,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,on-demand,24,unit,5.8766,USD,,
+2026-06-22,azure,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,on-demand,24,unit,2.686,USD,,
+2026-06-22,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,on-demand,24,unit,3.3995,USD,1.9,
+2026-06-22,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,on-demand,24,unit,16.1904,USD,65.3,
+2026-06-22,gcp,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,on-demand,24,unit,25.3538,USD,22.9,
+2026-06-22,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed,24,unit,12.7407,USD,83.6,
+2026-06-22,gcp,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,on-demand,24,unit,2.2336,USD,0.9,
+2026-06-22,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,on-demand,24,unit,3.4953,USD,,False
+2026-06-22,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,on-demand,24,unit,4.5381,USD,,True
+2026-06-22,gcp,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,on-demand,24,unit,23.58,USD,,
+2026-06-22,gcp,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,on-demand,24,unit,5.7187,USD,,
+2026-06-22,gcp,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,on-demand,24,unit,2.5421,USD,,
+2026-06-23,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web01,platform,web,prod,on-demand,24,unit,3.658,USD,2.1,
+2026-06-23,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web02,platform,web,prod,on-demand,24,unit,19.1488,USD,58.7,
+2026-06-23,aws,111122223333,Amazon Elastic Compute Cloud,us-west-2,i-0aws0000000batch3,data,etl,prod,on-demand,24,unit,24.6167,USD,17.9,
+2026-06-23,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000api04,platform,api,prod,reserved,24,unit,13.396,USD,63.6,
+2026-06-23,aws,111122223333,Amazon Elastic Compute Cloud,eu-west-1,i-0aws0000000legacy5,,,,on-demand,24,unit,2.8073,USD,1.5,
+2026-06-23,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsorphan01,platform,web,prod,on-demand,24,unit,4.2702,USD,,False
+2026-06-23,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsactive02,platform,web,prod,on-demand,24,unit,5.2938,USD,,True
+2026-06-23,aws,111122223333,Amazon Relational Database Service,us-east-1,db-0awsprodrds01,platform,web,prod,on-demand,24,unit,29.8587,USD,,
+2026-06-23,aws,111122223333,Amazon Simple Storage Service,us-east-1,s3-0awsassetsbucket,platform,web,prod,on-demand,24,unit,6.2151,USD,,
+2026-06-23,aws,111122223333,Amazon Virtual Private Cloud,us-east-1,nat-0awsgateway01,,,,on-demand,24,unit,2.9309,USD,,
+2026-06-23,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,on-demand,24,unit,3.4912,USD,2.5,
+2026-06-23,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,on-demand,24,unit,16.3856,USD,65.3,
+2026-06-23,azure,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,on-demand,24,unit,24.3708,USD,11.6,
+2026-06-23,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,reserved,24,unit,12.8364,USD,76.2,
+2026-06-23,azure,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,on-demand,24,unit,2.5683,USD,1.6,
+2026-06-23,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,on-demand,24,unit,3.7735,USD,,False
+2026-06-23,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,on-demand,24,unit,4.9077,USD,,True
+2026-06-23,azure,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,on-demand,24,unit,26.9546,USD,,
+2026-06-23,azure,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,on-demand,24,unit,5.4939,USD,,
+2026-06-23,azure,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,on-demand,24,unit,3.0501,USD,,
+2026-06-23,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,on-demand,24,unit,3.2026,USD,2.1,
+2026-06-23,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,on-demand,24,unit,15.883,USD,49.9,
+2026-06-23,gcp,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,on-demand,24,unit,23.4168,USD,20.7,
+2026-06-23,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed,24,unit,13.0881,USD,85.0,
+2026-06-23,gcp,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,on-demand,24,unit,2.3531,USD,0.9,
+2026-06-23,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,on-demand,24,unit,3.3116,USD,,False
+2026-06-23,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,on-demand,24,unit,4.6777,USD,,True
+2026-06-23,gcp,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,on-demand,24,unit,26.2038,USD,,
+2026-06-23,gcp,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,on-demand,24,unit,5.5632,USD,,
+2026-06-23,gcp,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,on-demand,24,unit,2.6071,USD,,
+2026-06-24,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web01,platform,web,prod,on-demand,24,unit,3.3383,USD,1.8,
+2026-06-24,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web02,platform,web,prod,on-demand,24,unit,18.4104,USD,74.7,
+2026-06-24,aws,111122223333,Amazon Elastic Compute Cloud,us-west-2,i-0aws0000000batch3,data,etl,prod,on-demand,24,unit,26.5402,USD,17.9,
+2026-06-24,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000api04,platform,api,prod,reserved,24,unit,14.5009,USD,65.1,
+2026-06-24,aws,111122223333,Amazon Elastic Compute Cloud,eu-west-1,i-0aws0000000legacy5,,,,on-demand,24,unit,2.6468,USD,1.2,
+2026-06-24,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsorphan01,platform,web,prod,on-demand,24,unit,4.2839,USD,,False
+2026-06-24,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsactive02,platform,web,prod,on-demand,24,unit,5.2141,USD,,True
+2026-06-24,aws,111122223333,Amazon Relational Database Service,us-east-1,db-0awsprodrds01,platform,web,prod,on-demand,24,unit,26.1684,USD,,
+2026-06-24,aws,111122223333,Amazon Simple Storage Service,us-east-1,s3-0awsassetsbucket,platform,web,prod,on-demand,24,unit,6.6082,USD,,
+2026-06-24,aws,111122223333,Amazon Virtual Private Cloud,us-east-1,nat-0awsgateway01,,,,on-demand,24,unit,3.1731,USD,,
+2026-06-24,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,on-demand,24,unit,3.6583,USD,2.1,
+2026-06-24,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,on-demand,24,unit,16.7107,USD,64.4,
+2026-06-24,azure,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,on-demand,24,unit,22.401,USD,16.4,
+2026-06-24,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,reserved,24,unit,13.8083,USD,66.1,
+2026-06-24,azure,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,on-demand,24,unit,2.4037,USD,1.7,
+2026-06-24,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,on-demand,24,unit,3.6492,USD,,False
+2026-06-24,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,on-demand,24,unit,4.5755,USD,,True
+2026-06-24,azure,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,on-demand,24,unit,26.84,USD,,
+2026-06-24,azure,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,on-demand,24,unit,5.9958,USD,,
+2026-06-24,azure,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,on-demand,24,unit,2.8523,USD,,
+2026-06-24,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,on-demand,24,unit,2.9964,USD,2.0,
+2026-06-24,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,on-demand,24,unit,17.339,USD,67.4,
+2026-06-24,gcp,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,on-demand,24,unit,23.5707,USD,21.1,
+2026-06-24,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed,24,unit,14.0408,USD,69.6,
+2026-06-24,gcp,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,on-demand,24,unit,2.189,USD,0.8,
+2026-06-24,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,on-demand,24,unit,3.7735,USD,,False
+2026-06-24,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,on-demand,24,unit,4.499,USD,,True
+2026-06-24,gcp,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,on-demand,24,unit,26.6575,USD,,
+2026-06-24,gcp,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,on-demand,24,unit,5.1936,USD,,
+2026-06-24,gcp,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,on-demand,24,unit,2.7912,USD,,
+2026-06-25,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web01,platform,web,prod,on-demand,24,unit,3.6135,USD,1.9,
+2026-06-25,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web02,platform,web,prod,on-demand,24,unit,17.1806,USD,70.1,
+2026-06-25,aws,111122223333,Amazon Elastic Compute Cloud,us-west-2,i-0aws0000000batch3,data,etl,prod,on-demand,24,unit,26.878,USD,18.9,
+2026-06-25,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000api04,platform,api,prod,reserved,24,unit,14.7821,USD,73.6,
+2026-06-25,aws,111122223333,Amazon Elastic Compute Cloud,eu-west-1,i-0aws0000000legacy5,,,,on-demand,24,unit,2.7719,USD,1.5,
+2026-06-25,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsorphan01,platform,web,prod,on-demand,24,unit,4.2452,USD,,False
+2026-06-25,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsactive02,platform,web,prod,on-demand,24,unit,5.1243,USD,,True
+2026-06-25,aws,111122223333,Amazon Relational Database Service,us-east-1,db-0awsprodrds01,platform,web,prod,on-demand,24,unit,30.6605,USD,,
+2026-06-25,aws,111122223333,Amazon Simple Storage Service,us-east-1,s3-0awsassetsbucket,platform,web,prod,on-demand,24,unit,5.9614,USD,,
+2026-06-25,aws,111122223333,Amazon Virtual Private Cloud,us-east-1,nat-0awsgateway01,,,,on-demand,24,unit,3.0596,USD,,
+2026-06-25,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,on-demand,24,unit,3.5356,USD,2.1,
+2026-06-25,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,on-demand,24,unit,17.9793,USD,59.5,
+2026-06-25,azure,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,on-demand,24,unit,22.1107,USD,15.1,
+2026-06-25,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,reserved,24,unit,12.9003,USD,68.8,
+2026-06-25,azure,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,on-demand,24,unit,2.58,USD,2.1,
+2026-06-25,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,on-demand,24,unit,3.9045,USD,,False
+2026-06-25,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,on-demand,24,unit,4.6054,USD,,True
+2026-06-25,azure,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,on-demand,24,unit,27.5425,USD,,
+2026-06-25,azure,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,on-demand,24,unit,6.0107,USD,,
+2026-06-25,azure,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,on-demand,24,unit,3.0747,USD,,
+2026-06-25,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,on-demand,24,unit,3.0367,USD,1.7,
+2026-06-25,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,on-demand,24,unit,15.894,USD,54.8,
+2026-06-25,gcp,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,on-demand,24,unit,25.3992,USD,21.9,
+2026-06-25,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed,24,unit,13.1002,USD,79.9,
+2026-06-25,gcp,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,on-demand,24,unit,2.2882,USD,0.9,
+2026-06-25,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,on-demand,24,unit,3.419,USD,,False
+2026-06-25,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,on-demand,24,unit,4.5719,USD,,True
+2026-06-25,gcp,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,on-demand,24,unit,24.4222,USD,,
+2026-06-25,gcp,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,on-demand,24,unit,5.6489,USD,,
+2026-06-25,gcp,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,on-demand,24,unit,2.6271,USD,,
+2026-06-26,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web01,platform,web,prod,on-demand,24,unit,3.2697,USD,1.9,
+2026-06-26,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web02,platform,web,prod,on-demand,24,unit,19.2227,USD,63.3,
+2026-06-26,aws,111122223333,Amazon Elastic Compute Cloud,us-west-2,i-0aws0000000batch3,data,etl,prod,on-demand,24,unit,26.9094,USD,17.5,
+2026-06-26,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000api04,platform,api,prod,reserved,24,unit,15.1023,USD,60.0,
+2026-06-26,aws,111122223333,Amazon Elastic Compute Cloud,eu-west-1,i-0aws0000000legacy5,,,,on-demand,24,unit,2.8887,USD,1.4,
+2026-06-26,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsorphan01,platform,web,prod,on-demand,24,unit,4.3411,USD,,False
+2026-06-26,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsactive02,platform,web,prod,on-demand,24,unit,4.9053,USD,,True
+2026-06-26,aws,111122223333,Amazon Relational Database Service,us-east-1,db-0awsprodrds01,platform,web,prod,on-demand,24,unit,27.4837,USD,,
+2026-06-26,aws,111122223333,Amazon Simple Storage Service,us-east-1,s3-0awsassetsbucket,platform,web,prod,on-demand,24,unit,5.7576,USD,,
+2026-06-26,aws,111122223333,Amazon Virtual Private Cloud,us-east-1,nat-0awsgateway01,,,,on-demand,24,unit,3.2757,USD,,
+2026-06-26,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,on-demand,24,unit,3.3911,USD,2.2,
+2026-06-26,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,on-demand,24,unit,17.1472,USD,59.4,
+2026-06-26,azure,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,on-demand,24,unit,24.9324,USD,13.8,
+2026-06-26,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,reserved,24,unit,13.1034,USD,73.3,
+2026-06-26,azure,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,on-demand,24,unit,2.5936,USD,1.8,
+2026-06-26,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,on-demand,24,unit,3.8797,USD,,False
+2026-06-26,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,on-demand,24,unit,4.3621,USD,,True
+2026-06-26,azure,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,on-demand,24,unit,26.6617,USD,,
+2026-06-26,azure,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,on-demand,24,unit,5.2483,USD,,
+2026-06-26,azure,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,on-demand,24,unit,2.7949,USD,,
+2026-06-26,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,on-demand,24,unit,3.3337,USD,1.8,
+2026-06-26,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,on-demand,24,unit,17.6152,USD,59.8,
+2026-06-26,gcp,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,on-demand,24,unit,25.3823,USD,17.0,
+2026-06-26,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed,24,unit,14.0528,USD,78.6,
+2026-06-26,gcp,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,on-demand,24,unit,2.328,USD,1.2,
+2026-06-26,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,on-demand,24,unit,3.4347,USD,,False
+2026-06-26,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,on-demand,24,unit,4.0746,USD,,True
+2026-06-26,gcp,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,on-demand,24,unit,23.988,USD,,
+2026-06-26,gcp,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,on-demand,24,unit,5.2904,USD,,
+2026-06-26,gcp,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,on-demand,24,unit,2.4901,USD,,
+2026-06-27,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web01,platform,web,prod,on-demand,24,unit,3.3033,USD,2.4,
+2026-06-27,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web02,platform,web,prod,on-demand,24,unit,17.299,USD,68.1,
+2026-06-27,aws,111122223333,Amazon Elastic Compute Cloud,us-west-2,i-0aws0000000batch3,data,etl,prod,on-demand,24,unit,26.0945,USD,15.5,
+2026-06-27,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000api04,platform,api,prod,reserved,24,unit,14.5366,USD,67.0,
+2026-06-27,aws,111122223333,Amazon Elastic Compute Cloud,eu-west-1,i-0aws0000000legacy5,,,,on-demand,24,unit,2.5736,USD,1.3,
+2026-06-27,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsorphan01,platform,web,prod,on-demand,24,unit,4.1582,USD,,False
+2026-06-27,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsactive02,platform,web,prod,on-demand,24,unit,4.7336,USD,,True
+2026-06-27,aws,111122223333,Amazon Relational Database Service,us-east-1,db-0awsprodrds01,platform,web,prod,on-demand,24,unit,29.8715,USD,,
+2026-06-27,aws,111122223333,Amazon Simple Storage Service,us-east-1,s3-0awsassetsbucket,platform,web,prod,on-demand,24,unit,5.9998,USD,,
+2026-06-27,aws,111122223333,Amazon Virtual Private Cloud,us-east-1,nat-0awsgateway01,,,,on-demand,24,unit,2.9963,USD,,
+2026-06-27,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,on-demand,24,unit,3.7312,USD,2.6,
+2026-06-27,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,on-demand,24,unit,16.9485,USD,66.1,
+2026-06-27,azure,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,on-demand,24,unit,25.421,USD,13.2,
+2026-06-27,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,reserved,24,unit,14.367,USD,64.6,
+2026-06-27,azure,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,on-demand,24,unit,2.3736,USD,2.1,
+2026-06-27,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,on-demand,24,unit,4.0543,USD,,False
+2026-06-27,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,on-demand,24,unit,4.5289,USD,,True
+2026-06-27,azure,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,on-demand,24,unit,24.9659,USD,,
+2026-06-27,azure,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,on-demand,24,unit,5.9072,USD,,
+2026-06-27,azure,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,on-demand,24,unit,2.7289,USD,,
+2026-06-27,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,on-demand,24,unit,3.3198,USD,2.1,
+2026-06-27,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,on-demand,24,unit,16.0049,USD,57.1,
+2026-06-27,gcp,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,on-demand,24,unit,25.0957,USD,16.7,
+2026-06-27,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed,24,unit,14.6314,USD,68.4,
+2026-06-27,gcp,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,on-demand,24,unit,2.3924,USD,0.8,
+2026-06-27,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,on-demand,24,unit,3.777,USD,,False
+2026-06-27,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,on-demand,24,unit,4.514,USD,,True
+2026-06-27,gcp,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,on-demand,24,unit,25.8192,USD,,
+2026-06-27,gcp,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,on-demand,24,unit,4.9851,USD,,
+2026-06-27,gcp,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,on-demand,24,unit,2.782,USD,,
+2026-06-28,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web01,platform,web,prod,on-demand,24,unit,3.3547,USD,2.0,
+2026-06-28,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web02,platform,web,prod,on-demand,24,unit,18.3377,USD,63.4,
+2026-06-28,aws,111122223333,Amazon Elastic Compute Cloud,us-west-2,i-0aws0000000batch3,data,etl,prod,on-demand,24,unit,24.3047,USD,18.2,
+2026-06-28,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000api04,platform,api,prod,reserved,24,unit,14.394,USD,65.9,
+2026-06-28,aws,111122223333,Amazon Elastic Compute Cloud,eu-west-1,i-0aws0000000legacy5,,,,on-demand,24,unit,2.824,USD,1.5,
+2026-06-28,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsorphan01,platform,web,prod,on-demand,24,unit,3.9491,USD,,False
+2026-06-28,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsactive02,platform,web,prod,on-demand,24,unit,5.0845,USD,,True
+2026-06-28,aws,111122223333,Amazon Relational Database Service,us-east-1,db-0awsprodrds01,platform,web,prod,on-demand,24,unit,26.7513,USD,,
+2026-06-28,aws,111122223333,Amazon Simple Storage Service,us-east-1,s3-0awsassetsbucket,platform,web,prod,on-demand,24,unit,6.528,USD,,
+2026-06-28,aws,111122223333,Amazon Virtual Private Cloud,us-east-1,nat-0awsgateway01,,,,on-demand,24,unit,2.904,USD,,
+2026-06-28,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,on-demand,24,unit,3.726,USD,2.2,
+2026-06-28,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,on-demand,24,unit,16.3254,USD,49.8,
+2026-06-28,azure,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,on-demand,24,unit,22.5555,USD,12.5,
+2026-06-28,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,reserved,24,unit,12.9881,USD,68.6,
+2026-06-28,azure,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,on-demand,24,unit,2.3935,USD,1.9,
+2026-06-28,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,on-demand,24,unit,3.6756,USD,,False
+2026-06-28,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,on-demand,24,unit,4.261,USD,,True
+2026-06-28,azure,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,on-demand,24,unit,26.0848,USD,,
+2026-06-28,azure,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,on-demand,24,unit,5.4334,USD,,
+2026-06-28,azure,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,on-demand,24,unit,3.101,USD,,
+2026-06-28,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,on-demand,24,unit,3.1133,USD,1.6,
+2026-06-28,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,on-demand,24,unit,17.3641,USD,68.8,
+2026-06-28,gcp,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,on-demand,24,unit,25.9781,USD,21.2,
+2026-06-28,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed,24,unit,13.0253,USD,63.9,
+2026-06-28,gcp,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,on-demand,24,unit,2.3982,USD,1.1,
+2026-06-28,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,on-demand,24,unit,3.2767,USD,,False
+2026-06-28,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,on-demand,24,unit,4.2281,USD,,True
+2026-06-28,gcp,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,on-demand,24,unit,24.116,USD,,
+2026-06-28,gcp,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,on-demand,24,unit,5.8222,USD,,
+2026-06-28,gcp,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,on-demand,24,unit,2.6119,USD,,
+2026-06-29,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web01,platform,web,prod,on-demand,24,unit,3.3806,USD,1.8,
+2026-06-29,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web02,platform,web,prod,on-demand,24,unit,17.2527,USD,53.4,
+2026-06-29,aws,111122223333,Amazon Elastic Compute Cloud,us-west-2,i-0aws0000000batch3,data,etl,prod,on-demand,24,unit,25.022,USD,18.8,
+2026-06-29,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000api04,platform,api,prod,reserved,24,unit,13.6775,USD,77.1,
+2026-06-29,aws,111122223333,Amazon Elastic Compute Cloud,eu-west-1,i-0aws0000000legacy5,,,,on-demand,24,unit,2.5901,USD,1.5,
+2026-06-29,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsorphan01,platform,web,prod,on-demand,24,unit,3.8021,USD,,False
+2026-06-29,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsactive02,platform,web,prod,on-demand,24,unit,5.2816,USD,,True
+2026-06-29,aws,111122223333,Amazon Relational Database Service,us-east-1,db-0awsprodrds01,platform,web,prod,on-demand,24,unit,29.1423,USD,,
+2026-06-29,aws,111122223333,Amazon Simple Storage Service,us-east-1,s3-0awsassetsbucket,platform,web,prod,on-demand,24,unit,5.8731,USD,,
+2026-06-29,aws,111122223333,Amazon Virtual Private Cloud,us-east-1,nat-0awsgateway01,,,,on-demand,24,unit,3.0293,USD,,
+2026-06-29,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,on-demand,24,unit,3.5641,USD,2.6,
+2026-06-29,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,on-demand,24,unit,18.4537,USD,49.5,
+2026-06-29,azure,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,on-demand,24,unit,25.044,USD,12.4,
+2026-06-29,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,reserved,24,unit,13.2857,USD,79.3,
+2026-06-29,azure,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,on-demand,24,unit,2.4364,USD,1.7,
+2026-06-29,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,on-demand,24,unit,4.0132,USD,,False
+2026-06-29,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,on-demand,24,unit,4.8207,USD,,True
+2026-06-29,azure,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,on-demand,24,unit,26.7216,USD,,
+2026-06-29,azure,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,on-demand,24,unit,5.9708,USD,,
+2026-06-29,azure,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,on-demand,24,unit,2.7205,USD,,
+2026-06-29,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,on-demand,24,unit,3.3004,USD,1.7,
+2026-06-29,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,on-demand,24,unit,18.0964,USD,52.6,
+2026-06-29,gcp,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,on-demand,24,unit,24.4726,USD,20.7,
+2026-06-29,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed,24,unit,14.4674,USD,79.8,
+2026-06-29,gcp,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,on-demand,24,unit,2.2855,USD,1.0,
+2026-06-29,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,on-demand,24,unit,3.4208,USD,,False
+2026-06-29,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,on-demand,24,unit,4.0683,USD,,True
+2026-06-29,gcp,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,on-demand,24,unit,25.9438,USD,,
+2026-06-29,gcp,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,on-demand,24,unit,5.6925,USD,,
+2026-06-29,gcp,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,on-demand,24,unit,2.9045,USD,,
+2026-06-30,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web01,platform,web,prod,on-demand,24,unit,3.1991,USD,2.4,
+2026-06-30,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web02,platform,web,prod,on-demand,24,unit,17.0729,USD,62.0,
+2026-06-30,aws,111122223333,Amazon Elastic Compute Cloud,us-west-2,i-0aws0000000batch3,data,etl,prod,on-demand,24,unit,24.1542,USD,15.5,
+2026-06-30,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000api04,platform,api,prod,reserved,24,unit,13.6809,USD,76.2,
+2026-06-30,aws,111122223333,Amazon Elastic Compute Cloud,eu-west-1,i-0aws0000000legacy5,,,,on-demand,24,unit,2.8657,USD,1.5,
+2026-06-30,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsorphan01,platform,web,prod,on-demand,24,unit,4.1503,USD,,False
+2026-06-30,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsactive02,platform,web,prod,on-demand,24,unit,5.052,USD,,True
+2026-06-30,aws,111122223333,Amazon Relational Database Service,us-east-1,db-0awsprodrds01,platform,web,prod,on-demand,24,unit,30.5716,USD,,
+2026-06-30,aws,111122223333,Amazon Simple Storage Service,us-east-1,s3-0awsassetsbucket,platform,web,prod,on-demand,24,unit,6.3685,USD,,
+2026-06-30,aws,111122223333,Amazon Virtual Private Cloud,us-east-1,nat-0awsgateway01,,,,on-demand,24,unit,3.0198,USD,,
+2026-06-30,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,on-demand,24,unit,3.6133,USD,2.7,
+2026-06-30,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,on-demand,24,unit,16.2732,USD,61.4,
+2026-06-30,azure,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,on-demand,24,unit,23.0219,USD,13.2,
+2026-06-30,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,reserved,24,unit,13.8808,USD,65.2,
+2026-06-30,azure,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,on-demand,24,unit,2.6821,USD,1.8,
+2026-06-30,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,on-demand,24,unit,4.0966,USD,,False
+2026-06-30,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,on-demand,24,unit,4.2722,USD,,True
+2026-06-30,azure,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,on-demand,24,unit,26.6988,USD,,
+2026-06-30,azure,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,on-demand,24,unit,5.3871,USD,,
+2026-06-30,azure,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,on-demand,24,unit,3.0619,USD,,
+2026-06-30,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,on-demand,24,unit,3.3802,USD,2.3,
+2026-06-30,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,on-demand,24,unit,15.7504,USD,59.8,
+2026-06-30,gcp,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,on-demand,24,unit,23.9214,USD,23.4,
+2026-06-30,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed,24,unit,12.8072,USD,67.5,
+2026-06-30,gcp,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,on-demand,24,unit,2.4785,USD,1.0,
+2026-06-30,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,on-demand,24,unit,3.3516,USD,,False
+2026-06-30,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,on-demand,24,unit,4.3712,USD,,True
+2026-06-30,gcp,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,on-demand,24,unit,26.4147,USD,,
+2026-06-30,gcp,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,on-demand,24,unit,5.3552,USD,,
+2026-06-30,gcp,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,on-demand,24,unit,2.854,USD,,
+2026-07-01,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web01,platform,web,prod,on-demand,24,unit,3.3712,USD,1.8,
+2026-07-01,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web02,platform,web,prod,on-demand,24,unit,18.1924,USD,67.5,
+2026-07-01,aws,111122223333,Amazon Elastic Compute Cloud,us-west-2,i-0aws0000000batch3,data,etl,prod,on-demand,24,unit,24.5372,USD,16.5,
+2026-07-01,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000api04,platform,api,prod,reserved,24,unit,14.2289,USD,58.2,
+2026-07-01,aws,111122223333,Amazon Elastic Compute Cloud,eu-west-1,i-0aws0000000legacy5,,,,on-demand,24,unit,2.6196,USD,1.5,
+2026-07-01,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsorphan01,platform,web,prod,on-demand,24,unit,4.1781,USD,,False
+2026-07-01,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsactive02,platform,web,prod,on-demand,24,unit,4.8437,USD,,True
+2026-07-01,aws,111122223333,Amazon Relational Database Service,us-east-1,db-0awsprodrds01,platform,web,prod,on-demand,24,unit,28.4379,USD,,
+2026-07-01,aws,111122223333,Amazon Simple Storage Service,us-east-1,s3-0awsassetsbucket,platform,web,prod,on-demand,24,unit,5.9092,USD,,
+2026-07-01,aws,111122223333,Amazon Virtual Private Cloud,us-east-1,nat-0awsgateway01,,,,on-demand,24,unit,3.1851,USD,,
+2026-07-01,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,on-demand,24,unit,3.8594,USD,2.4,
+2026-07-01,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,on-demand,24,unit,16.1591,USD,52.2,
+2026-07-01,azure,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,on-demand,24,unit,23.9554,USD,14.3,
+2026-07-01,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,reserved,24,unit,13.7587,USD,67.3,
+2026-07-01,azure,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,on-demand,24,unit,2.6237,USD,1.9,
+2026-07-01,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,on-demand,24,unit,3.5653,USD,,False
+2026-07-01,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,on-demand,24,unit,4.7909,USD,,True
+2026-07-01,azure,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,on-demand,24,unit,24.938,USD,,
+2026-07-01,azure,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,on-demand,24,unit,5.5553,USD,,
+2026-07-01,azure,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,on-demand,24,unit,3.0531,USD,,
+2026-07-01,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,on-demand,24,unit,3.4378,USD,1.9,
+2026-07-01,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,on-demand,24,unit,16.9594,USD,64.4,
+2026-07-01,gcp,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,on-demand,24,unit,23.2816,USD,17.6,
+2026-07-01,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed,24,unit,13.0061,USD,80.9,
+2026-07-01,gcp,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,on-demand,24,unit,2.5239,USD,0.9,
+2026-07-01,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,on-demand,24,unit,3.5621,USD,,False
+2026-07-01,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,on-demand,24,unit,4.18,USD,,True
+2026-07-01,gcp,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,on-demand,24,unit,26.9346,USD,,
+2026-07-01,gcp,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,on-demand,24,unit,5.3075,USD,,
+2026-07-01,gcp,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,on-demand,24,unit,2.6814,USD,,
+2026-07-02,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web01,platform,web,prod,on-demand,24,unit,3.5531,USD,2.3,
+2026-07-02,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web02,platform,web,prod,on-demand,24,unit,17.0578,USD,62.0,
+2026-07-02,aws,111122223333,Amazon Elastic Compute Cloud,us-west-2,i-0aws0000000batch3,data,etl,prod,on-demand,24,unit,28.1592,USD,19.1,
+2026-07-02,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000api04,platform,api,prod,reserved,24,unit,14.3004,USD,78.0,
+2026-07-02,aws,111122223333,Amazon Elastic Compute Cloud,eu-west-1,i-0aws0000000legacy5,,,,on-demand,24,unit,2.7976,USD,1.5,
+2026-07-02,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsorphan01,platform,web,prod,on-demand,24,unit,4.3993,USD,,False
+2026-07-02,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsactive02,platform,web,prod,on-demand,24,unit,4.7077,USD,,True
+2026-07-02,aws,111122223333,Amazon Relational Database Service,us-east-1,db-0awsprodrds01,platform,web,prod,on-demand,24,unit,28.3947,USD,,
+2026-07-02,aws,111122223333,Amazon Simple Storage Service,us-east-1,s3-0awsassetsbucket,platform,web,prod,on-demand,24,unit,6.2301,USD,,
+2026-07-02,aws,111122223333,Amazon Virtual Private Cloud,us-east-1,nat-0awsgateway01,,,,on-demand,24,unit,2.8761,USD,,
+2026-07-02,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,on-demand,24,unit,3.8507,USD,2.8,
+2026-07-02,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,on-demand,24,unit,17.3525,USD,58.2,
+2026-07-02,azure,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,on-demand,24,unit,25.9115,USD,12.4,
+2026-07-02,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,reserved,24,unit,13.6697,USD,73.6,
+2026-07-02,azure,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,on-demand,24,unit,2.4216,USD,1.7,
+2026-07-02,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,on-demand,24,unit,3.8611,USD,,False
+2026-07-02,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,on-demand,24,unit,4.8817,USD,,True
+2026-07-02,azure,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,on-demand,24,unit,26.1172,USD,,
+2026-07-02,azure,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,on-demand,24,unit,5.5948,USD,,
+2026-07-02,azure,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,on-demand,24,unit,3.1225,USD,,
+2026-07-02,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,on-demand,24,unit,3.4129,USD,2.2,
+2026-07-02,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,on-demand,24,unit,16.2878,USD,70.0,
+2026-07-02,gcp,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,on-demand,24,unit,27.1577,USD,19.7,
+2026-07-02,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed,24,unit,12.9905,USD,72.6,
+2026-07-02,gcp,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,on-demand,24,unit,2.5306,USD,1.1,
+2026-07-02,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,on-demand,24,unit,3.3874,USD,,False
+2026-07-02,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,on-demand,24,unit,4.5419,USD,,True
+2026-07-02,gcp,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,on-demand,24,unit,26.6544,USD,,
+2026-07-02,gcp,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,on-demand,24,unit,5.5831,USD,,
+2026-07-02,gcp,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,on-demand,24,unit,2.8881,USD,,
+2026-07-03,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web01,platform,web,prod,on-demand,24,unit,3.4721,USD,1.9,
+2026-07-03,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web02,platform,web,prod,on-demand,24,unit,18.5616,USD,59.2,
+2026-07-03,aws,111122223333,Amazon Elastic Compute Cloud,us-west-2,i-0aws0000000batch3,data,etl,prod,on-demand,24,unit,25.8603,USD,18.1,
+2026-07-03,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000api04,platform,api,prod,reserved,24,unit,15.1859,USD,74.8,
+2026-07-03,aws,111122223333,Amazon Elastic Compute Cloud,eu-west-1,i-0aws0000000legacy5,,,,on-demand,24,unit,3.0447,USD,1.4,
+2026-07-03,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsorphan01,platform,web,prod,on-demand,24,unit,4.2275,USD,,False
+2026-07-03,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsactive02,platform,web,prod,on-demand,24,unit,4.8579,USD,,True
+2026-07-03,aws,111122223333,Amazon Relational Database Service,us-east-1,db-0awsprodrds01,platform,web,prod,on-demand,24,unit,26.6524,USD,,
+2026-07-03,aws,111122223333,Amazon Simple Storage Service,us-east-1,s3-0awsassetsbucket,platform,web,prod,on-demand,24,unit,6.0534,USD,,
+2026-07-03,aws,111122223333,Amazon Virtual Private Cloud,us-east-1,nat-0awsgateway01,,,,on-demand,24,unit,3.0903,USD,,
+2026-07-03,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,on-demand,24,unit,3.6407,USD,2.7,
+2026-07-03,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,on-demand,24,unit,17.1703,USD,63.2,
+2026-07-03,azure,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,on-demand,24,unit,25.7539,USD,12.9,
+2026-07-03,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,reserved,24,unit,14.2502,USD,75.5,
+2026-07-03,azure,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,on-demand,24,unit,2.5994,USD,1.5,
+2026-07-03,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,on-demand,24,unit,3.5844,USD,,False
+2026-07-03,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,on-demand,24,unit,4.7253,USD,,True
+2026-07-03,azure,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,on-demand,24,unit,24.8468,USD,,
+2026-07-03,azure,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,on-demand,24,unit,5.9282,USD,,
+2026-07-03,azure,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,on-demand,24,unit,2.7427,USD,,
+2026-07-03,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,on-demand,24,unit,3.0907,USD,1.8,
+2026-07-03,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,on-demand,24,unit,17.8177,USD,64.1,
+2026-07-03,gcp,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,on-demand,24,unit,24.5739,USD,21.8,
+2026-07-03,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed,24,unit,12.7673,USD,83.5,
+2026-07-03,gcp,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,on-demand,24,unit,2.3098,USD,1.1,
+2026-07-03,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,on-demand,24,unit,3.6341,USD,,False
+2026-07-03,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,on-demand,24,unit,4.6568,USD,,True
+2026-07-03,gcp,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,on-demand,24,unit,26.1774,USD,,
+2026-07-03,gcp,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,on-demand,24,unit,5.4529,USD,,
+2026-07-03,gcp,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,on-demand,24,unit,2.5866,USD,,
+2026-07-04,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web01,platform,web,prod,on-demand,24,unit,3.5547,USD,2.3,
+2026-07-04,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web02,platform,web,prod,on-demand,24,unit,17.5816,USD,67.8,
+2026-07-04,aws,111122223333,Amazon Elastic Compute Cloud,us-west-2,i-0aws0000000batch3,data,etl,prod,on-demand,24,unit,28.4936,USD,16.3,
+2026-07-04,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000api04,platform,api,prod,reserved,24,unit,15.1303,USD,83.2,
+2026-07-04,aws,111122223333,Amazon Elastic Compute Cloud,eu-west-1,i-0aws0000000legacy5,,,,on-demand,24,unit,2.7679,USD,1.4,
+2026-07-04,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsorphan01,platform,web,prod,on-demand,24,unit,3.7805,USD,,False
+2026-07-04,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsactive02,platform,web,prod,on-demand,24,unit,4.8011,USD,,True
+2026-07-04,aws,111122223333,Amazon Relational Database Service,us-east-1,db-0awsprodrds01,platform,web,prod,on-demand,24,unit,28.9478,USD,,
+2026-07-04,aws,111122223333,Amazon Simple Storage Service,us-east-1,s3-0awsassetsbucket,platform,web,prod,on-demand,24,unit,6.4787,USD,,
+2026-07-04,aws,111122223333,Amazon Virtual Private Cloud,us-east-1,nat-0awsgateway01,,,,on-demand,24,unit,3.2836,USD,,
+2026-07-04,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,on-demand,24,unit,3.7901,USD,2.9,
+2026-07-04,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,on-demand,24,unit,17.9697,USD,61.1,
+2026-07-04,azure,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,on-demand,24,unit,25.567,USD,14.2,
+2026-07-04,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,reserved,24,unit,13.7233,USD,74.8,
+2026-07-04,azure,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,on-demand,24,unit,2.7989,USD,1.7,
+2026-07-04,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,on-demand,24,unit,3.6039,USD,,False
+2026-07-04,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,on-demand,24,unit,4.7344,USD,,True
+2026-07-04,azure,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,on-demand,24,unit,24.7928,USD,,
+2026-07-04,azure,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,on-demand,24,unit,5.4025,USD,,
+2026-07-04,azure,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,on-demand,24,unit,2.9064,USD,,
+2026-07-04,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,on-demand,24,unit,3.1371,USD,1.9,
+2026-07-04,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,on-demand,24,unit,17.053,USD,52.0,
+2026-07-04,gcp,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,on-demand,24,unit,25.9003,USD,18.2,
+2026-07-04,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed,24,unit,13.4259,USD,80.7,
+2026-07-04,gcp,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,on-demand,24,unit,2.3442,USD,0.9,
+2026-07-04,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,on-demand,24,unit,3.4007,USD,,False
+2026-07-04,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,on-demand,24,unit,4.0838,USD,,True
+2026-07-04,gcp,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,on-demand,24,unit,26.9434,USD,,
+2026-07-04,gcp,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,on-demand,24,unit,5.4999,USD,,
+2026-07-04,gcp,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,on-demand,24,unit,2.7699,USD,,
+2026-07-05,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web01,platform,web,prod,on-demand,24,unit,3.3949,USD,2.2,
+2026-07-05,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web02,platform,web,prod,on-demand,24,unit,17.7867,USD,70.5,
+2026-07-05,aws,111122223333,Amazon Elastic Compute Cloud,us-west-2,i-0aws0000000batch3,data,etl,prod,on-demand,24,unit,26.0483,USD,15.3,
+2026-07-05,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000api04,platform,api,prod,reserved,24,unit,13.3868,USD,60.0,
+2026-07-05,aws,111122223333,Amazon Elastic Compute Cloud,eu-west-1,i-0aws0000000legacy5,,,,on-demand,24,unit,2.8726,USD,1.4,
+2026-07-05,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsorphan01,platform,web,prod,on-demand,24,unit,4.1243,USD,,False
+2026-07-05,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsactive02,platform,web,prod,on-demand,24,unit,4.6736,USD,,True
+2026-07-05,aws,111122223333,Amazon Relational Database Service,us-east-1,db-0awsprodrds01,platform,web,prod,on-demand,24,unit,27.1331,USD,,
+2026-07-05,aws,111122223333,Amazon Simple Storage Service,us-east-1,s3-0awsassetsbucket,platform,web,prod,on-demand,24,unit,5.9156,USD,,
+2026-07-05,aws,111122223333,Amazon Virtual Private Cloud,us-east-1,nat-0awsgateway01,,,,on-demand,24,unit,3.0166,USD,,
+2026-07-05,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,on-demand,24,unit,3.5198,USD,2.2,
+2026-07-05,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,on-demand,24,unit,18.1034,USD,58.6,
+2026-07-05,azure,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,on-demand,24,unit,26.6721,USD,15.6,
+2026-07-05,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,reserved,24,unit,14.5392,USD,56.0,
+2026-07-05,azure,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,on-demand,24,unit,2.6915,USD,1.8,
+2026-07-05,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,on-demand,24,unit,4.0459,USD,,False
+2026-07-05,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,on-demand,24,unit,4.6837,USD,,True
+2026-07-05,azure,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,on-demand,24,unit,26.6058,USD,,
+2026-07-05,azure,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,on-demand,24,unit,6.1185,USD,,
+2026-07-05,azure,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,on-demand,24,unit,2.9847,USD,,
+2026-07-05,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,on-demand,24,unit,3.1083,USD,2.3,
+2026-07-05,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,on-demand,24,unit,18.1032,USD,57.5,
+2026-07-05,gcp,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,on-demand,24,unit,25.8726,USD,18.4,
+2026-07-05,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed,24,unit,14.7082,USD,83.7,
+2026-07-05,gcp,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,on-demand,24,unit,2.4459,USD,1.1,
+2026-07-05,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,on-demand,24,unit,3.4695,USD,,False
+2026-07-05,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,on-demand,24,unit,4.0789,USD,,True
+2026-07-05,gcp,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,on-demand,24,unit,26.8059,USD,,
+2026-07-05,gcp,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,on-demand,24,unit,5.1343,USD,,
+2026-07-05,gcp,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,on-demand,24,unit,2.706,USD,,
+2026-07-06,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web01,platform,web,prod,on-demand,24,unit,3.6438,USD,1.8,
+2026-07-06,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web02,platform,web,prod,on-demand,24,unit,19.5287,USD,64.9,
+2026-07-06,aws,111122223333,Amazon Elastic Compute Cloud,us-west-2,i-0aws0000000batch3,data,etl,prod,on-demand,24,unit,24.8597,USD,14.3,
+2026-07-06,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000api04,platform,api,prod,reserved,24,unit,14.4843,USD,78.0,
+2026-07-06,aws,111122223333,Amazon Elastic Compute Cloud,eu-west-1,i-0aws0000000legacy5,,,,on-demand,24,unit,3.0556,USD,1.4,
+2026-07-06,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsorphan01,platform,web,prod,on-demand,24,unit,3.8402,USD,,False
+2026-07-06,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsactive02,platform,web,prod,on-demand,24,unit,5.0302,USD,,True
+2026-07-06,aws,111122223333,Amazon Relational Database Service,us-east-1,db-0awsprodrds01,platform,web,prod,on-demand,24,unit,29.3213,USD,,
+2026-07-06,aws,111122223333,Amazon Simple Storage Service,us-east-1,s3-0awsassetsbucket,platform,web,prod,on-demand,24,unit,6.6724,USD,,
+2026-07-06,aws,111122223333,Amazon Virtual Private Cloud,us-east-1,nat-0awsgateway01,,,,on-demand,24,unit,3.2365,USD,,
+2026-07-06,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,on-demand,24,unit,3.6844,USD,2.9,
+2026-07-06,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,on-demand,24,unit,18.0873,USD,50.8,
+2026-07-06,azure,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,on-demand,24,unit,24.691,USD,13.2,
+2026-07-06,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,reserved,24,unit,12.609,USD,57.1,
+2026-07-06,azure,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,on-demand,24,unit,2.76,USD,1.8,
+2026-07-06,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,on-demand,24,unit,3.8456,USD,,False
+2026-07-06,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,on-demand,24,unit,4.3995,USD,,True
+2026-07-06,azure,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,on-demand,24,unit,25.0921,USD,,
+2026-07-06,azure,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,on-demand,24,unit,5.5979,USD,,
+2026-07-06,azure,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,on-demand,24,unit,2.9604,USD,,
+2026-07-06,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,on-demand,24,unit,3.1657,USD,1.7,
+2026-07-06,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,on-demand,24,unit,17.3686,USD,60.8,
+2026-07-06,gcp,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,on-demand,24,unit,26.4424,USD,20.9,
+2026-07-06,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed,24,unit,14.3652,USD,77.3,
+2026-07-06,gcp,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,on-demand,24,unit,2.5911,USD,0.8,
+2026-07-06,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,on-demand,24,unit,3.7397,USD,,False
+2026-07-06,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,on-demand,24,unit,4.1227,USD,,True
+2026-07-06,gcp,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,on-demand,24,unit,26.3567,USD,,
+2026-07-06,gcp,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,on-demand,24,unit,5.2284,USD,,
+2026-07-06,gcp,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,on-demand,24,unit,2.5214,USD,,
+2026-07-07,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web01,platform,web,prod,on-demand,24,unit,3.5443,USD,2.1,
+2026-07-07,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web02,platform,web,prod,on-demand,24,unit,17.8946,USD,67.7,
+2026-07-07,aws,111122223333,Amazon Elastic Compute Cloud,us-west-2,i-0aws0000000batch3,data,etl,prod,on-demand,24,unit,27.0308,USD,17.2,
+2026-07-07,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000api04,platform,api,prod,reserved,24,unit,13.2797,USD,68.2,
+2026-07-07,aws,111122223333,Amazon Elastic Compute Cloud,eu-west-1,i-0aws0000000legacy5,,,,on-demand,24,unit,3.042,USD,1.4,
+2026-07-07,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsorphan01,platform,web,prod,on-demand,24,unit,4.4018,USD,,False
+2026-07-07,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsactive02,platform,web,prod,on-demand,24,unit,4.7153,USD,,True
+2026-07-07,aws,111122223333,Amazon Relational Database Service,us-east-1,db-0awsprodrds01,platform,web,prod,on-demand,24,unit,29.2056,USD,,
+2026-07-07,aws,111122223333,Amazon Simple Storage Service,us-east-1,s3-0awsassetsbucket,platform,web,prod,on-demand,24,unit,6.6109,USD,,
+2026-07-07,aws,111122223333,Amazon Virtual Private Cloud,us-east-1,nat-0awsgateway01,,,,on-demand,24,unit,3.2463,USD,,
+2026-07-07,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,on-demand,24,unit,3.7321,USD,2.4,
+2026-07-07,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,on-demand,24,unit,18.6513,USD,59.1,
+2026-07-07,azure,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,on-demand,24,unit,25.2178,USD,12.1,
+2026-07-07,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,reserved,24,unit,12.4309,USD,70.4,
+2026-07-07,azure,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,on-demand,24,unit,2.667,USD,2.1,
+2026-07-07,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,on-demand,24,unit,3.6813,USD,,False
+2026-07-07,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,on-demand,24,unit,4.7827,USD,,True
+2026-07-07,azure,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,on-demand,24,unit,27.7852,USD,,
+2026-07-07,azure,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,on-demand,24,unit,5.5576,USD,,
+2026-07-07,azure,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,on-demand,24,unit,2.8595,USD,,
+2026-07-07,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,on-demand,24,unit,3.2747,USD,2.0,
+2026-07-07,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,on-demand,24,unit,15.9832,USD,54.0,
+2026-07-07,gcp,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,on-demand,24,unit,27.4005,USD,17.8,
+2026-07-07,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed,24,unit,13.0964,USD,83.1,
+2026-07-07,gcp,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,on-demand,24,unit,2.6673,USD,1.1,
+2026-07-07,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,on-demand,24,unit,3.7421,USD,,False
+2026-07-07,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,on-demand,24,unit,4.748,USD,,True
+2026-07-07,gcp,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,on-demand,24,unit,25.0438,USD,,
+2026-07-07,gcp,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,on-demand,24,unit,5.4429,USD,,
+2026-07-07,gcp,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,on-demand,24,unit,2.6096,USD,,
+2026-07-08,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web01,platform,web,prod,on-demand,24,unit,3.1646,USD,1.8,
+2026-07-08,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web02,platform,web,prod,on-demand,24,unit,18.8569,USD,63.7,
+2026-07-08,aws,111122223333,Amazon Elastic Compute Cloud,us-west-2,i-0aws0000000batch3,data,etl,prod,on-demand,24,unit,26.5617,USD,14.7,
+2026-07-08,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000api04,platform,api,prod,reserved,24,unit,14.4507,USD,60.8,
+2026-07-08,aws,111122223333,Amazon Elastic Compute Cloud,eu-west-1,i-0aws0000000legacy5,,,,on-demand,24,unit,2.9764,USD,1.6,
+2026-07-08,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsorphan01,platform,web,prod,on-demand,24,unit,3.9805,USD,,False
+2026-07-08,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsactive02,platform,web,prod,on-demand,24,unit,4.9605,USD,,True
+2026-07-08,aws,111122223333,Amazon Relational Database Service,us-east-1,db-0awsprodrds01,platform,web,prod,on-demand,24,unit,28.9287,USD,,
+2026-07-08,aws,111122223333,Amazon Simple Storage Service,us-east-1,s3-0awsassetsbucket,platform,web,prod,on-demand,24,unit,6.0072,USD,,
+2026-07-08,aws,111122223333,Amazon Virtual Private Cloud,us-east-1,nat-0awsgateway01,,,,on-demand,24,unit,3.1417,USD,,
+2026-07-08,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,on-demand,24,unit,3.6378,USD,2.4,
+2026-07-08,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,on-demand,24,unit,16.8887,USD,56.5,
+2026-07-08,azure,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,on-demand,24,unit,23.15,USD,12.7,
+2026-07-08,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,reserved,24,unit,12.8985,USD,73.9,
+2026-07-08,azure,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,on-demand,24,unit,2.6393,USD,2.0,
+2026-07-08,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,on-demand,24,unit,3.5777,USD,,False
+2026-07-08,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,on-demand,24,unit,4.7715,USD,,True
+2026-07-08,azure,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,on-demand,24,unit,27.6781,USD,,
+2026-07-08,azure,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,on-demand,24,unit,5.6661,USD,,
+2026-07-08,azure,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,on-demand,24,unit,2.8345,USD,,
+2026-07-08,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,on-demand,24,unit,3.1004,USD,2.0,
+2026-07-08,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,on-demand,24,unit,16.0233,USD,62.3,
+2026-07-08,gcp,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,on-demand,24,unit,27.5882,USD,22.6,
+2026-07-08,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed,24,unit,13.0051,USD,76.0,
+2026-07-08,gcp,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,on-demand,24,unit,2.4434,USD,1.1,
+2026-07-08,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,on-demand,24,unit,3.2628,USD,,False
+2026-07-08,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,on-demand,24,unit,4.1011,USD,,True
+2026-07-08,gcp,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,on-demand,24,unit,23.2591,USD,,
+2026-07-08,gcp,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,on-demand,24,unit,5.4062,USD,,
+2026-07-08,gcp,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,on-demand,24,unit,2.4975,USD,,
+2026-07-09,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web01,platform,web,prod,on-demand,24,unit,3.4445,USD,2.0,
+2026-07-09,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web02,platform,web,prod,on-demand,24,unit,18.4622,USD,73.4,
+2026-07-09,aws,111122223333,Amazon Elastic Compute Cloud,us-west-2,i-0aws0000000batch3,data,etl,prod,on-demand,24,unit,27.684,USD,17.3,
+2026-07-09,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000api04,platform,api,prod,reserved,24,unit,15.2251,USD,70.3,
+2026-07-09,aws,111122223333,Amazon Elastic Compute Cloud,eu-west-1,i-0aws0000000legacy5,,,,on-demand,24,unit,3.0666,USD,1.3,
+2026-07-09,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsorphan01,platform,web,prod,on-demand,24,unit,3.9185,USD,,False
+2026-07-09,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsactive02,platform,web,prod,on-demand,24,unit,5.2177,USD,,True
+2026-07-09,aws,111122223333,Amazon Relational Database Service,us-east-1,db-0awsprodrds01,platform,web,prod,on-demand,24,unit,29.4598,USD,,
+2026-07-09,aws,111122223333,Amazon Simple Storage Service,us-east-1,s3-0awsassetsbucket,platform,web,prod,on-demand,24,unit,5.9927,USD,,
+2026-07-09,aws,111122223333,Amazon Virtual Private Cloud,us-east-1,nat-0awsgateway01,,,,on-demand,24,unit,3.0825,USD,,
+2026-07-09,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,on-demand,24,unit,3.606,USD,2.4,
+2026-07-09,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,on-demand,24,unit,17.406,USD,61.4,
+2026-07-09,azure,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,on-demand,24,unit,26.6941,USD,15.5,
+2026-07-09,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,reserved,24,unit,13.7463,USD,59.8,
+2026-07-09,azure,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,on-demand,24,unit,2.6879,USD,1.8,
+2026-07-09,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,on-demand,24,unit,3.6049,USD,,False
+2026-07-09,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,on-demand,24,unit,4.9303,USD,,True
+2026-07-09,azure,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,on-demand,24,unit,26.7657,USD,,
+2026-07-09,azure,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,on-demand,24,unit,6.1266,USD,,
+2026-07-09,azure,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,on-demand,24,unit,3.0095,USD,,
+2026-07-09,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,on-demand,24,unit,3.1916,USD,1.9,
+2026-07-09,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,on-demand,24,unit,16.1397,USD,59.7,
+2026-07-09,gcp,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,on-demand,24,unit,24.4679,USD,19.1,
+2026-07-09,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed,24,unit,12.7905,USD,67.1,
+2026-07-09,gcp,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,on-demand,24,unit,2.7208,USD,1.0,
+2026-07-09,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,on-demand,24,unit,3.483,USD,,False
+2026-07-09,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,on-demand,24,unit,4.3681,USD,,True
+2026-07-09,gcp,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,on-demand,24,unit,23.3712,USD,,
+2026-07-09,gcp,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,on-demand,24,unit,5.8152,USD,,
+2026-07-09,gcp,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,on-demand,24,unit,2.624,USD,,
+2026-07-10,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web01,platform,web,prod,on-demand,24,unit,3.5108,USD,2.1,
+2026-07-10,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web02,platform,web,prod,on-demand,24,unit,19.1599,USD,71.7,
+2026-07-10,aws,111122223333,Amazon Elastic Compute Cloud,us-west-2,i-0aws0000000batch3,data,etl,prod,on-demand,24,unit,26.5683,USD,17.3,
+2026-07-10,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000api04,platform,api,prod,reserved,24,unit,13.3642,USD,74.9,
+2026-07-10,aws,111122223333,Amazon Elastic Compute Cloud,eu-west-1,i-0aws0000000legacy5,,,,on-demand,24,unit,2.8904,USD,1.5,
+2026-07-10,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsorphan01,platform,web,prod,on-demand,24,unit,4.3201,USD,,False
+2026-07-10,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsactive02,platform,web,prod,on-demand,24,unit,5.0133,USD,,True
+2026-07-10,aws,111122223333,Amazon Relational Database Service,us-east-1,db-0awsprodrds01,platform,web,prod,on-demand,24,unit,27.838,USD,,
+2026-07-10,aws,111122223333,Amazon Simple Storage Service,us-east-1,s3-0awsassetsbucket,platform,web,prod,on-demand,24,unit,6.604,USD,,
+2026-07-10,aws,111122223333,Amazon Virtual Private Cloud,us-east-1,nat-0awsgateway01,,,,on-demand,24,unit,3.1081,USD,,
+2026-07-10,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,on-demand,24,unit,3.5153,USD,2.8,
+2026-07-10,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,on-demand,24,unit,17.3634,USD,57.6,
+2026-07-10,azure,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,on-demand,24,unit,25.8546,USD,14.0,
+2026-07-10,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,reserved,24,unit,12.7202,USD,59.8,
+2026-07-10,azure,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,on-demand,24,unit,2.5147,USD,1.9,
+2026-07-10,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,on-demand,24,unit,3.6246,USD,,False
+2026-07-10,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,on-demand,24,unit,4.3696,USD,,True
+2026-07-10,azure,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,on-demand,24,unit,25.5246,USD,,
+2026-07-10,azure,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,on-demand,24,unit,5.8982,USD,,
+2026-07-10,azure,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,on-demand,24,unit,2.7229,USD,,
+2026-07-10,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,on-demand,24,unit,3.0619,USD,2.2,
+2026-07-10,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,on-demand,24,unit,17.4956,USD,59.6,
+2026-07-10,gcp,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,on-demand,24,unit,26.3684,USD,17.9,
+2026-07-10,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed,24,unit,13.052,USD,84.0,
+2026-07-10,gcp,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,on-demand,24,unit,2.3725,USD,0.8,
+2026-07-10,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,on-demand,24,unit,3.5412,USD,,False
+2026-07-10,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,on-demand,24,unit,4.1614,USD,,True
+2026-07-10,gcp,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,on-demand,24,unit,25.7223,USD,,
+2026-07-10,gcp,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,on-demand,24,unit,5.0019,USD,,
+2026-07-10,gcp,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,on-demand,24,unit,2.7312,USD,,
+2026-07-11,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web01,platform,web,prod,on-demand,24,unit,3.1584,USD,1.9,
+2026-07-11,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web02,platform,web,prod,on-demand,24,unit,17.2683,USD,74.6,
+2026-07-11,aws,111122223333,Amazon Elastic Compute Cloud,us-west-2,i-0aws0000000batch3,data,etl,prod,on-demand,24,unit,28.2123,USD,17.4,
+2026-07-11,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000api04,platform,api,prod,reserved,24,unit,13.014,USD,76.6,
+2026-07-11,aws,111122223333,Amazon Elastic Compute Cloud,eu-west-1,i-0aws0000000legacy5,,,,on-demand,24,unit,3.0477,USD,1.3,
+2026-07-11,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsorphan01,platform,web,prod,on-demand,24,unit,3.8283,USD,,False
+2026-07-11,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsactive02,platform,web,prod,on-demand,24,unit,4.9594,USD,,True
+2026-07-11,aws,111122223333,Amazon Relational Database Service,us-east-1,db-0awsprodrds01,platform,web,prod,on-demand,24,unit,30.6392,USD,,
+2026-07-11,aws,111122223333,Amazon Simple Storage Service,us-east-1,s3-0awsassetsbucket,platform,web,prod,on-demand,24,unit,6.5644,USD,,
+2026-07-11,aws,111122223333,Amazon Virtual Private Cloud,us-east-1,nat-0awsgateway01,,,,on-demand,24,unit,2.9366,USD,,
+2026-07-11,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,on-demand,24,unit,3.7903,USD,2.6,
+2026-07-11,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,on-demand,24,unit,18.2202,USD,64.7,
+2026-07-11,azure,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,on-demand,24,unit,24.2733,USD,14.8,
+2026-07-11,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,reserved,24,unit,12.9914,USD,73.5,
+2026-07-11,azure,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,on-demand,24,unit,2.6442,USD,1.8,
+2026-07-11,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,on-demand,24,unit,3.8551,USD,,False
+2026-07-11,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,on-demand,24,unit,4.4011,USD,,True
+2026-07-11,azure,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,on-demand,24,unit,25.6217,USD,,
+2026-07-11,azure,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,on-demand,24,unit,5.343,USD,,
+2026-07-11,azure,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,on-demand,24,unit,2.7619,USD,,
+2026-07-11,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,on-demand,24,unit,3.3841,USD,2.0,
+2026-07-11,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,on-demand,24,unit,16.6831,USD,52.4,
+2026-07-11,gcp,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,on-demand,24,unit,24.8896,USD,19.8,
+2026-07-11,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed,24,unit,14.0534,USD,62.6,
+2026-07-11,gcp,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,on-demand,24,unit,2.7007,USD,1.0,
+2026-07-11,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,on-demand,24,unit,3.2858,USD,,False
+2026-07-11,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,on-demand,24,unit,4.3875,USD,,True
+2026-07-11,gcp,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,on-demand,24,unit,23.7095,USD,,
+2026-07-11,gcp,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,on-demand,24,unit,5.4894,USD,,
+2026-07-11,gcp,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,on-demand,24,unit,2.8415,USD,,
+2026-07-12,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web01,platform,web,prod,on-demand,24,unit,3.616,USD,2.3,
+2026-07-12,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web02,platform,web,prod,on-demand,24,unit,18.6346,USD,64.5,
+2026-07-12,aws,111122223333,Amazon Elastic Compute Cloud,us-west-2,i-0aws0000000batch3,data,etl,prod,on-demand,24,unit,27.3484,USD,14.2,
+2026-07-12,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000api04,platform,api,prod,reserved,24,unit,14.1673,USD,64.1,
+2026-07-12,aws,111122223333,Amazon Elastic Compute Cloud,eu-west-1,i-0aws0000000legacy5,,,,on-demand,24,unit,3.1321,USD,1.5,
+2026-07-12,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsorphan01,platform,web,prod,on-demand,24,unit,4.0221,USD,,False
+2026-07-12,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsactive02,platform,web,prod,on-demand,24,unit,5.0712,USD,,True
+2026-07-12,aws,111122223333,Amazon Relational Database Service,us-east-1,db-0awsprodrds01,platform,web,prod,on-demand,24,unit,29.4969,USD,,
+2026-07-12,aws,111122223333,Amazon Simple Storage Service,us-east-1,s3-0awsassetsbucket,platform,web,prod,on-demand,24,unit,6.4594,USD,,
+2026-07-12,aws,111122223333,Amazon Virtual Private Cloud,us-east-1,nat-0awsgateway01,,,,on-demand,24,unit,3.1976,USD,,
+2026-07-12,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,on-demand,24,unit,3.3683,USD,2.2,
+2026-07-12,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,on-demand,24,unit,17.3364,USD,52.4,
+2026-07-12,azure,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,on-demand,24,unit,27.1969,USD,12.9,
+2026-07-12,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,reserved,24,unit,14.3138,USD,65.8,
+2026-07-12,azure,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,on-demand,24,unit,2.5921,USD,1.9,
+2026-07-12,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,on-demand,24,unit,3.976,USD,,False
+2026-07-12,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,on-demand,24,unit,4.6574,USD,,True
+2026-07-12,azure,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,on-demand,24,unit,24.5041,USD,,
+2026-07-12,azure,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,on-demand,24,unit,5.2506,USD,,
+2026-07-12,azure,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,on-demand,24,unit,2.9717,USD,,
+2026-07-12,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,on-demand,24,unit,3.2961,USD,1.9,
+2026-07-12,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,on-demand,24,unit,16.5276,USD,52.5,
+2026-07-12,gcp,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,on-demand,24,unit,27.4075,USD,18.2,
+2026-07-12,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed,24,unit,14.5838,USD,72.9,
+2026-07-12,gcp,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,on-demand,24,unit,2.5421,USD,0.9,
+2026-07-12,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,on-demand,24,unit,3.6011,USD,,False
+2026-07-12,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,on-demand,24,unit,4.5795,USD,,True
+2026-07-12,gcp,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,on-demand,24,unit,24.8501,USD,,
+2026-07-12,gcp,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,on-demand,24,unit,5.6452,USD,,
+2026-07-12,gcp,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,on-demand,24,unit,2.6924,USD,,
+2026-07-13,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web01,platform,web,prod,on-demand,24,unit,3.3294,USD,2.1,
+2026-07-13,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web02,platform,web,prod,on-demand,24,unit,17.483,USD,59.5,
+2026-07-13,aws,111122223333,Amazon Elastic Compute Cloud,us-west-2,i-0aws0000000batch3,data,etl,prod,on-demand,24,unit,27.385,USD,18.3,
+2026-07-13,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000api04,platform,api,prod,reserved,24,unit,14.6319,USD,80.1,
+2026-07-13,aws,111122223333,Amazon Elastic Compute Cloud,eu-west-1,i-0aws0000000legacy5,,,,on-demand,24,unit,3.0809,USD,1.5,
+2026-07-13,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsorphan01,platform,web,prod,on-demand,24,unit,4.065,USD,,False
+2026-07-13,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsactive02,platform,web,prod,on-demand,24,unit,5.1594,USD,,True
+2026-07-13,aws,111122223333,Amazon Relational Database Service,us-east-1,db-0awsprodrds01,platform,web,prod,on-demand,24,unit,26.8632,USD,,
+2026-07-13,aws,111122223333,Amazon Simple Storage Service,us-east-1,s3-0awsassetsbucket,platform,web,prod,on-demand,24,unit,5.9167,USD,,
+2026-07-13,aws,111122223333,Amazon Virtual Private Cloud,us-east-1,nat-0awsgateway01,,,,on-demand,24,unit,3.0507,USD,,
+2026-07-13,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,on-demand,24,unit,3.5069,USD,2.5,
+2026-07-13,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,on-demand,24,unit,17.9486,USD,62.3,
+2026-07-13,azure,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,on-demand,24,unit,24.4598,USD,16.3,
+2026-07-13,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,reserved,24,unit,12.4314,USD,58.0,
+2026-07-13,azure,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,on-demand,24,unit,2.5875,USD,2.1,
+2026-07-13,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,on-demand,24,unit,3.7607,USD,,False
+2026-07-13,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,on-demand,24,unit,4.2792,USD,,True
+2026-07-13,azure,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,on-demand,24,unit,24.9381,USD,,
+2026-07-13,azure,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,on-demand,24,unit,5.317,USD,,
+2026-07-13,azure,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,on-demand,24,unit,2.6855,USD,,
+2026-07-13,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,on-demand,24,unit,3.1408,USD,2.3,
+2026-07-13,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,on-demand,24,unit,17.2082,USD,60.5,
+2026-07-13,gcp,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,on-demand,24,unit,27.8198,USD,20.7,
+2026-07-13,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed,24,unit,14.7841,USD,83.6,
+2026-07-13,gcp,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,on-demand,24,unit,2.6711,USD,1.0,
+2026-07-13,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,on-demand,24,unit,3.333,USD,,False
+2026-07-13,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,on-demand,24,unit,4.5104,USD,,True
+2026-07-13,gcp,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,on-demand,24,unit,26.4254,USD,,
+2026-07-13,gcp,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,on-demand,24,unit,5.2151,USD,,
+2026-07-13,gcp,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,on-demand,24,unit,2.4985,USD,,
+2026-07-14,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web01,platform,web,prod,on-demand,24,unit,3.4541,USD,2.1,
+2026-07-14,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web02,platform,web,prod,on-demand,24,unit,17.4186,USD,56.4,
+2026-07-14,aws,111122223333,Amazon Elastic Compute Cloud,us-west-2,i-0aws0000000batch3,data,etl,prod,on-demand,24,unit,26.1448,USD,15.4,
+2026-07-14,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000api04,platform,api,prod,reserved,24,unit,12.9726,USD,62.2,
+2026-07-14,aws,111122223333,Amazon Elastic Compute Cloud,eu-west-1,i-0aws0000000legacy5,,,,on-demand,24,unit,3.2613,USD,1.5,
+2026-07-14,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsorphan01,platform,web,prod,on-demand,24,unit,4.0037,USD,,False
+2026-07-14,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsactive02,platform,web,prod,on-demand,24,unit,4.9161,USD,,True
+2026-07-14,aws,111122223333,Amazon Relational Database Service,us-east-1,db-0awsprodrds01,platform,web,prod,on-demand,24,unit,28.7911,USD,,
+2026-07-14,aws,111122223333,Amazon Simple Storage Service,us-east-1,s3-0awsassetsbucket,platform,web,prod,on-demand,24,unit,6.2176,USD,,
+2026-07-14,aws,111122223333,Amazon Virtual Private Cloud,us-east-1,nat-0awsgateway01,,,,on-demand,24,unit,3.2175,USD,,
+2026-07-14,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,on-demand,24,unit,3.3515,USD,2.1,
+2026-07-14,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,on-demand,24,unit,16.8,USD,64.9,
+2026-07-14,azure,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,on-demand,24,unit,27.7351,USD,13.2,
+2026-07-14,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,reserved,24,unit,14.5007,USD,62.5,
+2026-07-14,azure,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,on-demand,24,unit,2.8054,USD,1.6,
+2026-07-14,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,on-demand,24,unit,4.0613,USD,,False
+2026-07-14,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,on-demand,24,unit,4.6551,USD,,True
+2026-07-14,azure,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,on-demand,24,unit,25.1024,USD,,
+2026-07-14,azure,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,on-demand,24,unit,5.6153,USD,,
+2026-07-14,azure,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,on-demand,24,unit,2.7174,USD,,
+2026-07-14,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,on-demand,24,unit,2.9811,USD,1.9,
+2026-07-14,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,on-demand,24,unit,18.1087,USD,66.5,
+2026-07-14,gcp,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,on-demand,24,unit,29.0363,USD,22.7,
+2026-07-14,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed,24,unit,14.4914,USD,77.0,
+2026-07-14,gcp,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,on-demand,24,unit,2.7087,USD,1.2,
+2026-07-14,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,on-demand,24,unit,3.5354,USD,,False
+2026-07-14,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,on-demand,24,unit,4.5901,USD,,True
+2026-07-14,gcp,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,on-demand,24,unit,26.2381,USD,,
+2026-07-14,gcp,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,on-demand,24,unit,5.7985,USD,,
+2026-07-14,gcp,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,on-demand,24,unit,2.6822,USD,,
+2026-07-15,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web01,platform,web,prod,on-demand,24,unit,3.3786,USD,2.2,
+2026-07-15,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web02,platform,web,prod,on-demand,24,unit,16.8236,USD,55.2,
+2026-07-15,aws,111122223333,Amazon Elastic Compute Cloud,us-west-2,i-0aws0000000batch3,data,etl,prod,on-demand,24,unit,26.433,USD,17.8,
+2026-07-15,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000api04,platform,api,prod,reserved,24,unit,15.2149,USD,75.5,
+2026-07-15,aws,111122223333,Amazon Elastic Compute Cloud,eu-west-1,i-0aws0000000legacy5,,,,on-demand,24,unit,2.9066,USD,1.3,
+2026-07-15,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsorphan01,platform,web,prod,on-demand,24,unit,4.3988,USD,,False
+2026-07-15,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsactive02,platform,web,prod,on-demand,24,unit,5.0132,USD,,True
+2026-07-15,aws,111122223333,Amazon Relational Database Service,us-east-1,db-0awsprodrds01,platform,web,prod,on-demand,24,unit,26.1722,USD,,
+2026-07-15,aws,111122223333,Amazon Simple Storage Service,us-east-1,s3-0awsassetsbucket,platform,web,prod,on-demand,24,unit,6.5295,USD,,
+2026-07-15,aws,111122223333,Amazon Virtual Private Cloud,us-east-1,nat-0awsgateway01,,,,on-demand,24,unit,2.9751,USD,,
+2026-07-15,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,on-demand,24,unit,3.3656,USD,2.7,
+2026-07-15,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,on-demand,24,unit,18.2939,USD,49.1,
+2026-07-15,azure,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,on-demand,24,unit,27.9576,USD,13.9,
+2026-07-15,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,reserved,24,unit,13.1836,USD,77.7,
+2026-07-15,azure,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,on-demand,24,unit,2.6713,USD,2.1,
+2026-07-15,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,on-demand,24,unit,3.9113,USD,,False
+2026-07-15,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,on-demand,24,unit,4.9017,USD,,True
+2026-07-15,azure,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,on-demand,24,unit,26.0958,USD,,
+2026-07-15,azure,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,on-demand,24,unit,5.4261,USD,,
+2026-07-15,azure,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,on-demand,24,unit,3.0092,USD,,
+2026-07-15,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,on-demand,24,unit,3.3908,USD,1.8,
+2026-07-15,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,on-demand,24,unit,16.0963,USD,54.6,
+2026-07-15,gcp,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,on-demand,24,unit,27.7255,USD,17.5,
+2026-07-15,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed,24,unit,12.9316,USD,86.3,
+2026-07-15,gcp,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,on-demand,24,unit,2.716,USD,1.1,
+2026-07-15,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,on-demand,24,unit,3.5637,USD,,False
+2026-07-15,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,on-demand,24,unit,4.586,USD,,True
+2026-07-15,gcp,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,on-demand,24,unit,25.3672,USD,,
+2026-07-15,gcp,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,on-demand,24,unit,5.0045,USD,,
+2026-07-15,gcp,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,on-demand,24,unit,2.6924,USD,,
+2026-07-16,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web01,platform,web,prod,on-demand,24,unit,3.4656,USD,2.1,
+2026-07-16,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web02,platform,web,prod,on-demand,24,unit,19.6134,USD,73.1,
+2026-07-16,aws,111122223333,Amazon Elastic Compute Cloud,us-west-2,i-0aws0000000batch3,data,etl,prod,on-demand,24,unit,30.2395,USD,16.9,
+2026-07-16,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000api04,platform,api,prod,reserved,24,unit,15.1928,USD,81.6,
+2026-07-16,aws,111122223333,Amazon Elastic Compute Cloud,eu-west-1,i-0aws0000000legacy5,,,,on-demand,24,unit,2.9473,USD,1.3,
+2026-07-16,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsorphan01,platform,web,prod,on-demand,24,unit,4.1503,USD,,False
+2026-07-16,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsactive02,platform,web,prod,on-demand,24,unit,4.6433,USD,,True
+2026-07-16,aws,111122223333,Amazon Relational Database Service,us-east-1,db-0awsprodrds01,platform,web,prod,on-demand,24,unit,29.7599,USD,,
+2026-07-16,aws,111122223333,Amazon Simple Storage Service,us-east-1,s3-0awsassetsbucket,platform,web,prod,on-demand,24,unit,6.1785,USD,,
+2026-07-16,aws,111122223333,Amazon Virtual Private Cloud,us-east-1,nat-0awsgateway01,,,,on-demand,24,unit,3.1202,USD,,
+2026-07-16,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,on-demand,24,unit,3.6014,USD,2.4,
+2026-07-16,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,on-demand,24,unit,17.9188,USD,51.2,
+2026-07-16,azure,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,on-demand,24,unit,28.3018,USD,15.0,
+2026-07-16,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,reserved,24,unit,13.4138,USD,72.6,
+2026-07-16,azure,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,on-demand,24,unit,2.5712,USD,1.6,
+2026-07-16,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,on-demand,24,unit,3.8493,USD,,False
+2026-07-16,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,on-demand,24,unit,4.4715,USD,,True
+2026-07-16,azure,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,on-demand,24,unit,26.571,USD,,
+2026-07-16,azure,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,on-demand,24,unit,5.4808,USD,,
+2026-07-16,azure,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,on-demand,24,unit,2.9225,USD,,
+2026-07-16,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,on-demand,24,unit,3.0654,USD,2.0,
+2026-07-16,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,on-demand,24,unit,17.2058,USD,57.1,
+2026-07-16,gcp,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,on-demand,24,unit,27.354,USD,17.9,
+2026-07-16,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed,24,unit,14.2432,USD,71.6,
+2026-07-16,gcp,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,on-demand,24,unit,2.8068,USD,0.9,
+2026-07-16,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,on-demand,24,unit,3.3207,USD,,False
+2026-07-16,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,on-demand,24,unit,4.1403,USD,,True
+2026-07-16,gcp,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,on-demand,24,unit,25.506,USD,,
+2026-07-16,gcp,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,on-demand,24,unit,5.1655,USD,,
+2026-07-16,gcp,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,on-demand,24,unit,2.5271,USD,,
+2026-07-17,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web01,platform,web,prod,on-demand,24,unit,3.2749,USD,1.9,
+2026-07-17,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web02,platform,web,prod,on-demand,24,unit,18.0026,USD,61.3,
+2026-07-17,aws,111122223333,Amazon Elastic Compute Cloud,us-west-2,i-0aws0000000batch3,data,etl,prod,on-demand,24,unit,27.0845,USD,19.8,
+2026-07-17,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000api04,platform,api,prod,reserved,24,unit,13.3094,USD,78.8,
+2026-07-17,aws,111122223333,Amazon Elastic Compute Cloud,eu-west-1,i-0aws0000000legacy5,,,,on-demand,24,unit,2.9125,USD,1.4,
+2026-07-17,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsorphan01,platform,web,prod,on-demand,24,unit,4.4251,USD,,False
+2026-07-17,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsactive02,platform,web,prod,on-demand,24,unit,5.2795,USD,,True
+2026-07-17,aws,111122223333,Amazon Relational Database Service,us-east-1,db-0awsprodrds01,platform,web,prod,on-demand,24,unit,28.4773,USD,,
+2026-07-17,aws,111122223333,Amazon Simple Storage Service,us-east-1,s3-0awsassetsbucket,platform,web,prod,on-demand,24,unit,6.4188,USD,,
+2026-07-17,aws,111122223333,Amazon Virtual Private Cloud,us-east-1,nat-0awsgateway01,,,,on-demand,24,unit,3.2415,USD,,
+2026-07-17,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,on-demand,24,unit,3.4848,USD,2.6,
+2026-07-17,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,on-demand,24,unit,17.5889,USD,55.9,
+2026-07-17,azure,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,on-demand,24,unit,27.2474,USD,11.8,
+2026-07-17,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,reserved,24,unit,14.1778,USD,67.4,
+2026-07-17,azure,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,on-demand,24,unit,2.8626,USD,1.8,
+2026-07-17,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,on-demand,24,unit,3.6995,USD,,False
+2026-07-17,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,on-demand,24,unit,4.4977,USD,,True
+2026-07-17,azure,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,on-demand,24,unit,26.352,USD,,
+2026-07-17,azure,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,on-demand,24,unit,6.0938,USD,,
+2026-07-17,azure,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,on-demand,24,unit,2.7876,USD,,
+2026-07-17,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,on-demand,24,unit,2.9542,USD,1.7,
+2026-07-17,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,on-demand,24,unit,17.8934,USD,70.0,
+2026-07-17,gcp,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,on-demand,24,unit,26.1845,USD,20.5,
+2026-07-17,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed,24,unit,14.1293,USD,66.2,
+2026-07-17,gcp,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,on-demand,24,unit,2.7906,USD,0.9,
+2026-07-17,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,on-demand,24,unit,3.597,USD,,False
+2026-07-17,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,on-demand,24,unit,4.3912,USD,,True
+2026-07-17,gcp,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,on-demand,24,unit,26.1537,USD,,
+2026-07-17,gcp,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,on-demand,24,unit,5.7366,USD,,
+2026-07-17,gcp,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,on-demand,24,unit,2.6486,USD,,
+2026-07-18,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web01,platform,web,prod,on-demand,24,unit,3.2839,USD,2.2,
+2026-07-18,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000web02,platform,web,prod,on-demand,24,unit,17.1658,USD,56.3,
+2026-07-18,aws,111122223333,Amazon Elastic Compute Cloud,us-west-2,i-0aws0000000batch3,data,etl,prod,on-demand,24,unit,30.2895,USD,16.0,
+2026-07-18,aws,111122223333,Amazon Elastic Compute Cloud,us-east-1,i-0aws0000000api04,platform,api,prod,reserved,24,unit,14.3962,USD,72.8,
+2026-07-18,aws,111122223333,Amazon Elastic Compute Cloud,eu-west-1,i-0aws0000000legacy5,,,,on-demand,24,unit,3.2606,USD,1.2,
+2026-07-18,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsorphan01,platform,web,prod,on-demand,24,unit,3.8783,USD,,False
+2026-07-18,aws,111122223333,Amazon Elastic Block Store,us-east-1,vol-0awsactive02,platform,web,prod,on-demand,24,unit,4.7826,USD,,True
+2026-07-18,aws,111122223333,Amazon Relational Database Service,us-east-1,db-0awsprodrds01,platform,web,prod,on-demand,24,unit,27.5679,USD,,
+2026-07-18,aws,111122223333,Amazon Simple Storage Service,us-east-1,s3-0awsassetsbucket,platform,web,prod,on-demand,24,unit,5.993,USD,,
+2026-07-18,aws,111122223333,Amazon Virtual Private Cloud,us-east-1,nat-0awsgateway01,,,,on-demand,24,unit,2.9847,USD,,
+2026-07-18,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,on-demand,24,unit,3.6833,USD,2.3,
+2026-07-18,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,on-demand,24,unit,17.2466,USD,65.6,
+2026-07-18,azure,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,on-demand,24,unit,26.0036,USD,14.4,
+2026-07-18,azure,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,reserved,24,unit,14.5055,USD,65.9,
+2026-07-18,azure,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,on-demand,24,unit,2.6771,USD,1.5,
+2026-07-18,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,on-demand,24,unit,3.9385,USD,,False
+2026-07-18,azure,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,on-demand,24,unit,4.7192,USD,,True
+2026-07-18,azure,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,on-demand,24,unit,27.9393,USD,,
+2026-07-18,azure,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,on-demand,24,unit,5.883,USD,,
+2026-07-18,azure,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,on-demand,24,unit,2.7052,USD,,
+2026-07-18,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,on-demand,24,unit,3.0295,USD,1.7,
+2026-07-18,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,on-demand,24,unit,15.7205,USD,68.2,
+2026-07-18,gcp,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,on-demand,24,unit,27.8741,USD,16.6,
+2026-07-18,gcp,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed,24,unit,13.5726,USD,82.2,
+2026-07-18,gcp,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,on-demand,24,unit,2.5064,USD,0.9,
+2026-07-18,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,on-demand,24,unit,3.307,USD,,False
+2026-07-18,gcp,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,on-demand,24,unit,4.509,USD,,True
+2026-07-18,gcp,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,on-demand,24,unit,26.7542,USD,,
+2026-07-18,gcp,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,on-demand,24,unit,5.2353,USD,,
+2026-07-18,gcp,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,on-demand,24,unit,2.5909,USD,,

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CloudCost Lens · Multi-Cloud Cost Optimization Dashboard</title>
+<meta name="description" content="Upload an AWS / Azure / GCP billing CSV and get a cost breakdown plus actionable optimization suggestions in seconds.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☁️</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="#top">
+      <span class="brand-mark">◍</span>
+      <span class="brand-text">CloudCost<span class="accent">Lens</span></span>
+    </a>
+    <nav class="topnav">
+      <a href="#template">CSV format guide</a>
+      <a href="https://github.com/july44944/cloudcost-vincie" id="repoLink" target="_blank" rel="noopener">Source on GitHub</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <p class="eyebrow">Multi-cloud FinOps demo · Client-side only · Your data never leaves the browser</p>
+    <h1>Turn AWS / Azure / GCP bills into<br>a savings list you can actually act on</h1>
+    <p class="hero-sub">Upload a billing export CSV (or load a built-in sample dataset) and get a cost breakdown, trend view, and a ranked list of optimization suggestions in seconds. Everything is parsed and computed in your browser — no server, no account, no data ever leaves your machine.</p>
+
+    <div class="cta-row">
+      <button class="btn btn-sample" data-sample="aws"><span class="dot dot-aws"></span>Load AWS sample</button>
+      <button class="btn btn-sample" data-sample="azure"><span class="dot dot-azure"></span>Load Azure sample</button>
+      <button class="btn btn-sample" data-sample="gcp"><span class="dot dot-gcp"></span>Load GCP sample</button>
+      <button class="btn btn-sample" data-sample="multi"><span class="dot dot-aws"></span><span class="dot dot-azure"></span><span class="dot dot-gcp"></span>Load multi-cloud sample</button>
+    </div>
+    <div class="cta-row secondary">
+      <label class="btn btn-upload">
+        Upload your own CSV
+        <input type="file" id="csvUpload" accept=".csv" hidden>
+      </label>
+      <span class="hint">Supports simplified AWS CUR / Azure Cost Management / GCP Billing Export formats, or the <a href="#template">generic template</a></span>
+    </div>
+    <p id="fileStatus" class="file-status"></p>
+  </section>
+
+  <section id="dashboard" class="dashboard hidden">
+
+    <div class="kpi-row">
+      <div class="kpi-card">
+        <span class="kpi-label">Total cloud spend</span>
+        <span class="kpi-value" id="kpiTotal">—</span>
+        <span class="kpi-sub" id="kpiTotalSub">Across the full dataset</span>
+      </div>
+      <div class="kpi-card">
+        <span class="kpi-label">Month-over-month</span>
+        <span class="kpi-value" id="kpiMom">—</span>
+        <span class="kpi-sub" id="kpiMomSub">Latest two full billing periods</span>
+      </div>
+      <div class="kpi-card kpi-good">
+        <span class="kpi-label">Estimated savings</span>
+        <span class="kpi-value" id="kpiSavings">—</span>
+        <span class="kpi-sub" id="kpiSavingsSub">Sum of all suggestions below</span>
+      </div>
+      <div class="kpi-card kpi-warn">
+        <span class="kpi-label">Untagged spend</span>
+        <span class="kpi-value" id="kpiUntagged">—</span>
+        <span class="kpi-sub">Missing team / project tags</span>
+      </div>
+    </div>
+
+    <div class="chart-grid">
+      <div class="chart-card span-2">
+        <div class="chart-head">
+          <h3>Cost trend by provider</h3>
+          <span class="chart-tag">INFORM</span>
+        </div>
+        <div class="chart-wrap"><canvas id="trendChart"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-head">
+          <h3>Cost breakdown by service</h3>
+          <span class="chart-tag">INFORM</span>
+        </div>
+        <div class="chart-wrap"><canvas id="serviceChart"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-head">
+          <h3>Top 10 resources by cost</h3>
+          <span class="chart-tag">INFORM</span>
+        </div>
+        <div class="chart-wrap"><canvas id="topResourcesChart"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-head">
+          <h3>Provider × pricing model</h3>
+          <span class="chart-tag">OPTIMIZE</span>
+        </div>
+        <div class="chart-wrap"><canvas id="pricingModelChart"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-head">
+          <h3>Tag governance coverage</h3>
+          <span class="chart-tag">OPERATE</span>
+        </div>
+        <div class="chart-wrap"><canvas id="tagCoverageChart"></canvas></div>
+      </div>
+    </div>
+
+    <div class="suggestions">
+      <div class="suggestions-head">
+        <h2>Optimization suggestions <span id="suggestionCount" class="count-badge">0</span></h2>
+        <p>Ranked by estimated savings, highest first. Every suggestion is generated from specific resources in your data — expand a card to see exactly which ones.</p>
+      </div>
+      <div id="suggestionList" class="suggestion-list"></div>
+    </div>
+
+  </section>
+
+  <section id="emptyState" class="empty-state">
+    <div class="empty-card">
+      <span class="empty-icon">☁️</span>
+      <h2>Load a dataset to get started</h2>
+      <p>Click one of the "Load sample" buttons above, or upload your own billing CSV — the dashboard builds itself instantly.</p>
+    </div>
+  </section>
+
+  <section id="template" class="template-docs">
+    <h2>CSV format guide</h2>
+    <p>This tool ships with parsers for three simplified cloud billing export formats, plus a generic template. The format is auto-detected from the header row on upload — no need to pick one manually.</p>
+
+    <div class="template-tabs">
+      <button class="ttab active" data-ttab="generic">Generic template (recommended)</button>
+      <button class="ttab" data-ttab="aws">AWS (simplified CUR)</button>
+      <button class="ttab" data-ttab="azure">Azure (simplified Cost Management)</button>
+      <button class="ttab" data-ttab="gcp">GCP (simplified Billing Export)</button>
+    </div>
+
+    <div class="ttab-panel active" data-tpanel="generic">
+      <div class="twrap"><table>
+        <thead><tr><th>Field</th><th>Description</th><th>Required</th></tr></thead>
+        <tbody>
+          <tr><td class="mono">date</td><td>Billing date, format YYYY-MM-DD</td><td>Required</td></tr>
+          <tr><td class="mono">provider</td><td>aws / azure / gcp</td><td>Required</td></tr>
+          <tr><td class="mono">account</td><td>Account / subscription / project name</td><td>Required</td></tr>
+          <tr><td class="mono">service</td><td>Service name, e.g. EC2, Storage, Cloud SQL</td><td>Required</td></tr>
+          <tr><td class="mono">region</td><td>Resource region</td><td>Optional</td></tr>
+          <tr><td class="mono">resource_id</td><td>Unique resource identifier</td><td>Required</td></tr>
+          <tr><td class="mono">team / project / env</td><td>Cost-attribution tags</td><td>Optional — missing values count toward untagged spend</td></tr>
+          <tr><td class="mono">pricing_model</td><td>on-demand / reserved / committed / spot</td><td>Optional</td></tr>
+          <tr><td class="mono">usage_qty / usage_unit</td><td>Usage quantity and unit</td><td>Optional</td></tr>
+          <tr><td class="mono">cost</td><td>Line cost amount (number)</td><td>Required</td></tr>
+          <tr><td class="mono">currency</td><td>Currency, e.g. USD</td><td>Optional, defaults to USD</td></tr>
+          <tr><td class="mono">utilization_pct</td><td>Average utilization 0–100, used for idle/oversized detection</td><td>Optional</td></tr>
+          <tr><td class="mono">attached</td><td>Whether a storage volume is attached, true / false</td><td>Optional</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+
+    <div class="ttab-panel" data-tpanel="aws">
+      <p class="tnote">Mirrors the core fields of a real AWS Cost &amp; Usage Report (CUR), trimmed down. Field names are kept identical so you can drop in a real export directly.</p>
+      <div class="twrap"><table><thead><tr><th>CUR field</th><th>Maps to</th></tr></thead><tbody>
+        <tr><td class="mono">lineItem/UsageStartDate</td><td>Billing date</td></tr>
+        <tr><td class="mono">lineItem/UsageAccountId</td><td>Account ID</td></tr>
+        <tr><td class="mono">product/ProductName</td><td>Service name</td></tr>
+        <tr><td class="mono">product/region</td><td>Region</td></tr>
+        <tr><td class="mono">lineItem/ResourceId</td><td>Resource ID</td></tr>
+        <tr><td class="mono">resourceTags/user:Team ...Project ...Env</td><td>Cost tags</td></tr>
+        <tr><td class="mono">pricing/term</td><td>OnDemand / Reserved</td></tr>
+        <tr><td class="mono">lineItem/UnblendedCost</td><td>Cost amount</td></tr>
+        <tr><td class="mono">metric/AvgCPUUtilization</td><td>Average utilization (custom extension field)</td></tr>
+        <tr><td class="mono">attribute/VolumeAttached</td><td>Volume attachment state (custom extension field)</td></tr>
+      </tbody></table></div>
+    </div>
+
+    <div class="ttab-panel" data-tpanel="azure">
+      <p class="tnote">Mirrors the core fields of an Azure Cost Management export. Tags are split into individual columns to simplify parsing.</p>
+      <div class="twrap"><table><thead><tr><th>Azure field</th><th>Maps to</th></tr></thead><tbody>
+        <tr><td class="mono">Date</td><td>Billing date</td></tr>
+        <tr><td class="mono">SubscriptionId</td><td>Subscription ID</td></tr>
+        <tr><td class="mono">ServiceName</td><td>Service name</td></tr>
+        <tr><td class="mono">ResourceLocation</td><td>Region</td></tr>
+        <tr><td class="mono">ResourceId</td><td>Resource ID</td></tr>
+        <tr><td class="mono">TagTeam / TagProject / TagEnv</td><td>Cost tags</td></tr>
+        <tr><td class="mono">ChargeType</td><td>Usage / Reservation</td></tr>
+        <tr><td class="mono">CostInBillingCurrency</td><td>Cost amount</td></tr>
+        <tr><td class="mono">AvgCpuUtilization</td><td>Average utilization (custom extension field)</td></tr>
+        <tr><td class="mono">VolumeAttached</td><td>Volume attachment state (custom extension field)</td></tr>
+      </tbody></table></div>
+    </div>
+
+    <div class="ttab-panel" data-tpanel="gcp">
+      <p class="tnote">Mirrors the core fields of a GCP BigQuery Billing Export (flattened).</p>
+      <div class="twrap"><table><thead><tr><th>GCP field</th><th>Maps to</th></tr></thead><tbody>
+        <tr><td class="mono">usage_start_time</td><td>Billing date</td></tr>
+        <tr><td class="mono">project_id</td><td>Project ID</td></tr>
+        <tr><td class="mono">service_description</td><td>Service name</td></tr>
+        <tr><td class="mono">location_region</td><td>Region</td></tr>
+        <tr><td class="mono">resource_name</td><td>Resource ID</td></tr>
+        <tr><td class="mono">label_team / label_project / label_env</td><td>Cost tags</td></tr>
+        <tr><td class="mono">cost_type</td><td>regular / committed_use_discount</td></tr>
+        <tr><td class="mono">cost</td><td>Cost amount</td></tr>
+        <tr><td class="mono">utilization_pct</td><td>Average utilization (custom extension field)</td></tr>
+      </tbody></table></div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="sitefooter">
+  <p>CloudCost Lens · A client-side demo project designed and built by <a href="https://july44944.github.io/" target="_blank" rel="noopener">Vincie Pan</a> · All computation runs locally in your browser — nothing is ever uploaded</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<script src="js/csvParser.js"></script>
+<script src="js/rulesEngine.js"></script>
+<script src="js/charts.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

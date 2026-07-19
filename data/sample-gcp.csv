@@ -1,0 +1,481 @@
+usage_start_time,project_id,service_description,location_region,resource_name,label_team,label_project,label_env,cost_type,usage_amount,usage_unit,cost,currency,utilization_pct,attached
+2026-06-01,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,regular,24,hour,3.0336,USD,2.2,
+2026-06-01,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,regular,24,hour,16.8043,USD,64.2,
+2026-06-01,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,regular,24,hour,21.0342,USD,22.2,
+2026-06-01,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed_use_discount,24,hour,12.8353,USD,82.5,
+2026-06-01,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,regular,24,hour,1.9865,USD,0.9,
+2026-06-01,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,regular,100,gibibyte month,3.2445,USD,,False
+2026-06-01,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,regular,100,gibibyte month,4.1884,USD,,True
+2026-06-01,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,regular,24,hour,23.353,USD,,
+2026-06-01,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,regular,100,gibibyte month,5.7744,USD,,
+2026-06-01,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,regular,24,hour,2.7066,USD,,
+2026-06-02,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,regular,24,hour,3.4504,USD,2.0,
+2026-06-02,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,regular,24,hour,16.233,USD,65.5,
+2026-06-02,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,regular,24,hour,19.7247,USD,19.0,
+2026-06-02,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed_use_discount,24,hour,14.4201,USD,84.9,
+2026-06-02,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,regular,24,hour,1.9604,USD,0.9,
+2026-06-02,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,regular,100,gibibyte month,3.4261,USD,,False
+2026-06-02,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,regular,100,gibibyte month,4.6742,USD,,True
+2026-06-02,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,regular,24,hour,26.181,USD,,
+2026-06-02,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,regular,100,gibibyte month,5.741,USD,,
+2026-06-02,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,regular,24,hour,2.651,USD,,
+2026-06-03,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,regular,24,hour,3.4425,USD,2.0,
+2026-06-03,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,regular,24,hour,16.8933,USD,69.2,
+2026-06-03,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,regular,24,hour,20.9649,USD,22.2,
+2026-06-03,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed_use_discount,24,hour,14.3014,USD,63.6,
+2026-06-03,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,regular,24,hour,2.0624,USD,1.1,
+2026-06-03,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,regular,100,gibibyte month,3.5255,USD,,False
+2026-06-03,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,regular,100,gibibyte month,4.2741,USD,,True
+2026-06-03,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,regular,24,hour,23.5068,USD,,
+2026-06-03,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,regular,100,gibibyte month,5.539,USD,,
+2026-06-03,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,regular,24,hour,2.6164,USD,,
+2026-06-04,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,regular,24,hour,3.2525,USD,1.9,
+2026-06-04,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,regular,24,hour,17.4131,USD,56.8,
+2026-06-04,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,regular,24,hour,19.5092,USD,22.7,
+2026-06-04,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed_use_discount,24,hour,13.4745,USD,88.5,
+2026-06-04,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,regular,24,hour,1.97,USD,1.2,
+2026-06-04,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,regular,100,gibibyte month,3.7508,USD,,False
+2026-06-04,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,regular,100,gibibyte month,4.1008,USD,,True
+2026-06-04,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,regular,24,hour,25.7545,USD,,
+2026-06-04,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,regular,100,gibibyte month,5.2819,USD,,
+2026-06-04,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,regular,24,hour,2.8301,USD,,
+2026-06-05,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,regular,24,hour,3.2919,USD,2.3,
+2026-06-05,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,regular,24,hour,15.9341,USD,62.3,
+2026-06-05,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,regular,24,hour,22.1551,USD,16.7,
+2026-06-05,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed_use_discount,24,hour,12.8445,USD,82.5,
+2026-06-05,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,regular,24,hour,2.0143,USD,1.0,
+2026-06-05,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,regular,100,gibibyte month,3.5377,USD,,False
+2026-06-05,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,regular,100,gibibyte month,4.474,USD,,True
+2026-06-05,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,regular,24,hour,25.922,USD,,
+2026-06-05,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,regular,100,gibibyte month,5.7878,USD,,
+2026-06-05,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,regular,24,hour,2.6447,USD,,
+2026-06-06,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,regular,24,hour,3.3347,USD,2.1,
+2026-06-06,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,regular,24,hour,16.9797,USD,57.8,
+2026-06-06,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,regular,24,hour,21.862,USD,18.2,
+2026-06-06,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed_use_discount,24,hour,12.9465,USD,81.4,
+2026-06-06,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,regular,24,hour,2.0726,USD,1.0,
+2026-06-06,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,regular,100,gibibyte month,3.5345,USD,,False
+2026-06-06,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,regular,100,gibibyte month,4.2323,USD,,True
+2026-06-06,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,regular,24,hour,24.2335,USD,,
+2026-06-06,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,regular,100,gibibyte month,5.3536,USD,,
+2026-06-06,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,regular,24,hour,2.9144,USD,,
+2026-06-07,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,regular,24,hour,3.0902,USD,2.3,
+2026-06-07,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,regular,24,hour,16.8762,USD,51.8,
+2026-06-07,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,regular,24,hour,22.715,USD,19.7,
+2026-06-07,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed_use_discount,24,hour,14.6803,USD,73.5,
+2026-06-07,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,regular,24,hour,1.9498,USD,1.1,
+2026-06-07,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,regular,100,gibibyte month,3.6935,USD,,False
+2026-06-07,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,regular,100,gibibyte month,4.273,USD,,True
+2026-06-07,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,regular,24,hour,24.5848,USD,,
+2026-06-07,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,regular,100,gibibyte month,5.0241,USD,,
+2026-06-07,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,regular,24,hour,2.7182,USD,,
+2026-06-08,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,regular,24,hour,3.4004,USD,2.3,
+2026-06-08,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,regular,24,hour,17.4727,USD,69.2,
+2026-06-08,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,regular,24,hour,22.1285,USD,22.1,
+2026-06-08,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed_use_discount,24,hour,13.8193,USD,64.8,
+2026-06-08,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,regular,24,hour,2.0015,USD,0.9,
+2026-06-08,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,regular,100,gibibyte month,3.6626,USD,,False
+2026-06-08,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,regular,100,gibibyte month,4.0665,USD,,True
+2026-06-08,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,regular,24,hour,25.4178,USD,,
+2026-06-08,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,regular,100,gibibyte month,5.2867,USD,,
+2026-06-08,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,regular,24,hour,2.8312,USD,,
+2026-06-09,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,regular,24,hour,3.2264,USD,2.1,
+2026-06-09,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,regular,24,hour,15.7811,USD,55.9,
+2026-06-09,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,regular,24,hour,23.5444,USD,21.6,
+2026-06-09,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed_use_discount,24,hour,13.8567,USD,82.3,
+2026-06-09,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,regular,24,hour,2.2262,USD,0.8,
+2026-06-09,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,regular,100,gibibyte month,3.7645,USD,,False
+2026-06-09,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,regular,100,gibibyte month,4.5002,USD,,True
+2026-06-09,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,regular,24,hour,24.9983,USD,,
+2026-06-09,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,regular,100,gibibyte month,5.5556,USD,,
+2026-06-09,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,regular,24,hour,2.6328,USD,,
+2026-06-10,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,regular,24,hour,3.3935,USD,2.2,
+2026-06-10,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,regular,24,hour,17.278,USD,53.1,
+2026-06-10,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,regular,24,hour,23.5895,USD,19.5,
+2026-06-10,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed_use_discount,24,hour,14.7069,USD,63.0,
+2026-06-10,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,regular,24,hour,2.0031,USD,0.9,
+2026-06-10,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,regular,100,gibibyte month,3.3122,USD,,False
+2026-06-10,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,regular,100,gibibyte month,4.2752,USD,,True
+2026-06-10,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,regular,24,hour,26.044,USD,,
+2026-06-10,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,regular,100,gibibyte month,5.267,USD,,
+2026-06-10,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,regular,24,hour,2.8905,USD,,
+2026-06-11,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,regular,24,hour,3.4022,USD,2.2,
+2026-06-11,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,regular,24,hour,16.2256,USD,62.9,
+2026-06-11,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,regular,24,hour,22.2819,USD,17.3,
+2026-06-11,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed_use_discount,24,hour,13.3646,USD,75.9,
+2026-06-11,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,regular,24,hour,2.1467,USD,0.9,
+2026-06-11,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,regular,100,gibibyte month,3.7473,USD,,False
+2026-06-11,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,regular,100,gibibyte month,4.1566,USD,,True
+2026-06-11,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,regular,24,hour,25.84,USD,,
+2026-06-11,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,regular,100,gibibyte month,5.5906,USD,,
+2026-06-11,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,regular,24,hour,2.7454,USD,,
+2026-06-12,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,regular,24,hour,3.3754,USD,2.0,
+2026-06-12,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,regular,24,hour,17.7794,USD,49.8,
+2026-06-12,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,regular,24,hour,20.634,USD,21.0,
+2026-06-12,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed_use_discount,24,hour,13.9695,USD,79.1,
+2026-06-12,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,regular,24,hour,2.2527,USD,1.0,
+2026-06-12,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,regular,100,gibibyte month,3.5778,USD,,False
+2026-06-12,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,regular,100,gibibyte month,4.3986,USD,,True
+2026-06-12,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,regular,24,hour,25.7127,USD,,
+2026-06-12,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,regular,100,gibibyte month,5.2183,USD,,
+2026-06-12,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,regular,24,hour,2.8973,USD,,
+2026-06-13,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,regular,24,hour,3.1913,USD,2.2,
+2026-06-13,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,regular,24,hour,17.4002,USD,55.6,
+2026-06-13,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,regular,24,hour,20.8719,USD,16.8,
+2026-06-13,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed_use_discount,24,hour,13.6666,USD,74.6,
+2026-06-13,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,regular,24,hour,2.072,USD,1.0,
+2026-06-13,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,regular,100,gibibyte month,3.395,USD,,False
+2026-06-13,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,regular,100,gibibyte month,4.5537,USD,,True
+2026-06-13,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,regular,24,hour,26.1443,USD,,
+2026-06-13,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,regular,100,gibibyte month,5.7117,USD,,
+2026-06-13,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,regular,24,hour,2.9054,USD,,
+2026-06-14,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,regular,24,hour,3.011,USD,1.9,
+2026-06-14,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,regular,24,hour,17.0667,USD,56.1,
+2026-06-14,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,regular,24,hour,22.4317,USD,18.3,
+2026-06-14,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed_use_discount,24,hour,13.2434,USD,64.1,
+2026-06-14,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,regular,24,hour,2.1161,USD,1.0,
+2026-06-14,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,regular,100,gibibyte month,3.5646,USD,,False
+2026-06-14,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,regular,100,gibibyte month,4.2228,USD,,True
+2026-06-14,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,regular,24,hour,26.6729,USD,,
+2026-06-14,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,regular,100,gibibyte month,5.106,USD,,
+2026-06-14,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,regular,24,hour,2.6255,USD,,
+2026-06-15,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,regular,24,hour,3.2398,USD,1.9,
+2026-06-15,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,regular,24,hour,17.6115,USD,60.0,
+2026-06-15,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,regular,24,hour,22.7564,USD,20.0,
+2026-06-15,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed_use_discount,24,hour,13.3773,USD,62.1,
+2026-06-15,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,regular,24,hour,2.3612,USD,1.0,
+2026-06-15,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,regular,100,gibibyte month,3.7613,USD,,False
+2026-06-15,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,regular,100,gibibyte month,4.1995,USD,,True
+2026-06-15,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,regular,24,hour,24.6069,USD,,
+2026-06-15,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,regular,100,gibibyte month,5.0117,USD,,
+2026-06-15,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,regular,24,hour,2.6978,USD,,
+2026-06-16,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,regular,24,hour,3.3958,USD,2.1,
+2026-06-16,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,regular,24,hour,16.8205,USD,60.8,
+2026-06-16,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,regular,24,hour,24.1226,USD,19.5,
+2026-06-16,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed_use_discount,24,hour,14.6445,USD,81.1,
+2026-06-16,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,regular,24,hour,2.3124,USD,1.0,
+2026-06-16,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,regular,100,gibibyte month,3.4443,USD,,False
+2026-06-16,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,regular,100,gibibyte month,4.4495,USD,,True
+2026-06-16,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,regular,24,hour,23.9689,USD,,
+2026-06-16,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,regular,100,gibibyte month,5.446,USD,,
+2026-06-16,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,regular,24,hour,2.5158,USD,,
+2026-06-17,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,regular,24,hour,3.2022,USD,2.2,
+2026-06-17,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,regular,24,hour,16.3044,USD,70.6,
+2026-06-17,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,regular,24,hour,23.6673,USD,17.3,
+2026-06-17,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed_use_discount,24,hour,14.849,USD,72.1,
+2026-06-17,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,regular,24,hour,2.3387,USD,0.9,
+2026-06-17,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,regular,100,gibibyte month,3.7458,USD,,False
+2026-06-17,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,regular,100,gibibyte month,4.5795,USD,,True
+2026-06-17,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,regular,24,hour,23.9866,USD,,
+2026-06-17,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,regular,100,gibibyte month,5.4079,USD,,
+2026-06-17,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,regular,24,hour,2.7,USD,,
+2026-06-18,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,regular,24,hour,2.9672,USD,1.7,
+2026-06-18,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,regular,24,hour,16.4485,USD,59.4,
+2026-06-18,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,regular,24,hour,22.9942,USD,20.8,
+2026-06-18,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed_use_discount,24,hour,13.8342,USD,70.4,
+2026-06-18,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,regular,24,hour,2.2886,USD,0.9,
+2026-06-18,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,regular,100,gibibyte month,3.7747,USD,,False
+2026-06-18,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,regular,100,gibibyte month,4.5685,USD,,True
+2026-06-18,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,regular,24,hour,24.3905,USD,,
+2026-06-18,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,regular,100,gibibyte month,5.2586,USD,,
+2026-06-18,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,regular,24,hour,2.8418,USD,,
+2026-06-19,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,regular,24,hour,3.2166,USD,2.2,
+2026-06-19,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,regular,24,hour,16.3586,USD,66.8,
+2026-06-19,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,regular,24,hour,22.8129,USD,21.3,
+2026-06-19,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed_use_discount,24,hour,14.8596,USD,77.3,
+2026-06-19,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,regular,24,hour,2.3699,USD,1.1,
+2026-06-19,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,regular,100,gibibyte month,3.6053,USD,,False
+2026-06-19,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,regular,100,gibibyte month,4.0668,USD,,True
+2026-06-19,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,regular,24,hour,25.0975,USD,,
+2026-06-19,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,regular,100,gibibyte month,5.8035,USD,,
+2026-06-19,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,regular,24,hour,2.8222,USD,,
+2026-06-20,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,regular,24,hour,3.3414,USD,2.1,
+2026-06-20,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,regular,24,hour,17.4987,USD,61.8,
+2026-06-20,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,regular,24,hour,22.2175,USD,20.9,
+2026-06-20,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed_use_discount,24,hour,14.0644,USD,84.2,
+2026-06-20,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,regular,24,hour,2.1488,USD,1.1,
+2026-06-20,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,regular,100,gibibyte month,3.2377,USD,,False
+2026-06-20,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,regular,100,gibibyte month,4.7155,USD,,True
+2026-06-20,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,regular,24,hour,23.6271,USD,,
+2026-06-20,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,regular,100,gibibyte month,4.9844,USD,,
+2026-06-20,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,regular,24,hour,2.6195,USD,,
+2026-06-21,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,regular,24,hour,3.0215,USD,2.1,
+2026-06-21,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,regular,24,hour,16.6577,USD,65.9,
+2026-06-21,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,regular,24,hour,25.1923,USD,22.7,
+2026-06-21,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed_use_discount,24,hour,14.3207,USD,63.2,
+2026-06-21,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,regular,24,hour,2.159,USD,0.9,
+2026-06-21,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,regular,100,gibibyte month,3.402,USD,,False
+2026-06-21,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,regular,100,gibibyte month,4.5142,USD,,True
+2026-06-21,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,regular,24,hour,25.3027,USD,,
+2026-06-21,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,regular,100,gibibyte month,5.2391,USD,,
+2026-06-21,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,regular,24,hour,2.5588,USD,,
+2026-06-22,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,regular,24,hour,3.411,USD,1.9,
+2026-06-22,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,regular,24,hour,16.506,USD,65.9,
+2026-06-22,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,regular,24,hour,24.594,USD,21.0,
+2026-06-22,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed_use_discount,24,hour,14.2268,USD,78.0,
+2026-06-22,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,regular,24,hour,2.1927,USD,0.9,
+2026-06-22,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,regular,100,gibibyte month,3.5325,USD,,False
+2026-06-22,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,regular,100,gibibyte month,4.2063,USD,,True
+2026-06-22,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,regular,24,hour,27.1068,USD,,
+2026-06-22,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,regular,100,gibibyte month,5.2251,USD,,
+2026-06-22,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,regular,24,hour,2.6088,USD,,
+2026-06-23,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,regular,24,hour,3.0501,USD,2.1,
+2026-06-23,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,regular,24,hour,16.4053,USD,56.7,
+2026-06-23,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,regular,24,hour,25.5634,USD,22.1,
+2026-06-23,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed_use_discount,24,hour,13.2998,USD,64.8,
+2026-06-23,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,regular,24,hour,2.3864,USD,1.0,
+2026-06-23,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,regular,100,gibibyte month,3.7689,USD,,False
+2026-06-23,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,regular,100,gibibyte month,4.6241,USD,,True
+2026-06-23,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,regular,24,hour,27.033,USD,,
+2026-06-23,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,regular,100,gibibyte month,5.6632,USD,,
+2026-06-23,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,regular,24,hour,2.6095,USD,,
+2026-06-24,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,regular,24,hour,3.0913,USD,2.2,
+2026-06-24,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,regular,24,hour,16.4846,USD,58.8,
+2026-06-24,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,regular,24,hour,23.1174,USD,19.8,
+2026-06-24,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed_use_discount,24,hour,13.1422,USD,76.0,
+2026-06-24,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,regular,24,hour,2.4972,USD,1.1,
+2026-06-24,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,regular,100,gibibyte month,3.2969,USD,,False
+2026-06-24,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,regular,100,gibibyte month,4.4814,USD,,True
+2026-06-24,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,regular,24,hour,25.5501,USD,,
+2026-06-24,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,regular,100,gibibyte month,5.1775,USD,,
+2026-06-24,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,regular,24,hour,2.7734,USD,,
+2026-06-25,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,regular,24,hour,3.2159,USD,2.1,
+2026-06-25,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,regular,24,hour,15.6899,USD,58.1,
+2026-06-25,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,regular,24,hour,25.0468,USD,17.1,
+2026-06-25,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed_use_discount,24,hour,14.3979,USD,61.6,
+2026-06-25,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,regular,24,hour,2.3689,USD,1.2,
+2026-06-25,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,regular,100,gibibyte month,3.4479,USD,,False
+2026-06-25,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,regular,100,gibibyte month,4.7063,USD,,True
+2026-06-25,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,regular,24,hour,26.7257,USD,,
+2026-06-25,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,regular,100,gibibyte month,5.3805,USD,,
+2026-06-25,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,regular,24,hour,2.5702,USD,,
+2026-06-26,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,regular,24,hour,3.4375,USD,1.9,
+2026-06-26,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,regular,24,hour,17.2945,USD,68.8,
+2026-06-26,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,regular,24,hour,22.7554,USD,20.5,
+2026-06-26,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed_use_discount,24,hour,13.8776,USD,81.0,
+2026-06-26,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,regular,24,hour,2.5298,USD,1.1,
+2026-06-26,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,regular,100,gibibyte month,3.318,USD,,False
+2026-06-26,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,regular,100,gibibyte month,4.6691,USD,,True
+2026-06-26,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,regular,24,hour,23.8928,USD,,
+2026-06-26,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,regular,100,gibibyte month,5.7626,USD,,
+2026-06-26,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,regular,24,hour,2.9148,USD,,
+2026-06-27,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,regular,24,hour,3.1473,USD,2.0,
+2026-06-27,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,regular,24,hour,18.0806,USD,70.0,
+2026-06-27,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,regular,24,hour,26.1759,USD,22.7,
+2026-06-27,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed_use_discount,24,hour,12.7165,USD,76.8,
+2026-06-27,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,regular,24,hour,2.2297,USD,1.2,
+2026-06-27,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,regular,100,gibibyte month,3.3794,USD,,False
+2026-06-27,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,regular,100,gibibyte month,4.7443,USD,,True
+2026-06-27,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,regular,24,hour,25.3746,USD,,
+2026-06-27,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,regular,100,gibibyte month,5.3947,USD,,
+2026-06-27,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,regular,24,hour,2.8895,USD,,
+2026-06-28,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,regular,24,hour,3.3797,USD,2.0,
+2026-06-28,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,regular,24,hour,16.0694,USD,51.6,
+2026-06-28,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,regular,24,hour,23.3242,USD,19.7,
+2026-06-28,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed_use_discount,24,hour,13.264,USD,66.5,
+2026-06-28,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,regular,24,hour,2.4844,USD,1.1,
+2026-06-28,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,regular,100,gibibyte month,3.538,USD,,False
+2026-06-28,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,regular,100,gibibyte month,4.5811,USD,,True
+2026-06-28,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,regular,24,hour,23.8916,USD,,
+2026-06-28,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,regular,100,gibibyte month,5.7077,USD,,
+2026-06-28,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,regular,24,hour,2.8715,USD,,
+2026-06-29,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,regular,24,hour,3.3674,USD,2.0,
+2026-06-29,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,regular,24,hour,15.7825,USD,63.7,
+2026-06-29,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,regular,24,hour,23.5548,USD,17.4,
+2026-06-29,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed_use_discount,24,hour,13.4105,USD,68.2,
+2026-06-29,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,regular,24,hour,2.3162,USD,0.9,
+2026-06-29,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,regular,100,gibibyte month,3.6421,USD,,False
+2026-06-29,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,regular,100,gibibyte month,4.7196,USD,,True
+2026-06-29,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,regular,24,hour,24.4014,USD,,
+2026-06-29,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,regular,100,gibibyte month,5.5926,USD,,
+2026-06-29,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,regular,24,hour,2.4889,USD,,
+2026-06-30,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,regular,24,hour,3.2787,USD,2.1,
+2026-06-30,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,regular,24,hour,15.716,USD,51.8,
+2026-06-30,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,regular,24,hour,24.1846,USD,19.3,
+2026-06-30,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed_use_discount,24,hour,13.8056,USD,85.7,
+2026-06-30,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,regular,24,hour,2.5018,USD,0.9,
+2026-06-30,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,regular,100,gibibyte month,3.2858,USD,,False
+2026-06-30,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,regular,100,gibibyte month,4.693,USD,,True
+2026-06-30,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,regular,24,hour,24.3736,USD,,
+2026-06-30,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,regular,100,gibibyte month,5.499,USD,,
+2026-06-30,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,regular,24,hour,2.5787,USD,,
+2026-07-01,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,regular,24,hour,3.0124,USD,1.8,
+2026-07-01,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,regular,24,hour,17.5699,USD,62.3,
+2026-07-01,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,regular,24,hour,24.7682,USD,20.4,
+2026-07-01,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed_use_discount,24,hour,13.7356,USD,76.0,
+2026-07-01,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,regular,24,hour,2.5015,USD,0.9,
+2026-07-01,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,regular,100,gibibyte month,3.3586,USD,,False
+2026-07-01,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,regular,100,gibibyte month,4.5793,USD,,True
+2026-07-01,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,regular,24,hour,26.7045,USD,,
+2026-07-01,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,regular,100,gibibyte month,5.0387,USD,,
+2026-07-01,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,regular,24,hour,2.677,USD,,
+2026-07-02,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,regular,24,hour,3.3043,USD,1.7,
+2026-07-02,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,regular,24,hour,17.0735,USD,50.5,
+2026-07-02,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,regular,24,hour,25.449,USD,20.0,
+2026-07-02,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed_use_discount,24,hour,13.9605,USD,65.5,
+2026-07-02,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,regular,24,hour,2.3846,USD,1.0,
+2026-07-02,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,regular,100,gibibyte month,3.2851,USD,,False
+2026-07-02,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,regular,100,gibibyte month,4.1926,USD,,True
+2026-07-02,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,regular,24,hour,25.5353,USD,,
+2026-07-02,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,regular,100,gibibyte month,5.0466,USD,,
+2026-07-02,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,regular,24,hour,2.7045,USD,,
+2026-07-03,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,regular,24,hour,3.3581,USD,2.0,
+2026-07-03,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,regular,24,hour,16.9358,USD,59.1,
+2026-07-03,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,regular,24,hour,23.6088,USD,19.7,
+2026-07-03,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed_use_discount,24,hour,14.4777,USD,81.0,
+2026-07-03,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,regular,24,hour,2.4256,USD,1.1,
+2026-07-03,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,regular,100,gibibyte month,3.6377,USD,,False
+2026-07-03,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,regular,100,gibibyte month,4.4551,USD,,True
+2026-07-03,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,regular,24,hour,23.3666,USD,,
+2026-07-03,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,regular,100,gibibyte month,5.2657,USD,,
+2026-07-03,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,regular,24,hour,2.5115,USD,,
+2026-07-04,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,regular,24,hour,3.453,USD,2.3,
+2026-07-04,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,regular,24,hour,15.7346,USD,69.4,
+2026-07-04,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,regular,24,hour,23.6421,USD,19.3,
+2026-07-04,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed_use_discount,24,hour,14.3939,USD,82.2,
+2026-07-04,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,regular,24,hour,2.6711,USD,1.1,
+2026-07-04,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,regular,100,gibibyte month,3.4554,USD,,False
+2026-07-04,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,regular,100,gibibyte month,4.747,USD,,True
+2026-07-04,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,regular,24,hour,24.7262,USD,,
+2026-07-04,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,regular,100,gibibyte month,5.7194,USD,,
+2026-07-04,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,regular,24,hour,2.8757,USD,,
+2026-07-05,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,regular,24,hour,3.1363,USD,2.1,
+2026-07-05,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,regular,24,hour,17.3375,USD,60.8,
+2026-07-05,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,regular,24,hour,26.3386,USD,18.9,
+2026-07-05,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed_use_discount,24,hour,13.0901,USD,76.0,
+2026-07-05,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,regular,24,hour,2.5074,USD,1.1,
+2026-07-05,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,regular,100,gibibyte month,3.3447,USD,,False
+2026-07-05,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,regular,100,gibibyte month,4.0504,USD,,True
+2026-07-05,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,regular,24,hour,23.2757,USD,,
+2026-07-05,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,regular,100,gibibyte month,5.2258,USD,,
+2026-07-05,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,regular,24,hour,2.775,USD,,
+2026-07-06,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,regular,24,hour,3.2228,USD,2.0,
+2026-07-06,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,regular,24,hour,17.7744,USD,54.5,
+2026-07-06,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,regular,24,hour,25.2208,USD,18.4,
+2026-07-06,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed_use_discount,24,hour,14.7658,USD,81.1,
+2026-07-06,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,regular,24,hour,2.3549,USD,1.1,
+2026-07-06,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,regular,100,gibibyte month,3.4548,USD,,False
+2026-07-06,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,regular,100,gibibyte month,4.5873,USD,,True
+2026-07-06,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,regular,24,hour,26.7473,USD,,
+2026-07-06,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,regular,100,gibibyte month,4.9815,USD,,
+2026-07-06,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,regular,24,hour,2.573,USD,,
+2026-07-07,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,regular,24,hour,2.9957,USD,1.7,
+2026-07-07,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,regular,24,hour,17.1644,USD,64.4,
+2026-07-07,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,regular,24,hour,24.1295,USD,21.7,
+2026-07-07,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed_use_discount,24,hour,13.5842,USD,67.8,
+2026-07-07,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,regular,24,hour,2.4108,USD,1.1,
+2026-07-07,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,regular,100,gibibyte month,3.2516,USD,,False
+2026-07-07,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,regular,100,gibibyte month,4.4027,USD,,True
+2026-07-07,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,regular,24,hour,24.3503,USD,,
+2026-07-07,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,regular,100,gibibyte month,5.6728,USD,,
+2026-07-07,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,regular,24,hour,2.8,USD,,
+2026-07-08,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,regular,24,hour,3.1073,USD,2.1,
+2026-07-08,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,regular,24,hour,17.3665,USD,56.1,
+2026-07-08,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,regular,24,hour,25.328,USD,17.4,
+2026-07-08,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed_use_discount,24,hour,14.1537,USD,67.5,
+2026-07-08,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,regular,24,hour,2.4585,USD,0.8,
+2026-07-08,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,regular,100,gibibyte month,3.7512,USD,,False
+2026-07-08,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,regular,100,gibibyte month,4.6673,USD,,True
+2026-07-08,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,regular,24,hour,26.8595,USD,,
+2026-07-08,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,regular,100,gibibyte month,5.5089,USD,,
+2026-07-08,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,regular,24,hour,2.6686,USD,,
+2026-07-09,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,regular,24,hour,3.1978,USD,2.3,
+2026-07-09,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,regular,24,hour,18.094,USD,63.7,
+2026-07-09,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,regular,24,hour,27.5109,USD,18.7,
+2026-07-09,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed_use_discount,24,hour,13.6152,USD,65.5,
+2026-07-09,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,regular,24,hour,2.5037,USD,1.1,
+2026-07-09,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,regular,100,gibibyte month,3.4852,USD,,False
+2026-07-09,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,regular,100,gibibyte month,4.6459,USD,,True
+2026-07-09,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,regular,24,hour,24.3966,USD,,
+2026-07-09,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,regular,100,gibibyte month,5.5793,USD,,
+2026-07-09,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,regular,24,hour,2.8321,USD,,
+2026-07-10,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,regular,24,hour,3.4123,USD,2.0,
+2026-07-10,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,regular,24,hour,18.1649,USD,61.2,
+2026-07-10,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,regular,24,hour,24.9091,USD,18.1,
+2026-07-10,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed_use_discount,24,hour,13.145,USD,79.0,
+2026-07-10,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,regular,24,hour,2.7423,USD,1.1,
+2026-07-10,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,regular,100,gibibyte month,3.2718,USD,,False
+2026-07-10,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,regular,100,gibibyte month,4.5581,USD,,True
+2026-07-10,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,regular,24,hour,23.952,USD,,
+2026-07-10,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,regular,100,gibibyte month,5.2,USD,,
+2026-07-10,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,regular,24,hour,2.775,USD,,
+2026-07-11,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,regular,24,hour,3.2527,USD,2.3,
+2026-07-11,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,regular,24,hour,16.0568,USD,65.7,
+2026-07-11,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,regular,24,hour,27.5633,USD,20.4,
+2026-07-11,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed_use_discount,24,hour,13.7545,USD,85.0,
+2026-07-11,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,regular,24,hour,2.5143,USD,1.2,
+2026-07-11,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,regular,100,gibibyte month,3.2286,USD,,False
+2026-07-11,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,regular,100,gibibyte month,4.7078,USD,,True
+2026-07-11,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,regular,24,hour,27.0631,USD,,
+2026-07-11,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,regular,100,gibibyte month,5.0694,USD,,
+2026-07-11,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,regular,24,hour,2.9158,USD,,
+2026-07-12,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,regular,24,hour,3.1892,USD,1.8,
+2026-07-12,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,regular,24,hour,17.1823,USD,53.6,
+2026-07-12,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,regular,24,hour,28.5359,USD,20.4,
+2026-07-12,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed_use_discount,24,hour,14.4083,USD,71.8,
+2026-07-12,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,regular,24,hour,2.6119,USD,0.9,
+2026-07-12,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,regular,100,gibibyte month,3.3665,USD,,False
+2026-07-12,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,regular,100,gibibyte month,4.409,USD,,True
+2026-07-12,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,regular,24,hour,25.189,USD,,
+2026-07-12,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,regular,100,gibibyte month,5.0532,USD,,
+2026-07-12,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,regular,24,hour,2.9079,USD,,
+2026-07-13,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,regular,24,hour,3.1844,USD,2.2,
+2026-07-13,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,regular,24,hour,18.0203,USD,57.2,
+2026-07-13,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,regular,24,hour,26.5382,USD,20.5,
+2026-07-13,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed_use_discount,24,hour,13.1846,USD,65.4,
+2026-07-13,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,regular,24,hour,2.5125,USD,1.2,
+2026-07-13,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,regular,100,gibibyte month,3.5443,USD,,False
+2026-07-13,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,regular,100,gibibyte month,4.342,USD,,True
+2026-07-13,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,regular,24,hour,23.7985,USD,,
+2026-07-13,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,regular,100,gibibyte month,5.253,USD,,
+2026-07-13,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,regular,24,hour,2.6481,USD,,
+2026-07-14,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,regular,24,hour,3.3707,USD,2.0,
+2026-07-14,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,regular,24,hour,17.3181,USD,64.0,
+2026-07-14,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,regular,24,hour,26.0083,USD,22.3,
+2026-07-14,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed_use_discount,24,hour,14.8301,USD,78.8,
+2026-07-14,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,regular,24,hour,2.6231,USD,0.9,
+2026-07-14,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,regular,100,gibibyte month,3.6652,USD,,False
+2026-07-14,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,regular,100,gibibyte month,4.1672,USD,,True
+2026-07-14,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,regular,24,hour,26.0883,USD,,
+2026-07-14,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,regular,100,gibibyte month,5.3899,USD,,
+2026-07-14,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,regular,24,hour,2.8801,USD,,
+2026-07-15,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,regular,24,hour,3.2216,USD,2.1,
+2026-07-15,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,regular,24,hour,15.7068,USD,49.9,
+2026-07-15,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,regular,24,hour,28.7185,USD,23.2,
+2026-07-15,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed_use_discount,24,hour,14.1714,USD,82.1,
+2026-07-15,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,regular,24,hour,2.6046,USD,1.1,
+2026-07-15,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,regular,100,gibibyte month,3.3496,USD,,False
+2026-07-15,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,regular,100,gibibyte month,4.5458,USD,,True
+2026-07-15,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,regular,24,hour,23.2209,USD,,
+2026-07-15,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,regular,100,gibibyte month,5.405,USD,,
+2026-07-15,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,regular,24,hour,2.6452,USD,,
+2026-07-16,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,regular,24,hour,3.2603,USD,2.1,
+2026-07-16,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,regular,24,hour,17.2151,USD,59.6,
+2026-07-16,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,regular,24,hour,27.3062,USD,16.4,
+2026-07-16,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed_use_discount,24,hour,13.914,USD,61.8,
+2026-07-16,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,regular,24,hour,2.6688,USD,0.9,
+2026-07-16,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,regular,100,gibibyte month,3.7674,USD,,False
+2026-07-16,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,regular,100,gibibyte month,4.0601,USD,,True
+2026-07-16,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,regular,24,hour,26.4626,USD,,
+2026-07-16,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,regular,100,gibibyte month,5.5504,USD,,
+2026-07-16,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,regular,24,hour,2.8323,USD,,
+2026-07-17,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,regular,24,hour,3.4098,USD,1.7,
+2026-07-17,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,regular,24,hour,15.8084,USD,52.4,
+2026-07-17,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,regular,24,hour,26.1536,USD,20.2,
+2026-07-17,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed_use_discount,24,hour,14.496,USD,68.7,
+2026-07-17,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,regular,24,hour,2.6268,USD,1.0,
+2026-07-17,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,regular,100,gibibyte month,3.4474,USD,,False
+2026-07-17,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,regular,100,gibibyte month,4.4458,USD,,True
+2026-07-17,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,regular,24,hour,27.1766,USD,,
+2026-07-17,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,regular,100,gibibyte month,5.1631,USD,,
+2026-07-17,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,regular,24,hour,2.7795,USD,,
+2026-07-18,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-01,platform,web,prod,regular,24,hour,3.3781,USD,2.1,
+2026-07-18,cost-demo-project,Compute Engine,us-central1,vm-gcp-web-02,platform,web,prod,regular,24,hour,17.8686,USD,65.6,
+2026-07-18,cost-demo-project,Compute Engine,us-west1,vm-gcp-batch-03,data,etl,prod,regular,24,hour,25.8608,USD,19.1,
+2026-07-18,cost-demo-project,Compute Engine,us-central1,vm-gcp-api-04,platform,api,prod,committed_use_discount,24,hour,13.9164,USD,63.0,
+2026-07-18,cost-demo-project,Compute Engine,europe-west1,vm-gcp-legacy-05,,,,regular,24,hour,2.4746,USD,0.9,
+2026-07-18,cost-demo-project,Persistent Disk,us-central1,disk-gcp-orphan-01,platform,web,prod,regular,100,gibibyte month,3.4999,USD,,False
+2026-07-18,cost-demo-project,Persistent Disk,us-central1,disk-gcp-active-02,platform,web,prod,regular,100,gibibyte month,4.3535,USD,,True
+2026-07-18,cost-demo-project,Cloud SQL,us-central1,sql-gcp-prod-01,platform,web,prod,regular,24,hour,26.3466,USD,,
+2026-07-18,cost-demo-project,Cloud Storage,us-central1,gcs-gcp-assets,platform,web,prod,regular,100,gibibyte month,5.4569,USD,,
+2026-07-18,cost-demo-project,Cloud Load Balancing,us-central1,lb-gcp-frontend-01,,,,regular,24,hour,2.8546,USD,,

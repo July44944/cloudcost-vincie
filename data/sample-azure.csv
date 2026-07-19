@@ -1,0 +1,481 @@
+Date,SubscriptionId,ServiceName,ResourceLocation,ResourceId,TagTeam,TagProject,TagEnv,ChargeType,Quantity,UnitOfMeasure,CostInBillingCurrency,BillingCurrencyCode,AvgCpuUtilization,VolumeAttached
+2026-06-01,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,Usage,24,Hours,3.3646,USD,2.9,
+2026-06-01,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,Usage,24,Hours,18.3353,USD,59.6,
+2026-06-01,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,Usage,24,Hours,21.2281,USD,16.5,
+2026-06-01,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,Reservation,24,Hours,13.8721,USD,62.4,
+2026-06-01,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,Usage,24,Hours,1.9455,USD,2.0,
+2026-06-01,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,Usage,100,GB-Month,3.7821,USD,,False
+2026-06-01,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,Usage,100,GB-Month,4.7115,USD,,True
+2026-06-01,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,Usage,24,Hours,27.8375,USD,,
+2026-06-01,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,Usage,100,GB-Month,5.4095,USD,,
+2026-06-01,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,Usage,24,Hours,2.9396,USD,,
+2026-06-02,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,Usage,24,Hours,3.6776,USD,2.5,
+2026-06-02,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,Usage,24,Hours,16.262,USD,54.8,
+2026-06-02,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,Usage,24,Hours,19.4124,USD,14.9,
+2026-06-02,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,Reservation,24,Hours,14.2727,USD,63.8,
+2026-06-02,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,Usage,24,Hours,2.1809,USD,1.7,
+2026-06-02,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,Usage,100,GB-Month,4.0707,USD,,False
+2026-06-02,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,Usage,100,GB-Month,4.8308,USD,,True
+2026-06-02,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,Usage,24,Hours,26.3092,USD,,
+2026-06-02,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,Usage,100,GB-Month,5.6588,USD,,
+2026-06-02,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,Usage,24,Hours,2.8139,USD,,
+2026-06-03,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,Usage,24,Hours,3.4982,USD,2.9,
+2026-06-03,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,Usage,24,Hours,17.1332,USD,58.3,
+2026-06-03,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,Usage,24,Hours,21.6577,USD,14.8,
+2026-06-03,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,Reservation,24,Hours,13.592,USD,65.9,
+2026-06-03,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,Usage,24,Hours,2.0241,USD,1.7,
+2026-06-03,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,Usage,100,GB-Month,3.9559,USD,,False
+2026-06-03,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,Usage,100,GB-Month,4.6923,USD,,True
+2026-06-03,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,Usage,24,Hours,27.1857,USD,,
+2026-06-03,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,Usage,100,GB-Month,5.4296,USD,,
+2026-06-03,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,Usage,24,Hours,2.9228,USD,,
+2026-06-04,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,Usage,24,Hours,3.8463,USD,2.4,
+2026-06-04,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,Usage,24,Hours,17.9519,USD,50.1,
+2026-06-04,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,Usage,24,Hours,21.7648,USD,14.5,
+2026-06-04,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,Reservation,24,Hours,12.9369,USD,59.6,
+2026-06-04,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,Usage,24,Hours,2.1634,USD,1.8,
+2026-06-04,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,Usage,100,GB-Month,3.5527,USD,,False
+2026-06-04,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,Usage,100,GB-Month,4.9623,USD,,True
+2026-06-04,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,Usage,24,Hours,27.8244,USD,,
+2026-06-04,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,Usage,100,GB-Month,5.6648,USD,,
+2026-06-04,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,Usage,24,Hours,2.7225,USD,,
+2026-06-05,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,Usage,24,Hours,3.7913,USD,2.5,
+2026-06-05,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,Usage,24,Hours,18.003,USD,58.2,
+2026-06-05,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,Usage,24,Hours,19.6388,USD,15.7,
+2026-06-05,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,Reservation,24,Hours,14.5373,USD,61.7,
+2026-06-05,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,Usage,24,Hours,2.179,USD,1.7,
+2026-06-05,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,Usage,100,GB-Month,4.0565,USD,,False
+2026-06-05,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,Usage,100,GB-Month,4.6061,USD,,True
+2026-06-05,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,Usage,24,Hours,27.6841,USD,,
+2026-06-05,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,Usage,100,GB-Month,6.032,USD,,
+2026-06-05,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,Usage,24,Hours,2.7962,USD,,
+2026-06-06,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,Usage,24,Hours,3.767,USD,2.4,
+2026-06-06,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,Usage,24,Hours,18.6089,USD,58.2,
+2026-06-06,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,Usage,24,Hours,21.5744,USD,12.9,
+2026-06-06,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,Reservation,24,Hours,13.0649,USD,70.1,
+2026-06-06,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,Usage,24,Hours,2.3503,USD,1.8,
+2026-06-06,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,Usage,100,GB-Month,3.5863,USD,,False
+2026-06-06,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,Usage,100,GB-Month,4.6284,USD,,True
+2026-06-06,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,Usage,24,Hours,25.4532,USD,,
+2026-06-06,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,Usage,100,GB-Month,5.7473,USD,,
+2026-06-06,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,Usage,24,Hours,2.9202,USD,,
+2026-06-07,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,Usage,24,Hours,3.5743,USD,2.3,
+2026-06-07,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,Usage,24,Hours,16.5332,USD,62.1,
+2026-06-07,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,Usage,24,Hours,20.9037,USD,12.7,
+2026-06-07,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,Reservation,24,Hours,14.0952,USD,56.8,
+2026-06-07,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,Usage,24,Hours,2.2777,USD,1.9,
+2026-06-07,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,Usage,100,GB-Month,3.9893,USD,,False
+2026-06-07,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,Usage,100,GB-Month,4.5162,USD,,True
+2026-06-07,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,Usage,24,Hours,26.7836,USD,,
+2026-06-07,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,Usage,100,GB-Month,5.9925,USD,,
+2026-06-07,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,Usage,24,Hours,3.1231,USD,,
+2026-06-08,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,Usage,24,Hours,3.5973,USD,2.1,
+2026-06-08,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,Usage,24,Hours,17.4064,USD,59.9,
+2026-06-08,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,Usage,24,Hours,22.0416,USD,15.9,
+2026-06-08,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,Reservation,24,Hours,13.3711,USD,68.6,
+2026-06-08,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,Usage,24,Hours,2.192,USD,1.9,
+2026-06-08,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,Usage,100,GB-Month,3.7453,USD,,False
+2026-06-08,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,Usage,100,GB-Month,4.7139,USD,,True
+2026-06-08,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,Usage,24,Hours,24.6566,USD,,
+2026-06-08,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,Usage,100,GB-Month,5.6722,USD,,
+2026-06-08,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,Usage,24,Hours,3.1177,USD,,
+2026-06-09,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,Usage,24,Hours,3.507,USD,2.7,
+2026-06-09,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,Usage,24,Hours,17.8171,USD,65.3,
+2026-06-09,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,Usage,24,Hours,22.1363,USD,15.8,
+2026-06-09,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,Reservation,24,Hours,13.2408,USD,63.5,
+2026-06-09,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,Usage,24,Hours,2.3003,USD,2.0,
+2026-06-09,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,Usage,100,GB-Month,4.0264,USD,,False
+2026-06-09,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,Usage,100,GB-Month,4.2584,USD,,True
+2026-06-09,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,Usage,24,Hours,24.2977,USD,,
+2026-06-09,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,Usage,100,GB-Month,5.8196,USD,,
+2026-06-09,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,Usage,24,Hours,3.0953,USD,,
+2026-06-10,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,Usage,24,Hours,3.8865,USD,2.7,
+2026-06-10,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,Usage,24,Hours,17.2162,USD,49.6,
+2026-06-10,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,Usage,24,Hours,21.5509,USD,15.9,
+2026-06-10,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,Reservation,24,Hours,13.3783,USD,72.7,
+2026-06-10,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,Usage,24,Hours,2.3823,USD,1.5,
+2026-06-10,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,Usage,100,GB-Month,3.9801,USD,,False
+2026-06-10,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,Usage,100,GB-Month,4.4479,USD,,True
+2026-06-10,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,Usage,24,Hours,25.5773,USD,,
+2026-06-10,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,Usage,100,GB-Month,5.3768,USD,,
+2026-06-10,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,Usage,24,Hours,2.9145,USD,,
+2026-06-11,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,Usage,24,Hours,3.638,USD,2.8,
+2026-06-11,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,Usage,24,Hours,16.4812,USD,49.2,
+2026-06-11,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,Usage,24,Hours,22.5042,USD,14.6,
+2026-06-11,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,Reservation,24,Hours,12.9402,USD,78.1,
+2026-06-11,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,Usage,24,Hours,2.1245,USD,1.8,
+2026-06-11,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,Usage,100,GB-Month,3.6504,USD,,False
+2026-06-11,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,Usage,100,GB-Month,4.4199,USD,,True
+2026-06-11,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,Usage,24,Hours,24.0512,USD,,
+2026-06-11,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,Usage,100,GB-Month,5.9778,USD,,
+2026-06-11,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,Usage,24,Hours,3.0862,USD,,
+2026-06-12,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,Usage,24,Hours,3.7023,USD,2.2,
+2026-06-12,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,Usage,24,Hours,17.2378,USD,54.8,
+2026-06-12,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,Usage,24,Hours,21.6878,USD,14.7,
+2026-06-12,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,Reservation,24,Hours,13.3365,USD,61.9,
+2026-06-12,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,Usage,24,Hours,2.3938,USD,1.6,
+2026-06-12,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,Usage,100,GB-Month,3.7299,USD,,False
+2026-06-12,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,Usage,100,GB-Month,4.5876,USD,,True
+2026-06-12,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,Usage,24,Hours,25.0026,USD,,
+2026-06-12,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,Usage,100,GB-Month,5.7656,USD,,
+2026-06-12,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,Usage,24,Hours,2.9347,USD,,
+2026-06-13,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,Usage,24,Hours,3.8838,USD,2.3,
+2026-06-13,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,Usage,24,Hours,18.7306,USD,61.3,
+2026-06-13,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,Usage,24,Hours,20.7555,USD,14.3,
+2026-06-13,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,Reservation,24,Hours,13.9013,USD,74.0,
+2026-06-13,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,Usage,24,Hours,2.119,USD,1.9,
+2026-06-13,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,Usage,100,GB-Month,3.798,USD,,False
+2026-06-13,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,Usage,100,GB-Month,4.8975,USD,,True
+2026-06-13,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,Usage,24,Hours,25.2071,USD,,
+2026-06-13,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,Usage,100,GB-Month,5.9726,USD,,
+2026-06-13,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,Usage,24,Hours,2.9497,USD,,
+2026-06-14,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,Usage,24,Hours,3.5149,USD,2.6,
+2026-06-14,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,Usage,24,Hours,17.7366,USD,61.7,
+2026-06-14,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,Usage,24,Hours,22.4431,USD,14.8,
+2026-06-14,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,Reservation,24,Hours,14.2308,USD,71.1,
+2026-06-14,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,Usage,24,Hours,2.4475,USD,1.9,
+2026-06-14,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,Usage,100,GB-Month,3.6838,USD,,False
+2026-06-14,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,Usage,100,GB-Month,4.5564,USD,,True
+2026-06-14,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,Usage,24,Hours,26.4323,USD,,
+2026-06-14,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,Usage,100,GB-Month,5.9119,USD,,
+2026-06-14,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,Usage,24,Hours,2.7098,USD,,
+2026-06-15,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,Usage,24,Hours,3.482,USD,2.7,
+2026-06-15,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,Usage,24,Hours,16.497,USD,50.3,
+2026-06-15,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,Usage,24,Hours,21.9588,USD,16.4,
+2026-06-15,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,Reservation,24,Hours,13.5666,USD,78.1,
+2026-06-15,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,Usage,24,Hours,2.4367,USD,1.6,
+2026-06-15,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,Usage,100,GB-Month,3.9974,USD,,False
+2026-06-15,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,Usage,100,GB-Month,4.5866,USD,,True
+2026-06-15,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,Usage,24,Hours,27.3799,USD,,
+2026-06-15,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,Usage,100,GB-Month,5.9249,USD,,
+2026-06-15,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,Usage,24,Hours,2.8252,USD,,
+2026-06-16,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,Usage,24,Hours,3.3783,USD,2.9,
+2026-06-16,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,Usage,24,Hours,16.3999,USD,67.7,
+2026-06-16,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,Usage,24,Hours,23.2313,USD,15.1,
+2026-06-16,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,Reservation,24,Hours,14.5367,USD,79.4,
+2026-06-16,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,Usage,24,Hours,2.4432,USD,1.7,
+2026-06-16,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,Usage,100,GB-Month,3.9767,USD,,False
+2026-06-16,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,Usage,100,GB-Month,4.2422,USD,,True
+2026-06-16,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,Usage,24,Hours,26.2527,USD,,
+2026-06-16,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,Usage,100,GB-Month,5.6588,USD,,
+2026-06-16,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,Usage,24,Hours,2.9802,USD,,
+2026-06-17,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,Usage,24,Hours,3.6993,USD,2.6,
+2026-06-17,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,Usage,24,Hours,18.2976,USD,67.2,
+2026-06-17,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,Usage,24,Hours,20.7245,USD,12.7,
+2026-06-17,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,Reservation,24,Hours,12.4741,USD,77.4,
+2026-06-17,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,Usage,24,Hours,2.368,USD,2.1,
+2026-06-17,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,Usage,100,GB-Month,3.6306,USD,,False
+2026-06-17,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,Usage,100,GB-Month,4.2785,USD,,True
+2026-06-17,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,Usage,24,Hours,27.4524,USD,,
+2026-06-17,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,Usage,100,GB-Month,6.0734,USD,,
+2026-06-17,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,Usage,24,Hours,2.8082,USD,,
+2026-06-18,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,Usage,24,Hours,3.5472,USD,2.2,
+2026-06-18,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,Usage,24,Hours,18.6424,USD,53.9,
+2026-06-18,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,Usage,24,Hours,22.2281,USD,12.0,
+2026-06-18,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,Reservation,24,Hours,14.3365,USD,59.1,
+2026-06-18,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,Usage,24,Hours,2.3428,USD,1.9,
+2026-06-18,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,Usage,100,GB-Month,3.9478,USD,,False
+2026-06-18,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,Usage,100,GB-Month,4.9282,USD,,True
+2026-06-18,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,Usage,24,Hours,25.7623,USD,,
+2026-06-18,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,Usage,100,GB-Month,5.9209,USD,,
+2026-06-18,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,Usage,24,Hours,2.7397,USD,,
+2026-06-19,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,Usage,24,Hours,3.551,USD,2.1,
+2026-06-19,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,Usage,24,Hours,17.3703,USD,56.1,
+2026-06-19,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,Usage,24,Hours,24.0169,USD,11.6,
+2026-06-19,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,Reservation,24,Hours,13.2203,USD,66.6,
+2026-06-19,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,Usage,24,Hours,2.5469,USD,2.0,
+2026-06-19,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,Usage,100,GB-Month,3.5564,USD,,False
+2026-06-19,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,Usage,100,GB-Month,4.7367,USD,,True
+2026-06-19,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,Usage,24,Hours,26.2857,USD,,
+2026-06-19,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,Usage,100,GB-Month,6.1358,USD,,
+2026-06-19,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,Usage,24,Hours,2.8344,USD,,
+2026-06-20,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,Usage,24,Hours,3.5413,USD,2.2,
+2026-06-20,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,Usage,24,Hours,16.3481,USD,65.3,
+2026-06-20,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,Usage,24,Hours,22.3798,USD,14.8,
+2026-06-20,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,Reservation,24,Hours,13.8061,USD,70.4,
+2026-06-20,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,Usage,24,Hours,2.2078,USD,2.0,
+2026-06-20,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,Usage,100,GB-Month,3.6441,USD,,False
+2026-06-20,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,Usage,100,GB-Month,4.3247,USD,,True
+2026-06-20,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,Usage,24,Hours,26.3697,USD,,
+2026-06-20,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,Usage,100,GB-Month,5.3066,USD,,
+2026-06-20,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,Usage,24,Hours,3.023,USD,,
+2026-06-21,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,Usage,24,Hours,3.4313,USD,2.2,
+2026-06-21,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,Usage,24,Hours,18.4292,USD,54.4,
+2026-06-21,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,Usage,24,Hours,21.4081,USD,16.0,
+2026-06-21,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,Reservation,24,Hours,12.4261,USD,76.8,
+2026-06-21,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,Usage,24,Hours,2.2695,USD,1.6,
+2026-06-21,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,Usage,100,GB-Month,3.6484,USD,,False
+2026-06-21,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,Usage,100,GB-Month,4.3604,USD,,True
+2026-06-21,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,Usage,24,Hours,26.7726,USD,,
+2026-06-21,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,Usage,100,GB-Month,5.2675,USD,,
+2026-06-21,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,Usage,24,Hours,2.6749,USD,,
+2026-06-22,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,Usage,24,Hours,3.767,USD,2.3,
+2026-06-22,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,Usage,24,Hours,16.9094,USD,51.2,
+2026-06-22,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,Usage,24,Hours,21.1967,USD,15.2,
+2026-06-22,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,Reservation,24,Hours,13.5563,USD,74.0,
+2026-06-22,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,Usage,24,Hours,2.4124,USD,2.0,
+2026-06-22,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,Usage,100,GB-Month,3.808,USD,,False
+2026-06-22,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,Usage,100,GB-Month,4.3123,USD,,True
+2026-06-22,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,Usage,24,Hours,26.116,USD,,
+2026-06-22,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,Usage,100,GB-Month,6.1062,USD,,
+2026-06-22,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,Usage,24,Hours,2.6881,USD,,
+2026-06-23,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,Usage,24,Hours,3.7631,USD,2.8,
+2026-06-23,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,Usage,24,Hours,17.4597,USD,57.1,
+2026-06-23,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,Usage,24,Hours,24.6821,USD,11.8,
+2026-06-23,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,Reservation,24,Hours,13.4546,USD,65.6,
+2026-06-23,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,Usage,24,Hours,2.5094,USD,1.8,
+2026-06-23,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,Usage,100,GB-Month,4.0491,USD,,False
+2026-06-23,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,Usage,100,GB-Month,4.2861,USD,,True
+2026-06-23,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,Usage,24,Hours,24.3494,USD,,
+2026-06-23,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,Usage,100,GB-Month,5.7988,USD,,
+2026-06-23,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,Usage,24,Hours,2.6985,USD,,
+2026-06-24,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,Usage,24,Hours,3.4704,USD,2.6,
+2026-06-24,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,Usage,24,Hours,17.5346,USD,54.3,
+2026-06-24,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,Usage,24,Hours,24.9504,USD,14.2,
+2026-06-24,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,Reservation,24,Hours,13.4,USD,70.6,
+2026-06-24,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,Usage,24,Hours,2.2949,USD,1.9,
+2026-06-24,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,Usage,100,GB-Month,4.0145,USD,,False
+2026-06-24,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,Usage,100,GB-Month,4.7111,USD,,True
+2026-06-24,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,Usage,24,Hours,27.2232,USD,,
+2026-06-24,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,Usage,100,GB-Month,5.9014,USD,,
+2026-06-24,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,Usage,24,Hours,2.7678,USD,,
+2026-06-25,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,Usage,24,Hours,3.5721,USD,2.3,
+2026-06-25,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,Usage,24,Hours,16.9516,USD,57.0,
+2026-06-25,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,Usage,24,Hours,22.9523,USD,12.0,
+2026-06-25,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,Reservation,24,Hours,13.3418,USD,72.0,
+2026-06-25,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,Usage,24,Hours,2.4179,USD,1.6,
+2026-06-25,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,Usage,100,GB-Month,4.0572,USD,,False
+2026-06-25,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,Usage,100,GB-Month,4.2814,USD,,True
+2026-06-25,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,Usage,24,Hours,27.4855,USD,,
+2026-06-25,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,Usage,100,GB-Month,5.329,USD,,
+2026-06-25,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,Usage,24,Hours,2.7128,USD,,
+2026-06-26,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,Usage,24,Hours,3.7375,USD,2.8,
+2026-06-26,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,Usage,24,Hours,17.5569,USD,59.8,
+2026-06-26,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,Usage,24,Hours,23.64,USD,13.1,
+2026-06-26,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,Reservation,24,Hours,12.684,USD,64.4,
+2026-06-26,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,Usage,24,Hours,2.5485,USD,2.0,
+2026-06-26,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,Usage,100,GB-Month,4.0238,USD,,False
+2026-06-26,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,Usage,100,GB-Month,4.7627,USD,,True
+2026-06-26,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,Usage,24,Hours,28.056,USD,,
+2026-06-26,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,Usage,100,GB-Month,5.7916,USD,,
+2026-06-26,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,Usage,24,Hours,2.8312,USD,,
+2026-06-27,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,Usage,24,Hours,3.6449,USD,2.2,
+2026-06-27,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,Usage,24,Hours,17.8364,USD,52.2,
+2026-06-27,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,Usage,24,Hours,22.0773,USD,15.7,
+2026-06-27,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,Reservation,24,Hours,13.2139,USD,74.4,
+2026-06-27,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,Usage,24,Hours,2.5277,USD,2.0,
+2026-06-27,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,Usage,100,GB-Month,4.0099,USD,,False
+2026-06-27,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,Usage,100,GB-Month,4.9493,USD,,True
+2026-06-27,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,Usage,24,Hours,27.4298,USD,,
+2026-06-27,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,Usage,100,GB-Month,5.8036,USD,,
+2026-06-27,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,Usage,24,Hours,2.9662,USD,,
+2026-06-28,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,Usage,24,Hours,3.3271,USD,2.9,
+2026-06-28,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,Usage,24,Hours,18.3172,USD,53.1,
+2026-06-28,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,Usage,24,Hours,22.4864,USD,15.0,
+2026-06-28,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,Reservation,24,Hours,13.0874,USD,64.1,
+2026-06-28,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,Usage,24,Hours,2.3148,USD,2.0,
+2026-06-28,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,Usage,100,GB-Month,3.8403,USD,,False
+2026-06-28,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,Usage,100,GB-Month,4.527,USD,,True
+2026-06-28,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,Usage,24,Hours,24.6045,USD,,
+2026-06-28,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,Usage,100,GB-Month,5.8215,USD,,
+2026-06-28,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,Usage,24,Hours,2.6822,USD,,
+2026-06-29,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,Usage,24,Hours,3.7418,USD,2.2,
+2026-06-29,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,Usage,24,Hours,17.1768,USD,54.7,
+2026-06-29,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,Usage,24,Hours,23.3468,USD,15.1,
+2026-06-29,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,Reservation,24,Hours,14.098,USD,69.7,
+2026-06-29,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,Usage,24,Hours,2.3608,USD,1.5,
+2026-06-29,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,Usage,100,GB-Month,3.5917,USD,,False
+2026-06-29,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,Usage,100,GB-Month,4.6867,USD,,True
+2026-06-29,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,Usage,24,Hours,26.8265,USD,,
+2026-06-29,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,Usage,100,GB-Month,5.4922,USD,,
+2026-06-29,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,Usage,24,Hours,2.9751,USD,,
+2026-06-30,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,Usage,24,Hours,3.5917,USD,2.4,
+2026-06-30,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,Usage,24,Hours,16.7685,USD,63.3,
+2026-06-30,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,Usage,24,Hours,22.5047,USD,13.6,
+2026-06-30,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,Reservation,24,Hours,13.0318,USD,72.4,
+2026-06-30,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,Usage,24,Hours,2.5386,USD,1.9,
+2026-06-30,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,Usage,100,GB-Month,3.5236,USD,,False
+2026-06-30,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,Usage,100,GB-Month,4.5229,USD,,True
+2026-06-30,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,Usage,24,Hours,26.5148,USD,,
+2026-06-30,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,Usage,100,GB-Month,5.251,USD,,
+2026-06-30,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,Usage,24,Hours,2.8079,USD,,
+2026-07-01,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,Usage,24,Hours,3.4337,USD,2.2,
+2026-07-01,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,Usage,24,Hours,16.7194,USD,54.4,
+2026-07-01,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,Usage,24,Hours,22.2306,USD,15.2,
+2026-07-01,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,Reservation,24,Hours,12.7995,USD,65.1,
+2026-07-01,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,Usage,24,Hours,2.6428,USD,1.8,
+2026-07-01,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,Usage,100,GB-Month,4.0027,USD,,False
+2026-07-01,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,Usage,100,GB-Month,4.8254,USD,,True
+2026-07-01,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,Usage,24,Hours,24.313,USD,,
+2026-07-01,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,Usage,100,GB-Month,6.0299,USD,,
+2026-07-01,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,Usage,24,Hours,2.6876,USD,,
+2026-07-02,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,Usage,24,Hours,3.3228,USD,2.9,
+2026-07-02,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,Usage,24,Hours,18.4081,USD,59.6,
+2026-07-02,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,Usage,24,Hours,24.5607,USD,15.1,
+2026-07-02,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,Reservation,24,Hours,13.3222,USD,58.6,
+2026-07-02,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,Usage,24,Hours,2.3773,USD,1.7,
+2026-07-02,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,Usage,100,GB-Month,3.9832,USD,,False
+2026-07-02,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,Usage,100,GB-Month,4.6869,USD,,True
+2026-07-02,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,Usage,24,Hours,27.4865,USD,,
+2026-07-02,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,Usage,100,GB-Month,6.0828,USD,,
+2026-07-02,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,Usage,24,Hours,2.7089,USD,,
+2026-07-03,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,Usage,24,Hours,3.7984,USD,2.3,
+2026-07-03,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,Usage,24,Hours,17.6474,USD,58.5,
+2026-07-03,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,Usage,24,Hours,24.0127,USD,13.0,
+2026-07-03,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,Reservation,24,Hours,13.1533,USD,63.9,
+2026-07-03,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,Usage,24,Hours,2.4525,USD,1.8,
+2026-07-03,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,Usage,100,GB-Month,3.5653,USD,,False
+2026-07-03,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,Usage,100,GB-Month,4.6073,USD,,True
+2026-07-03,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,Usage,24,Hours,27.7951,USD,,
+2026-07-03,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,Usage,100,GB-Month,5.5626,USD,,
+2026-07-03,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,Usage,24,Hours,3.0055,USD,,
+2026-07-04,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,Usage,24,Hours,3.7837,USD,2.8,
+2026-07-04,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,Usage,24,Hours,16.6658,USD,50.6,
+2026-07-04,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,Usage,24,Hours,23.3746,USD,14.5,
+2026-07-04,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,Reservation,24,Hours,14.0621,USD,71.8,
+2026-07-04,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,Usage,24,Hours,2.4707,USD,2.0,
+2026-07-04,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,Usage,100,GB-Month,3.7964,USD,,False
+2026-07-04,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,Usage,100,GB-Month,4.7873,USD,,True
+2026-07-04,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,Usage,24,Hours,27.1852,USD,,
+2026-07-04,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,Usage,100,GB-Month,5.6534,USD,,
+2026-07-04,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,Usage,24,Hours,3.0968,USD,,
+2026-07-05,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,Usage,24,Hours,3.6371,USD,2.6,
+2026-07-05,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,Usage,24,Hours,17.7467,USD,65.6,
+2026-07-05,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,Usage,24,Hours,25.2117,USD,12.2,
+2026-07-05,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,Reservation,24,Hours,12.5675,USD,66.6,
+2026-07-05,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,Usage,24,Hours,2.5379,USD,1.7,
+2026-07-05,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,Usage,100,GB-Month,3.5302,USD,,False
+2026-07-05,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,Usage,100,GB-Month,4.6054,USD,,True
+2026-07-05,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,Usage,24,Hours,25.3083,USD,,
+2026-07-05,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,Usage,100,GB-Month,5.6561,USD,,
+2026-07-05,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,Usage,24,Hours,2.6944,USD,,
+2026-07-06,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,Usage,24,Hours,3.7911,USD,2.1,
+2026-07-06,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,Usage,24,Hours,18.4141,USD,65.4,
+2026-07-06,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,Usage,24,Hours,25.3105,USD,14.0,
+2026-07-06,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,Reservation,24,Hours,13.4195,USD,69.3,
+2026-07-06,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,Usage,24,Hours,2.759,USD,2.1,
+2026-07-06,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,Usage,100,GB-Month,3.7694,USD,,False
+2026-07-06,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,Usage,100,GB-Month,4.828,USD,,True
+2026-07-06,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,Usage,24,Hours,26.7341,USD,,
+2026-07-06,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,Usage,100,GB-Month,5.5372,USD,,
+2026-07-06,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,Usage,24,Hours,2.8887,USD,,
+2026-07-07,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,Usage,24,Hours,3.3989,USD,2.1,
+2026-07-07,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,Usage,24,Hours,16.2961,USD,66.3,
+2026-07-07,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,Usage,24,Hours,24.3713,USD,15.1,
+2026-07-07,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,Reservation,24,Hours,13.5098,USD,60.0,
+2026-07-07,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,Usage,24,Hours,2.5442,USD,1.8,
+2026-07-07,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,Usage,100,GB-Month,3.7632,USD,,False
+2026-07-07,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,Usage,100,GB-Month,4.6167,USD,,True
+2026-07-07,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,Usage,24,Hours,24.6749,USD,,
+2026-07-07,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,Usage,100,GB-Month,5.584,USD,,
+2026-07-07,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,Usage,24,Hours,2.7993,USD,,
+2026-07-08,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,Usage,24,Hours,3.5475,USD,2.4,
+2026-07-08,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,Usage,24,Hours,17.6725,USD,64.0,
+2026-07-08,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,Usage,24,Hours,25.7344,USD,11.8,
+2026-07-08,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,Reservation,24,Hours,12.6241,USD,72.4,
+2026-07-08,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,Usage,24,Hours,2.5745,USD,1.9,
+2026-07-08,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,Usage,100,GB-Month,3.8952,USD,,False
+2026-07-08,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,Usage,100,GB-Month,4.8991,USD,,True
+2026-07-08,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,Usage,24,Hours,27.6588,USD,,
+2026-07-08,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,Usage,100,GB-Month,5.548,USD,,
+2026-07-08,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,Usage,24,Hours,2.9384,USD,,
+2026-07-09,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,Usage,24,Hours,3.3935,USD,2.4,
+2026-07-09,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,Usage,24,Hours,18.7021,USD,62.1,
+2026-07-09,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,Usage,24,Hours,24.8491,USD,14.5,
+2026-07-09,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,Reservation,24,Hours,14.4461,USD,63.3,
+2026-07-09,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,Usage,24,Hours,2.629,USD,2.0,
+2026-07-09,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,Usage,100,GB-Month,3.9904,USD,,False
+2026-07-09,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,Usage,100,GB-Month,4.7252,USD,,True
+2026-07-09,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,Usage,24,Hours,27.4737,USD,,
+2026-07-09,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,Usage,100,GB-Month,5.9178,USD,,
+2026-07-09,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,Usage,24,Hours,2.986,USD,,
+2026-07-10,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,Usage,24,Hours,3.6152,USD,2.6,
+2026-07-10,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,Usage,24,Hours,17.1868,USD,55.1,
+2026-07-10,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,Usage,24,Hours,24.8715,USD,12.4,
+2026-07-10,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,Reservation,24,Hours,12.8827,USD,79.0,
+2026-07-10,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,Usage,24,Hours,2.6913,USD,1.6,
+2026-07-10,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,Usage,100,GB-Month,3.5796,USD,,False
+2026-07-10,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,Usage,100,GB-Month,4.2888,USD,,True
+2026-07-10,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,Usage,24,Hours,27.5383,USD,,
+2026-07-10,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,Usage,100,GB-Month,5.3362,USD,,
+2026-07-10,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,Usage,24,Hours,3.0257,USD,,
+2026-07-11,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,Usage,24,Hours,3.793,USD,2.8,
+2026-07-11,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,Usage,24,Hours,16.1131,USD,54.6,
+2026-07-11,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,Usage,24,Hours,26.6647,USD,12.1,
+2026-07-11,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,Reservation,24,Hours,13.2337,USD,59.7,
+2026-07-11,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,Usage,24,Hours,2.8563,USD,2.0,
+2026-07-11,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,Usage,100,GB-Month,3.9879,USD,,False
+2026-07-11,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,Usage,100,GB-Month,4.3538,USD,,True
+2026-07-11,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,Usage,24,Hours,25.8397,USD,,
+2026-07-11,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,Usage,100,GB-Month,5.6187,USD,,
+2026-07-11,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,Usage,24,Hours,2.9818,USD,,
+2026-07-12,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,Usage,24,Hours,3.4488,USD,2.4,
+2026-07-12,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,Usage,24,Hours,16.8012,USD,63.2,
+2026-07-12,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,Usage,24,Hours,25.5092,USD,14.2,
+2026-07-12,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,Reservation,24,Hours,13.0885,USD,75.6,
+2026-07-12,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,Usage,24,Hours,2.7143,USD,2.0,
+2026-07-12,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,Usage,100,GB-Month,3.7196,USD,,False
+2026-07-12,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,Usage,100,GB-Month,4.9291,USD,,True
+2026-07-12,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,Usage,24,Hours,28.123,USD,,
+2026-07-12,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,Usage,100,GB-Month,5.6651,USD,,
+2026-07-12,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,Usage,24,Hours,2.7987,USD,,
+2026-07-13,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,Usage,24,Hours,3.532,USD,2.5,
+2026-07-13,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,Usage,24,Hours,18.6981,USD,64.6,
+2026-07-13,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,Usage,24,Hours,27.1104,USD,12.2,
+2026-07-13,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,Reservation,24,Hours,12.96,USD,71.5,
+2026-07-13,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,Usage,24,Hours,2.9073,USD,1.8,
+2026-07-13,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,Usage,100,GB-Month,3.5584,USD,,False
+2026-07-13,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,Usage,100,GB-Month,4.8546,USD,,True
+2026-07-13,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,Usage,24,Hours,27.5665,USD,,
+2026-07-13,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,Usage,100,GB-Month,5.504,USD,,
+2026-07-13,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,Usage,24,Hours,3.0221,USD,,
+2026-07-14,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,Usage,24,Hours,3.4691,USD,2.9,
+2026-07-14,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,Usage,24,Hours,16.4182,USD,56.7,
+2026-07-14,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,Usage,24,Hours,27.8658,USD,12.6,
+2026-07-14,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,Reservation,24,Hours,13.3944,USD,64.3,
+2026-07-14,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,Usage,24,Hours,2.5495,USD,1.5,
+2026-07-14,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,Usage,100,GB-Month,3.8012,USD,,False
+2026-07-14,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,Usage,100,GB-Month,4.4055,USD,,True
+2026-07-14,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,Usage,24,Hours,28.1651,USD,,
+2026-07-14,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,Usage,100,GB-Month,5.5859,USD,,
+2026-07-14,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,Usage,24,Hours,2.6811,USD,,
+2026-07-15,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,Usage,24,Hours,3.8482,USD,2.8,
+2026-07-15,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,Usage,24,Hours,17.8175,USD,64.1,
+2026-07-15,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,Usage,24,Hours,24.6361,USD,12.9,
+2026-07-15,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,Reservation,24,Hours,14.2123,USD,72.8,
+2026-07-15,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,Usage,24,Hours,2.6134,USD,1.9,
+2026-07-15,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,Usage,100,GB-Month,3.7687,USD,,False
+2026-07-15,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,Usage,100,GB-Month,4.2359,USD,,True
+2026-07-15,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,Usage,24,Hours,24.3428,USD,,
+2026-07-15,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,Usage,100,GB-Month,5.4774,USD,,
+2026-07-15,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,Usage,24,Hours,3.0554,USD,,
+2026-07-16,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,Usage,24,Hours,3.6281,USD,2.7,
+2026-07-16,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,Usage,24,Hours,17.4773,USD,49.9,
+2026-07-16,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,Usage,24,Hours,25.4053,USD,13.0,
+2026-07-16,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,Reservation,24,Hours,12.5231,USD,66.0,
+2026-07-16,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,Usage,24,Hours,2.9202,USD,1.8,
+2026-07-16,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,Usage,100,GB-Month,3.5634,USD,,False
+2026-07-16,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,Usage,100,GB-Month,4.8982,USD,,True
+2026-07-16,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,Usage,24,Hours,26.504,USD,,
+2026-07-16,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,Usage,100,GB-Month,5.259,USD,,
+2026-07-16,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,Usage,24,Hours,2.9071,USD,,
+2026-07-17,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,Usage,24,Hours,3.4514,USD,2.2,
+2026-07-17,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,Usage,24,Hours,17.203,USD,60.4,
+2026-07-17,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,Usage,24,Hours,25.3437,USD,13.6,
+2026-07-17,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,Reservation,24,Hours,13.855,USD,57.9,
+2026-07-17,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,Usage,24,Hours,3.0174,USD,1.5,
+2026-07-17,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,Usage,100,GB-Month,3.8158,USD,,False
+2026-07-17,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,Usage,100,GB-Month,4.6054,USD,,True
+2026-07-17,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,Usage,24,Hours,28.1393,USD,,
+2026-07-17,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,Usage,100,GB-Month,5.7494,USD,,
+2026-07-17,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,Usage,24,Hours,2.8492,USD,,
+2026-07-18,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-01,platform,web,prod,Usage,24,Hours,3.5828,USD,2.6,
+2026-07-18,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-web-02,platform,web,prod,Usage,24,Hours,18.7392,USD,52.9,
+2026-07-18,sub-8842-cost-demo,Virtual Machines,westus2,vm-azure-batch-03,data,etl,prod,Usage,24,Hours,24.5279,USD,15.5,
+2026-07-18,sub-8842-cost-demo,Virtual Machines,eastus,vm-azure-api-04,platform,api,prod,Reservation,24,Hours,13.1648,USD,73.7,
+2026-07-18,sub-8842-cost-demo,Virtual Machines,westeurope,vm-azure-legacy-05,,,,Usage,24,Hours,2.8776,USD,2.0,
+2026-07-18,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-orphan-01,platform,web,prod,Usage,100,GB-Month,3.943,USD,,False
+2026-07-18,sub-8842-cost-demo,Managed Disks,eastus,disk-azure-active-02,platform,web,prod,Usage,100,GB-Month,4.4767,USD,,True
+2026-07-18,sub-8842-cost-demo,Azure SQL Database,eastus,sql-azure-prod-01,platform,web,prod,Usage,24,Hours,24.1971,USD,,
+2026-07-18,sub-8842-cost-demo,Storage Accounts (Blob),eastus,blob-azure-assets,platform,web,prod,Usage,100,GB-Month,5.742,USD,,
+2026-07-18,sub-8842-cost-demo,Azure Front Door,eastus,lb-azure-frontdoor-01,,,,Usage,24,Hours,3.0455,USD,,
