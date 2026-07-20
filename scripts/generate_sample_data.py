@@ -79,6 +79,67 @@ GCP_RESOURCES = [
 GROWTH_IDS = {"i-0aws0000000batch3", "vm-azure-batch-03", "vm-gcp-batch-03",
               "i-0aws0000000legacy5", "vm-azure-legacy-05", "vm-gcp-legacy-05"}
 
+# Huawei Cloud's "Resource Details" export is monthly grain (one row per
+# resource per Billing Cycle) and settles in AED for this account, unlike
+# the daily/USD exports above — modeled on a real sample export, field
+# structure only, no real customer or resource data reused.
+HUAWEI_MONTHS = ["Jan 2023", "Feb 2023", "Mar 2023", "Apr 2023", "May 2023", "Jun 2023"]
+
+HUAWEI_RESOURCES = [
+    dict(id="ecs-idle-01", name="ecs-idle-01", service_code="hws.service.type.ec2", service="Elastic Cloud Server",
+         rtype_code="hws.resource.type.vm", rtype="Cloud Host", offering="Normal|s6.large.2|2vCPUs|4GB|linux Ondemand",
+         specs_code="s6.large.2.linux", specs_name="Normal|s6.large.2|2vCPUs|4GB|linux",
+         region_code="ae-ad-1", region="UAE-Abu Dhabi", usage_type="Duration", usage_measure="Second",
+         billing_mode="On Demand", project="web-platform", base_cost=200.0, base_util=1.8, attached=None),
+    dict(id="ecs-web-02", name="ecs-web-02", service_code="hws.service.type.ec2", service="Elastic Cloud Server",
+         rtype_code="hws.resource.type.vm", rtype="Cloud Host", offering="Normal|s6.large.4|2vCPUs|8GB|linux Ondemand",
+         specs_code="s6.large.4.linux", specs_name="Normal|s6.large.4|2vCPUs|8GB|linux",
+         region_code="ae-ad-1", region="UAE-Abu Dhabi", usage_type="Duration", usage_measure="Second",
+         billing_mode="On Demand", project="web-platform", base_cost=2500.0, base_util=59, attached=None),
+    dict(id="ecs-batch-03", name="ecs-batch-03", service_code="hws.service.type.ec2", service="Elastic Cloud Server",
+         rtype_code="hws.resource.type.vm", rtype="Cloud Host", offering="Normal|s6.xlarge.4|4vCPUs|16GB|linux Ondemand",
+         specs_code="s6.xlarge.4.linux", specs_name="Normal|s6.xlarge.4|4vCPUs|16GB|linux",
+         region_code="ae-ad-1", region="UAE-Abu Dhabi", usage_type="Duration", usage_measure="Second",
+         billing_mode="On Demand", project="data-etl", base_cost=3200.0, base_util=16, attached=None),
+    dict(id="ecs-api-04", name="ecs-api-04", service_code="hws.service.type.ec2", service="Elastic Cloud Server",
+         rtype_code="hws.resource.type.vm", rtype="Cloud Host", offering="Normal|s6.large.4|2vCPUs|8GB|linux Yearly/Monthly",
+         specs_code="s6.large.4.linux", specs_name="Normal|s6.large.4|2vCPUs|8GB|linux",
+         region_code="ae-ad-1", region="UAE-Abu Dhabi", usage_type="Duration", usage_measure="Second",
+         billing_mode="Yearly/Monthly", project="web-platform", base_cost=2100.0, base_util=68, attached=None),
+    dict(id="ecs-legacy-05", name="ecs-legacy-05", service_code="hws.service.type.ec2", service="Elastic Cloud Server",
+         rtype_code="hws.resource.type.vm", rtype="Cloud Host", offering="Normal|s6.medium.2|1vCPUs|2GB|linux Ondemand",
+         specs_code="s6.medium.2.linux", specs_name="Normal|s6.medium.2|1vCPUs|2GB|linux",
+         region_code="ae-ad-1", region="UAE-Abu Dhabi", usage_type="Duration", usage_measure="Second",
+         billing_mode="On Demand", project="default", base_cost=150.0, base_util=1.0, attached=None),
+    dict(id="evs-orphan-01", name="evs-orphan-01", service_code="hws.service.type.ebs", service="Elastic Volume Service",
+         rtype_code="hws.resource.type.volume", rtype="Elastic Volume Service", offering="High IO Ondemand",
+         specs_code="SAS", specs_name="High IO", region_code="ae-ad-1", region="UAE-Abu Dhabi",
+         usage_type="Duration", usage_measure="Second", billing_mode="On Demand", project="web-platform",
+         base_cost=260.0, base_util=None, attached=False),
+    dict(id="evs-active-02", name="evs-active-02", service_code="hws.service.type.ebs", service="Elastic Volume Service",
+         rtype_code="hws.resource.type.volume", rtype="Elastic Volume Service", offering="High IO Ondemand",
+         specs_code="SAS", specs_name="High IO", region_code="ae-ad-1", region="UAE-Abu Dhabi",
+         usage_type="Duration", usage_measure="Second", billing_mode="On Demand", project="web-platform",
+         base_cost=320.0, base_util=None, attached=True),
+    dict(id="rds-prod-01", name="rds-prod-01", service_code="hws.service.type.rds", service="Relational Database Service",
+         rtype_code="hws.resource.type.rds", rtype="Relational Database Service", offering="rds.pg.c6.large Ondemand",
+         specs_code="rds.pg.c6.large", specs_name="rds.pg.c6.large|2vCPUs|8GB", region_code="ae-ad-1", region="UAE-Abu Dhabi",
+         usage_type="Duration", usage_measure="Second", billing_mode="On Demand", project="web-platform",
+         base_cost=4200.0, base_util=None, attached=None),
+    dict(id="obs-assets-01", name="obs-assets-01", service_code="hws.service.type.obs", service="Object Storage Service",
+         rtype_code="hws.resource.type.obs", rtype="Cloud Storage", offering="Object Storage Service Ondemand",
+         specs_code="0", specs_name="Object Storage Service", region_code="ae-ad-1", region="UAE-Abu Dhabi",
+         usage_type="size", usage_measure="GB", billing_mode="On Demand", project="web-platform",
+         base_cost=480.0, base_util=None, attached=None),
+    dict(id="bandwidth-01", name="ABGW-bandwidth-01", service_code="hws.service.type.vpc", service="Virtual Private Cloud",
+         rtype_code="hws.resource.type.bandwidth", rtype="Bandwidth", offering="Dynamic BGP|Traffic Bandwidth Ondemand",
+         specs_code="12_bgp", specs_name="Dynamic BGP|Traffic Bandwidth", region_code="ae-ad-1", region="UAE-Abu Dhabi",
+         usage_type="upflow", usage_measure="Byte", billing_mode="On Demand", project="default",
+         base_cost=210.0, base_util=None, attached=None),
+]
+
+HUAWEI_GROWTH_IDS = {"ecs-batch-03", "ecs-legacy-05"}
+
 def write_aws():
     path = os.path.join(OUT_DIR, "sample-aws.csv")
     header = ["lineItem/UsageStartDate", "lineItem/UsageAccountId", "product/ProductName", "product/region",
@@ -157,10 +218,45 @@ def write_multi():
                                 r["team"], r["project"], r["env"], term_map.get(r["term"], "on-demand"),
                                 24, "unit", cost, "USD", util, attached])
 
+def write_huawei():
+    """Huawei Cloud Resource Details export — monthly grain, AED-settled,
+    modeled on a real export's column structure with fictional resource and
+    tenant data ("Contoso" placeholder, no real customer data)."""
+    path = os.path.join(OUT_DIR, "sample-huawei.csv")
+    header = ["Customer ID", "Account Name", "Billing Cycle", "Enterprise Project Name", "Enterprise Project ID",
+              "Resource ID", "Resource Name", "Resource Tag", "Service Type Code", "Service Type Name",
+              "Resource Type Code", "Resource Type Name", "Offering Instance ID", "Offering Instance Name",
+              "Specifications Code", "Specifications Name", "Specifications Description", "Specifications Size",
+              "Specifications Measure ID", "Specifications Measure Name", "Region Code", "Region Name",
+              "Usage Type Code", "Usage", "Usage Measure", "Billing Mode", "Reservation Status",
+              "Amount(AED)", "Test Coupon Used(AED)", "Consumption Payment(AED)", "Payment Amount(AED)",
+              "Avg CPU Utilization", "Volume Attached"]
+    with open(path, "w", newline="") as f:
+        w = csv.writer(f)
+        w.writerow(header)
+        for month_idx, cycle in enumerate(HUAWEI_MONTHS):
+            for i, r in enumerate(HUAWEI_RESOURCES):
+                cost = jitter(r["base_cost"])
+                if r["id"] in HUAWEI_GROWTH_IDS:
+                    cost *= 1 + 0.35 * (month_idx / len(HUAWEI_MONTHS))
+                cost = round(cost, 4)
+                util = round(jitter(r["base_util"], 0.18), 1) if r["base_util"] is not None else ""
+                attached = "" if r["attached"] is None else str(r["attached"])
+                reservation_status = "Reserved" if r["billing_mode"] == "Yearly/Monthly" else "Unreserved"
+                offering_id = f"OFFI{535300000000000000 + i * 1000 + month_idx}"
+                w.writerow([
+                    "8f3c1a2b4e5d6f7a8b9c0d1e2f3a4b5c", "Contoso", cycle, r["project"], "0",
+                    r["id"], r["name"], "", r["service_code"], r["service"], r["rtype_code"], r["rtype"],
+                    offering_id, r["offering"], r["specs_code"], r["specs_name"], r["specs_name"], "", "", "",
+                    r["region_code"], r["region"], r["usage_type"], 1, r["usage_measure"], r["billing_mode"],
+                    reservation_status, cost, 0, cost, cost, util, attached,
+                ])
+
 if __name__ == "__main__":
     os.makedirs(OUT_DIR, exist_ok=True)
     write_aws()
     write_azure()
     write_gcp()
     write_multi()
+    write_huawei()
     print("Sample CSVs written to", os.path.abspath(OUT_DIR))

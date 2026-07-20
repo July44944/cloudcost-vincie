@@ -6,7 +6,7 @@
 (function (global) {
 
   const COLORS = {
-    aws: '#F2A33C', azure: '#4CC3FF', gcp: '#5CD68B',
+    aws: '#F2A33C', azure: '#4CC3FF', gcp: '#5CD68B', huawei: '#C08BFF',
     accent: '#4CC3FF', money: '#F2B441', good: '#39D98A', critical: '#FF6B5E',
     ink: '#E7EDF2', inkSoft: '#93A4B3', line: 'rgba(147,164,179,0.12)', surface: '#10171F',
   };

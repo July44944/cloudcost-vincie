@@ -80,8 +80,12 @@
     };
   }
 
-  function ruleCommitmentGap(resources) {
-    const hits = resources.filter(r => r.serviceCategory === 'Compute' && r.pricingModel === 'on-demand' && r.days >= 5);
+  function ruleCommitmentGap(resources, totalPeriods) {
+    // "Steady workload" is relative to how many billing periods exist in the
+    // dataset, not a fixed day count — a daily AWS export and a monthly
+    // Huawei export need different absolute thresholds to mean the same thing.
+    const minPeriods = Math.max(2, Math.ceil(totalPeriods * 0.5));
+    const hits = resources.filter(r => r.serviceCategory === 'Compute' && r.pricingModel === 'on-demand' && r.days >= minPeriods);
     if (!hits.length) return null;
     const potential = hits.reduce((s, r) => s + r.totalCost, 0) * 0.3;
     return {
@@ -89,7 +93,7 @@
       title: `${hits.length} steady, long-running workloads have no commitment discount`,
       description: 'These resources show up consistently across the dataset but are still billed on-demand — textbook candidates for a Reserved Instance / Savings Plan / Committed Use Discount. Savings are estimated at the commonly cited ~30% discount tier.',
       estSavings: potential, confidence: 'Medium',
-      resources: hits.map(r => ({ id: r.resourceId, detail: `${r.provider.toUpperCase()} · ${r.service} · seen on ${r.days} billing days`, cost: r.totalCost })),
+      resources: hits.map(r => ({ id: r.resourceId, detail: `${r.provider.toUpperCase()} · ${r.service} · present in ${r.days}/${totalPeriods} billing periods`, cost: r.totalCost })),
     };
   }
 
@@ -108,7 +112,8 @@
 
   function generateSuggestions(rows) {
     const resources = aggregateByResource(rows);
-    const rules = [ruleIdleCompute, ruleOversized, ruleUnattachedStorage, ruleCommitmentGap, ruleUntagged];
+    const totalPeriods = new Set(rows.map(r => r.date)).size;
+    const rules = [ruleIdleCompute, ruleOversized, ruleUnattachedStorage, r => ruleCommitmentGap(r, totalPeriods), ruleUntagged];
     const suggestions = rules.map(fn => fn(resources)).filter(Boolean);
     suggestions.sort((a, b) => b.estSavings - a.estSavings);
     return suggestions;

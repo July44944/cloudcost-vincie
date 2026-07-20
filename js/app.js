@@ -144,7 +144,7 @@
 
   function autoLoadFromQuery() {
     const requested = new URLSearchParams(window.location.search).get('sample');
-    if (requested && ['aws', 'azure', 'gcp', 'multi'].includes(requested)) {
+    if (requested && ['aws', 'azure', 'gcp', 'huawei', 'multi'].includes(requested)) {
       loadSample(requested);
     }
   }

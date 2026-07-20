@@ -1,6 +1,6 @@
 # CloudCost Lens
 
-A multi-cloud (AWS / Azure / GCP) billing visualization and optimization tool — pure front-end, zero backend, zero build step. Upload a billing CSV (or load a built-in sample dataset) and get a cost breakdown, trend view, and a ranked list of optimization suggestions.
+A multi-cloud (AWS / Azure / GCP / Huawei Cloud) billing visualization and optimization tool — pure front-end, zero backend, zero build step. Upload a billing CSV (or load a built-in sample dataset) and get a cost breakdown, trend view, and a ranked list of optimization suggestions.
 
 **Live demo:** `https://july44944.github.io/cloudcost-vincie/` (replace with the real link once deployed)
 
@@ -18,11 +18,11 @@ All parsing and computation happens in the browser: an uploaded CSV never leaves
 
 ## Features
 
-- **Smart CSV detection** — automatically recognizes simplified AWS CUR / Azure Cost Management / GCP Billing Export formats, plus a generic template, from the header row alone
-- **Unified multi-cloud view** — all three billing formats are normalized into one data model before anything is charted, so you can compare providers directly
+- **Smart CSV detection** — automatically recognizes simplified AWS CUR / Azure Cost Management / GCP Billing Export / Huawei Cloud Resource Details formats, plus a generic template, from the header row alone
+- **Unified multi-cloud view** — all four billing formats are normalized into one data model before anything is charted, so you can compare providers directly — including cross-currency (FX-converted to USD) and cross-granularity (daily vs. monthly billing cycles) data
 - **5 dashboard charts** — cost trend by provider, cost breakdown by service category, top 10 resources by cost, provider × pricing model, and tag governance coverage
 - **Rule-driven optimization suggestions** — every suggestion names the exact resources it's based on, an estimated savings amount, and a confidence level — never just a vague tip
-- **4 built-in sample datasets** — one each for AWS / Azure / GCP, plus a combined cross-cloud dataset that demonstrates the "unified view" differentiator directly
+- **5 built-in sample datasets** — one each for AWS / Azure / GCP / Huawei Cloud, plus a combined cross-cloud dataset that demonstrates the "unified view" differentiator directly
 
 ## Tech stack
 
@@ -65,14 +65,22 @@ Then in the repo's **Settings → Pages**, set the Source to the `main` branch /
 
 ## Supported CSV formats
 
-The "CSV format guide" section at the bottom of the page documents four recognizable header layouts:
+The "CSV format guide" section at the bottom of the page documents five recognizable header layouts:
 
 - **Generic template** (recommended for your own data): `date, provider, account, service, region, resource_id, team, project, env, pricing_model, usage_qty, usage_unit, cost, currency, utilization_pct, attached`
 - **AWS** — a simplified version of the core Cost & Usage Report fields
 - **Azure** — a simplified version of the core Cost Management export fields
 - **GCP** — a simplified version of the core BigQuery Billing Export fields
+- **Huawei Cloud** — a simplified version of the core Resource Details export fields, modeled on a real export's column structure (fictional resource/tenant data — see note below)
 
-The three provider formats include two custom extension fields (`utilization_pct` / `attached`) that don't exist in a real billing export — in production these typically come from a join against CloudWatch / Azure Monitor / Cloud Monitoring. The demo bakes them straight into the sample CSVs to keep things simple.
+The four provider formats include two custom extension fields (`utilization_pct` / `attached`) that don't exist in a real billing export — in production these typically come from a join against CloudWatch / Azure Monitor / Cloud Monitoring / Huawei Cloud Eye. The demo bakes them straight into the sample CSVs to keep things simple.
+
+**Two things the Huawei format exercises that the other three don't:**
+
+- **Cross-currency normalization** — the payment column's name carries the settlement currency, e.g. `Payment Amount(AED)`, and the demo account settles in AED rather than USD. On import, non-USD amounts are converted using a fixed FX table (`AED → USD` at the official 3.6725 peg) so they can be safely summed and charted alongside USD-denominated providers. Naively summing raw numbers across currencies would silently produce a wrong total — this is the kind of bug that's easy to miss in a demo and expensive in production.
+- **Cross-granularity normalization** — Huawei's Resource Details export is billed monthly (one row per resource per `Billing Cycle`), not daily like the other three. The "commitment discount gap" rule accounts for this by checking what *share* of billing periods a resource appears in (≥50%) rather than a fixed day count, so it means the same thing whether the underlying data is daily or monthly.
+
+**On authenticity:** the Huawei sample's column structure is modeled on a real Huawei Cloud billing export, but every value in `data/sample-huawei.csv` — tenant name, resource IDs, costs — is fictional. No real customer or billing data is included in this repository.
 
 ## Optimization rule library
 
@@ -83,28 +91,29 @@ Every suggestion comes from a rule, not a trained model, so the reasoning behind
 | Idle compute | Compute resource, average utilization < 5% | Full cost of the resource across the dataset |
 | Oversized compute | Compute resource, average utilization 5%–30% | Total cost × 40% (rule of thumb: typical rightsizing savings) |
 | Unattached storage | Storage resource, `attached = false` | Full cost of the resource across the dataset |
-| Commitment discount gap | Compute resource, on-demand, present on ≥5 billing days | Total cost × 30% (rule of thumb: typical RI/Savings Plan/CUD discount tier) |
+| Commitment discount gap | Compute resource, on-demand, present in ≥50% of the dataset's billing periods | Total cost × 30% (rule of thumb: typical RI/Savings Plan/CUD discount tier) |
 | Tag governance gap | Missing a team or project tag | Not counted toward savings — reported separately as a governance risk amount |
 
 The 40% / 30% assumptions are themselves worth talking through in an interview — they're anchored to the discount ranges AWS/Azure/GCP publish for rightsizing and commitment discounts, not arbitrary numbers.
 
 ## Regenerating the sample data
 
-The four CSVs under `data/` are generated by a script (fixed random seed, fully reproducible):
+The five CSVs under `data/` are generated by a script (fixed random seed, fully reproducible):
 
 ```bash
 python3 scripts/generate_sample_data.py
 ```
 
-The script defines 10 resources per provider (a mix of idle / normal / oversized / already-committed / untagged), spanning 2026-06-01 through 2026-07-18 — adjust the resource count, base costs, or add new anomaly scenarios as needed.
+The script defines 10 resources per provider (a mix of idle / normal / oversized / already-committed / untagged). AWS, Azure, and GCP span 2026-06-01 through 2026-07-18 at daily grain; Huawei spans Jan–Jun 2023 at monthly grain (matching the real export it's modeled on). Adjust the resource count, base costs, FX rates, or add new anomaly scenarios as needed.
 
 ## Known limitations / what's next
 
 - v1 only supports CSV import — no live API integration with any cloud provider (avoids credential handling and compliance risk, and keeps the demo account-free)
+- The FX table only covers USD and AED today — adding another non-USD provider (e.g. Alibaba Cloud in CNY) means adding one more entry, not redesigning anything
 - Anomaly detection currently only surfaces through the rule engine, not as an independent time-series anomaly view
 - No multi-tenant / login system — single-session demo only
 - A natural next step is lightweight forecasting from historical data (e.g. moving average or Prophet), extending into the "Operate" phase of the Inform → Optimize → Operate FinOps framework
 
 ## About
 
-Designed and built by [Vincie Pan](https://july44944.github.io/). Built on 8.5 years of work spanning Shenzhen and Abu Dhabi, most of it centered on cloud billing (BSS) system delivery and operational efficiency — this project is an attempt to combine that background with the methods learned during a Master's in Management Science and Data Analytics.
+Designed and built by [Vincie Pan](https://july44944.github.io/). Built on 8.5 years of work spanning Shenzhen and Abu Dhabi, most of it centered on cloud billing (BSS) system delivery and operational efficiency — including hands-on work with Huawei Cloud billing integration (HCIE-Cloud certified), which is why Huawei Cloud gets first-class support here rather than being an afterthought. This project is an attempt to combine that background with the methods learned during a Master's in Management Science and Data Analytics.

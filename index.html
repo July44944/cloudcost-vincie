@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>CloudCost Lens · Multi-Cloud Cost Optimization Dashboard</title>
-<meta name="description" content="Upload an AWS / Azure / GCP billing CSV and get a cost breakdown plus actionable optimization suggestions in seconds.">
+<meta name="description" content="Upload an AWS / Azure / GCP / Huawei Cloud billing CSV and get a cost breakdown plus actionable optimization suggestions in seconds.">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☁️</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,13 +30,14 @@
 
   <section class="hero">
     <p class="eyebrow">Multi-cloud FinOps demo · Client-side only · Your data never leaves the browser</p>
-    <h1>Turn AWS / Azure / GCP bills into<br>a savings list you can actually act on</h1>
+    <h1>Turn AWS / Azure / GCP / Huawei Cloud bills into<br>a savings list you can actually act on</h1>
     <p class="hero-sub">Upload a billing export CSV (or load a built-in sample dataset) and get a cost breakdown, trend view, and a ranked list of optimization suggestions in seconds. Everything is parsed and computed in your browser — no server, no account, no data ever leaves your machine.</p>
 
     <div class="cta-row">
       <button class="btn btn-sample" data-sample="aws"><span class="dot dot-aws"></span>Load AWS sample</button>
       <button class="btn btn-sample" data-sample="azure"><span class="dot dot-azure"></span>Load Azure sample</button>
       <button class="btn btn-sample" data-sample="gcp"><span class="dot dot-gcp"></span>Load GCP sample</button>
+      <button class="btn btn-sample" data-sample="huawei"><span class="dot dot-huawei"></span>Load Huawei Cloud sample</button>
       <button class="btn btn-sample" data-sample="multi"><span class="dot dot-aws"></span><span class="dot dot-azure"></span><span class="dot dot-gcp"></span>Load multi-cloud sample</button>
     </div>
     <div class="cta-row secondary">
@@ -44,7 +45,7 @@
         Upload your own CSV
         <input type="file" id="csvUpload" accept=".csv" hidden>
       </label>
-      <span class="hint">Supports simplified AWS CUR / Azure Cost Management / GCP Billing Export formats, or the <a href="#template">generic template</a></span>
+      <span class="hint">Supports simplified AWS CUR / Azure Cost Management / GCP Billing Export / Huawei Cloud Resource Details formats, or the <a href="#template">generic template</a></span>
     </div>
     <p id="fileStatus" class="file-status"></p>
   </section>
@@ -132,13 +133,14 @@
 
   <section id="template" class="template-docs">
     <h2>CSV format guide</h2>
-    <p>This tool ships with parsers for three simplified cloud billing export formats, plus a generic template. The format is auto-detected from the header row on upload — no need to pick one manually.</p>
+    <p>This tool ships with parsers for four simplified cloud billing export formats, plus a generic template. The format is auto-detected from the header row on upload — no need to pick one manually.</p>
 
     <div class="template-tabs">
       <button class="ttab active" data-ttab="generic">Generic template (recommended)</button>
       <button class="ttab" data-ttab="aws">AWS (simplified CUR)</button>
       <button class="ttab" data-ttab="azure">Azure (simplified Cost Management)</button>
       <button class="ttab" data-ttab="gcp">GCP (simplified Billing Export)</button>
+      <button class="ttab" data-ttab="huawei">Huawei Cloud (simplified Resource Details)</button>
     </div>
 
     <div class="ttab-panel active" data-tpanel="generic">
@@ -146,7 +148,7 @@
         <thead><tr><th>Field</th><th>Description</th><th>Required</th></tr></thead>
         <tbody>
           <tr><td class="mono">date</td><td>Billing date, format YYYY-MM-DD</td><td>Required</td></tr>
-          <tr><td class="mono">provider</td><td>aws / azure / gcp</td><td>Required</td></tr>
+          <tr><td class="mono">provider</td><td>aws / azure / gcp / huawei</td><td>Required</td></tr>
           <tr><td class="mono">account</td><td>Account / subscription / project name</td><td>Required</td></tr>
           <tr><td class="mono">service</td><td>Service name, e.g. EC2, Storage, Cloud SQL</td><td>Required</td></tr>
           <tr><td class="mono">region</td><td>Resource region</td><td>Optional</td></tr>
@@ -206,6 +208,22 @@
         <tr><td class="mono">cost_type</td><td>regular / committed_use_discount</td></tr>
         <tr><td class="mono">cost</td><td>Cost amount</td></tr>
         <tr><td class="mono">utilization_pct</td><td>Average utilization (custom extension field)</td></tr>
+      </tbody></table></div>
+    </div>
+
+    <div class="ttab-panel" data-tpanel="huawei">
+      <p class="tnote">Mirrors the core fields of a real Huawei Cloud "Resource Details" bill export — modeled on an actual export's column structure (with fictional resource and tenant data). Two things make this format different from the other three: it's <strong>monthly grain</strong> (one row per resource per Billing Cycle, not per day), and the payment column name carries the settlement currency — e.g. <code class="mono">Payment Amount(AED)</code> — which gets converted to USD on import using a fixed FX rate so it can be summed alongside other providers.</p>
+      <div class="twrap"><table><thead><tr><th>Huawei field</th><th>Maps to</th></tr></thead><tbody>
+        <tr><td class="mono">Billing Cycle</td><td>Billing date (e.g. "Jan 2023" → first of month)</td></tr>
+        <tr><td class="mono">Account Name</td><td>Account</td></tr>
+        <tr><td class="mono">Service Type Name</td><td>Service name</td></tr>
+        <tr><td class="mono">Region Name</td><td>Region</td></tr>
+        <tr><td class="mono">Resource ID / Resource Name / Offering Instance ID</td><td>Resource ID (first non-empty of the three)</td></tr>
+        <tr><td class="mono">Enterprise Project Name</td><td>Cost tag — a non-"default" project counts as tagged (Huawei has no separate team tag in this export)</td></tr>
+        <tr><td class="mono">Billing Mode</td><td>On Demand / Yearly-Monthly</td></tr>
+        <tr><td class="mono">Payment Amount(&lt;currency&gt;)</td><td>Cost amount — currency read from the column name itself</td></tr>
+        <tr><td class="mono">Avg CPU Utilization</td><td>Average utilization (custom extension field)</td></tr>
+        <tr><td class="mono">Volume Attached</td><td>Volume attachment state (custom extension field)</td></tr>
       </tbody></table></div>
     </div>
   </section>
