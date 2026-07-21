@@ -121,6 +121,39 @@
       <div id="suggestionList" class="suggestion-list"></div>
     </div>
 
+    <div class="ai-advisor">
+      <div class="ai-advisor-head">
+        <div>
+          <h2>AI Cost Advisor <span class="badge-optin">Opt-in</span></h2>
+          <p>Ask questions about this dataset in plain language — e.g. "which suggestion should I do first?" or "why did cost go up?" Off by default: turning it on sends a compact JSON summary of the numbers above (never the raw rows) directly from your browser to Anthropic's API, using your own key.</p>
+        </div>
+        <label class="switch">
+          <input type="checkbox" id="aiToggle">
+          <span class="switch-track"><span class="switch-thumb"></span></span>
+        </label>
+      </div>
+      <div id="aiPanel" class="ai-panel hidden">
+        <div class="ai-setup">
+          <label class="ai-field">Anthropic API key
+            <input type="password" id="aiKey" placeholder="sk-ant-…" autocomplete="off">
+          </label>
+          <label class="ai-field ai-field-model">Model
+            <input type="text" id="aiModel" value="claude-sonnet-5">
+          </label>
+          <button type="button" class="btn ai-clear-key hidden" id="aiClearKey">Clear saved key</button>
+        </div>
+        <div id="aiLog" class="ai-log"></div>
+        <form id="aiForm" class="ai-form">
+          <input type="text" id="aiQuestion" placeholder="Ask about this data…" autocomplete="off">
+          <button type="submit" class="btn btn-upload">Ask</button>
+        </form>
+        <div class="ai-footer">
+          <button type="button" class="ai-clear-chat" id="aiClearChat">Clear conversation</button>
+          <span>Key is stored only in this tab's session storage — cleared when you close the tab. Nothing is sent anywhere except directly to Anthropic.</span>
+        </div>
+      </div>
+    </div>
+
   </section>
 
   <section id="emptyState" class="empty-state">
@@ -239,6 +272,7 @@
 <script src="js/csvParser.js"></script>
 <script src="js/rulesEngine.js"></script>
 <script src="js/charts.js"></script>
+<script src="js/aiAdvisor.js"></script>
 <script src="js/app.js"></script>
 </body>
 </html>

@@ -213,6 +213,79 @@ h1,h2,h3{font-family:"IBM Plex Sans",sans-serif; color:#fff; letter-spacing:-0.0
 .suggestion-resources div{padding:3px 0; display:flex; justify-content:space-between; gap:12px;}
 .suggestion-toggle{font-size:12px; color:var(--accent); margin-top:8px; display:inline-block;}
 
+/* ---------- ai advisor ---------- */
+.ai-advisor{
+  margin-top:28px; background:var(--surface); border:1px solid var(--line); border-radius:var(--radius);
+  padding:22px 24px; box-shadow:var(--shadow);
+}
+.ai-advisor-head{display:flex; align-items:flex-start; justify-content:space-between; gap:20px;}
+.ai-advisor-head h2{font-size:18px; display:flex; align-items:center; gap:10px;}
+.ai-advisor-head p{color:var(--ink-soft); font-size:13.5px; max-width:66ch; margin:8px 0 0;}
+.badge-optin{
+  font-family:"IBM Plex Mono",monospace; font-size:10.5px; letter-spacing:.05em; text-transform:uppercase;
+  color:var(--accent); background:var(--accent-soft); padding:2px 9px; border-radius:20px;
+}
+
+.switch{position:relative; display:inline-block; width:42px; height:24px; flex-shrink:0; cursor:pointer;}
+.switch input{position:absolute; opacity:0; width:100%; height:100%; margin:0; cursor:pointer;}
+.switch-track{
+  position:absolute; inset:0; background:var(--line); border-radius:20px; transition:background .15s ease;
+}
+.switch-thumb{
+  position:absolute; top:3px; left:3px; width:18px; height:18px; border-radius:50%;
+  background:var(--ink-faint); transition:transform .15s ease, background .15s ease;
+}
+.switch input:checked + .switch-track{background:var(--accent-soft); border:1px solid var(--accent);}
+.switch input:checked + .switch-track .switch-thumb{transform:translateX(18px); background:var(--accent);}
+.switch input:focus-visible + .switch-track{outline:2px solid var(--accent); outline-offset:2px;}
+
+.ai-panel{margin-top:18px; padding-top:18px; border-top:1px solid var(--line-soft);}
+.ai-panel.hidden{display:none;}
+.ai-setup{display:flex; gap:14px; flex-wrap:wrap; align-items:flex-end; margin-bottom:14px;}
+.ai-field{
+  display:flex; flex-direction:column; gap:6px; font-size:12px; color:var(--ink-faint);
+  text-transform:uppercase; letter-spacing:.04em; flex:1; min-width:220px;
+}
+.ai-field-model{flex:0 0 200px; min-width:160px;}
+.ai-field input{
+  font-family:"IBM Plex Mono",monospace; font-size:13.5px; color:var(--ink);
+  background:var(--surface-2); border:1px solid var(--line); border-radius:7px; padding:9px 11px;
+  text-transform:none; letter-spacing:normal;
+}
+.ai-field input:focus{outline:none; border-color:var(--accent);}
+.ai-clear-key{font-size:12.5px; padding:9px 12px;}
+.ai-clear-key.hidden{display:none;}
+
+.ai-log{
+  display:flex; flex-direction:column; gap:10px; max-height:320px; overflow-y:auto;
+  margin-bottom:12px; padding-right:4px;
+}
+.ai-msg{
+  background:var(--surface-2); border:1px solid var(--line-soft); border-radius:9px;
+  padding:10px 13px; font-size:14px; line-height:1.55; max-width:80%;
+}
+.ai-msg-user{align-self:flex-end; background:var(--accent-soft); border-color:var(--accent);}
+.ai-msg-error{border-color:var(--critical);}
+.ai-msg-role{
+  display:block; font-family:"IBM Plex Mono",monospace; font-size:10px; letter-spacing:.06em;
+  text-transform:uppercase; color:var(--ink-faint); margin-bottom:4px;
+}
+.ai-msg-text{white-space:pre-wrap; color:var(--ink);}
+
+.ai-form{display:flex; gap:10px;}
+.ai-form input{
+  flex:1; font-family:"IBM Plex Sans",sans-serif; font-size:14px; color:var(--ink);
+  background:var(--surface-2); border:1px solid var(--line); border-radius:8px; padding:10px 13px;
+}
+.ai-form input:focus{outline:none; border-color:var(--accent);}
+
+.ai-footer{
+  display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap;
+  margin-top:10px; font-size:12px; color:var(--ink-faint);
+}
+.ai-clear-chat{background:none; border:none; color:var(--ink-faint); font-size:12px; cursor:pointer; text-decoration:underline; padding:0;}
+.ai-clear-chat:hover{color:var(--accent-ink);}
+
 /* ---------- empty state ---------- */
 .empty-state{padding:20px 28px 100px;}
 .empty-card{

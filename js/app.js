@@ -36,6 +36,7 @@
     renderKPIs(rows);
     CloudCostCharts.renderAll(rows);
     renderSuggestions(rows);
+    document.dispatchEvent(new CustomEvent('cloudcost:data-loaded', { detail: { rows } }));
     document.getElementById('dashboard').scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
